@@ -1,0 +1,15 @@
+# build outputs / caches
+*.idsig
+__pycache__/
+*.pyc
+
+# signing / secrets
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+google-services.json
+local.properties
+.env
+.env.*

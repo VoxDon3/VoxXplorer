@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:width="4dp" android:color="#3100E5FF"/>
+        </shape>
+    </item>
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:width="2dp" android:color="#7300E5FF"/>
+        </shape>
+    </item>
+    <item android:left="6dp" android:top="6dp" android:right="6dp" android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <gradient android:angle="270" android:startColor="@color/vox_glass_top" android:endColor="@color/vox_shell"/>
+            <stroke android:width="2dp" android:color="#FF00E5FF"/>
+        </shape>
+    </item>
+</layer-list>

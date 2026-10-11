@@ -1,0 +1,41 @@
+package ax.E1;
+
+import j$.util.Objects;
+import java.util.Arrays;
+
+/* loaded from: classes.dex */
+public final class d extends i {
+    public final String b;
+    public final boolean c;
+    public final boolean d;
+    public final String[] e;
+    private final i[] f;
+
+    public d(String str, boolean z, boolean z2, String[] strArr, i[] iVarArr) {
+        super("CTOC");
+        this.b = str;
+        this.c = z;
+        this.d = z2;
+        this.e = strArr;
+        this.f = iVarArr;
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj != null && d.class == obj.getClass()) {
+            d dVar = (d) obj;
+            if (this.c == dVar.c && this.d == dVar.d && Objects.equals(this.b, dVar.b) && Arrays.equals(this.e, dVar.e) && Arrays.equals(this.f, dVar.f)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int hashCode() {
+        int i = (((527 + (this.c ? 1 : 0)) * 31) + (this.d ? 1 : 0)) * 31;
+        String str = this.b;
+        return i + (str != null ? str.hashCode() : 0);
+    }
+}

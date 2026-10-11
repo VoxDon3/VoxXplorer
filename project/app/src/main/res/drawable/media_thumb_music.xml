@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/media_thumb_background"/>
+            <stroke
+                android:width="1px"
+                android:color="@color/media_thumb_border"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/v_media_shape_music"/>
+</layer-list>

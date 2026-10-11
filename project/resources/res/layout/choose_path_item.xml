@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/listItemBackground">
+    <ImageView
+        android:id="@+id/choose_path_item_iv_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/main_primary_text"
+        android:gravity="center_vertical"
+        android:id="@+id/choose_path_item_iv_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:textIsSelectable="false"/>
+</LinearLayout>

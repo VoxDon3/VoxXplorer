@@ -1,0 +1,15 @@
+package ax.z0;
+
+import android.R;
+
+/* renamed from: ax.z0.c, reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public final class C3537c {
+    public static final int b = 0;
+    public static final int c = 1;
+    public static final int d = 2;
+    public static final int f = 0;
+    public static final int g = 1;
+    public static final int[] a = {R.attr.name, R.attr.id, R.attr.tag};
+    public static final int[] e = {R.attr.name, R.attr.tag};
+}

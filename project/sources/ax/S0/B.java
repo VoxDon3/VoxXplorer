@@ -1,0 +1,5 @@
+package ax.S0;
+
+/* loaded from: classes.dex */
+public final /* synthetic */ class B {
+}

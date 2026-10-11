@@ -1,0 +1,24 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package ax.Y;
+
+import android.content.Context;
+import android.os.Build;
+import android.os.UserManager;
+
+public class v {
+    public static boolean a(Context context) {
+        if (Build.VERSION.SDK_INT >= 24) {
+            return a.a(context);
+        }
+        return true;
+    }
+
+    static class a {
+        static boolean a(Context context) {
+            return ((UserManager)context.getSystemService(UserManager.class)).isUserUnlocked();
+        }
+    }
+}
+

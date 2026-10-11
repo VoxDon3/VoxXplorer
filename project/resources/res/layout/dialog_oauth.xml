@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/certificate_warning"
+        android:background="#ffff0000"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            app:srcCompat="@drawable/ic_warning"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ssl_not_secure"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_certificate_not_valid"/>
+    </LinearLayout>
+</LinearLayout>

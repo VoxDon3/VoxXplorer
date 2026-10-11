@@ -1,0 +1,17 @@
+package j$.util;
+
+import java.util.function.Consumer;
+import java.util.function.DoubleConsumer;
+
+/* loaded from: classes2.dex */
+public interface E extends N {
+    @Override // java.util.Iterator, j$.util.InterfaceC3955w
+    void forEachRemaining(Consumer consumer);
+
+    void forEachRemaining(DoubleConsumer doubleConsumer);
+
+    @Override // java.util.Iterator
+    Double next();
+
+    double nextDouble();
+}

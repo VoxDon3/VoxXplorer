@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recovered from the Gradle-cache AARs: entries the text-dump
+     res tree lost. Removing this file only removes them again. -->
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="android:Theme.Material.Light.NoActionBar"> </style>
+</resources>

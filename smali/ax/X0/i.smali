@@ -1,0 +1,9536 @@
+.class final Lax/X0/i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lax/X0/i$c;,
+        Lax/X0/i$a;,
+        Lax/X0/i$b;
+    }
+.end annotation
+
+
+# static fields
+.field private static final a:[I
+
+.field private static final b:[I
+
+.field private static final c:[I
+
+.field private static final d:[I
+
+.field private static final e:[S
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    const/16 v0, 0x81
+
+    .line 2
+    .line 3
+    new-array v0, v0, [I
+
+    .line 4
+    .line 5
+    fill-array-data v0, :array_2e
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lax/X0/i;->a:[I
+
+    .line 9
+    .line 10
+    const/16 v0, 0x96
+
+    .line 11
+    .line 12
+    new-array v0, v0, [I
+
+    .line 13
+    .line 14
+    fill-array-data v0, :array_134
+
+    .line 15
+    .line 16
+    .line 17
+    sput-object v0, Lax/X0/i;->b:[I
+
+    .line 18
+    .line 19
+    const/16 v0, 0x96
+
+    .line 20
+    .line 21
+    new-array v0, v0, [I
+
+    .line 22
+    .line 23
+    fill-array-data v0, :array_264
+
+    .line 24
+    .line 25
+    .line 26
+    sput-object v0, Lax/X0/i;->c:[I
+
+    .line 27
+    .line 28
+    const/16 v0, 0xd41
+
+    .line 29
+    .line 30
+    new-array v0, v0, [I
+
+    .line 31
+    .line 32
+    fill-array-data v0, :array_394
+
+    .line 33
+    .line 34
+    .line 35
+    sput-object v0, Lax/X0/i;->d:[I
+
+    .line 36
+    .line 37
+    const/16 v0, 0xc49
+
+    .line 38
+    .line 39
+    new-array v0, v0, [S
+
+    .line 40
+    .line 41
+    fill-array-data v0, :array_1e1a
+
+    .line 42
+    .line 43
+    .line 44
+    sput-object v0, Lax/X0/i;->e:[S
+
+    .line 45
+    .line 46
+    return-void
+
+    .line 47
+    :array_2e
+    .array-data 4
+        0x123
+        0x144
+        0x13a
+        0x14e
+        0xca
+        0x13f
+        0x5f
+        0xc3
+        0x6b
+        0x5c
+        0x173
+        0x59
+        0x57
+        0x55
+        0x87
+        0x52
+        0xc8
+        0xc0
+        0x82
+        0x10b
+        0xc1
+        0x12e
+        0xcf
+        0xd2
+        0x80
+        0x7d
+        0xbe
+        0x78
+        0x76
+        0xd5
+        0xdd
+        0x10f
+        0x50
+        0x4e
+        0x134
+        0xa4
+        0xdc
+        0x136
+        0xa6
+        0xa7
+        0xba
+        0xb6
+        0xb5
+        0xb3
+        0xa0
+        0xb2
+        0xb0
+        0x73
+        0x9b
+        0x99
+        0x97
+        0x95
+        0x4b
+        0x49
+        0x176
+        0x6f
+        0xfc
+        0xfe
+        0x102
+        0x131
+        0x100
+        0x9d
+        0x92
+        0x89
+        0xf9
+        0xed
+        0xf5
+        0xf1
+        0x112
+        0x106
+        0x104
+        0x109
+        0xac
+        0xab
+        0x135
+        0x115
+        0x11c
+        0x133
+        0x88
+        0x158
+        0xad
+        0xa8
+        0x159
+        0x161
+        0x15a
+        0x46
+        0x6e
+        0x137
+        0x165
+        0x90
+        0x68
+        0x43
+        0x16c
+        0x16f
+        0x40
+        0x120
+        0x8e
+        0x8c
+        0x62
+        0x163
+        0x85
+        0x7b
+        0x3d
+        0x71
+        0x11d
+        0x118
+        0x117
+        0x116
+        0x172
+        0x11e
+        0x167
+        0x11b
+        0x65
+        0xec
+        0xa3
+        0xeb
+        0xea
+        0xe9
+        0xe8
+        0xe7
+        0xa2
+        0x16b
+        0xe6
+        0x119
+        0xa5
+        0xe5
+        0x6d
+        0xe4
+        0x0
+    .end array-data
+
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    :array_134
+    .array-data 4
+        0x41b4
+        0x4144
+        0x40d0
+        0x2dea
+        0x2aca
+        0x2837
+        0x26c2
+        0x1d41
+        0x1693
+        0x1556
+        0x1164
+        0xec3
+        0xc2b
+        0xc15
+        0xbf1
+        0xbd0
+        0xb02
+        0xad8
+        0x87b
+        0x878
+        0x804
+        0x76e
+        0x72b
+        0x64e
+        0x643
+        0x5f8
+        0x5ed
+        0x5c8
+        0x5af
+        0x590
+        0x56b
+        0x516
+        0x4ee
+        0x4e6
+        0x4ce
+        0x4cb
+        0x4a1
+        0x49d
+        0x49a
+        0x490
+        0x46c
+        0x460
+        0x40a
+        0x409
+        0x3fa
+        0x3e2
+        0x3c4
+        0x39e
+        0x38b
+        0x376
+        0x371
+        0x362
+        0x33e
+        0x331
+        0x330
+        0x32d
+        0x2ed
+        0x2ec
+        0x2e3
+        0x2d0
+        0x28c
+        0x262
+        0x262
+        0x247
+        0x234
+        0x231
+        0x22c
+        0x225
+        0x21e
+        0x217
+        0x212
+        0x212
+        0x204
+        0x1fc
+        0x1ec
+        0x1de
+        0x1cd
+        0x1c0
+        0x1b5
+        0x1af
+        0x1a7
+        0x1a2
+        0x193
+        0x192
+        0x190
+        0x18a
+        0x183
+        0x183
+        0x16f
+        0x165
+        0x15b
+        0x15b
+        0x155
+        0x150
+        0x14e
+        0x149
+        0x145
+        0x138
+        0x126
+        0x11c
+        0x115
+        0x109
+        0xff
+        0xe9
+        0xe6
+        0xd5
+        0xcf
+        0xcd
+        0xc2
+        0xc1
+        0xb8
+        0xb5
+        0xb5
+        0xa7
+        0xa4
+        0x9e
+        0x98
+        0x98
+        0x91
+        0x8b
+        0x80
+        0x67
+        0x64
+        0x58
+        0x57
+        0x54
+        0x54
+        0x48
+        0x47
+        0x37
+        0x2e
+        0x2d
+        0x2b
+        0x28
+        0x28
+        0x28
+        0x25
+        0x23
+        0x20
+        0x20
+        0x1e
+        0x1d
+        0x1b
+        0x17
+        0x16
+        0x15
+        0x15
+        0x15
+        0x15
+        0x14
+    .end array-data
+
+    :array_264
+    .array-data 4
+        0x0
+        0x41b4
+        0x82f8
+        0xc3c8
+        0xf1b2
+        0x11c7c
+        0x144b3
+        0x16b75
+        0x188b6
+        0x19f49
+        0x1b49f
+        0x1c603
+        0x1d4c6
+        0x1e0f1
+        0x1ed06
+        0x1f8f7
+        0x204c7
+        0x20fc9
+        0x21aa1
+        0x2231c
+        0x22b94
+        0x23398
+        0x23b06
+        0x24231
+        0x2487f
+        0x24ec2
+        0x254ba
+        0x25aa7
+        0x2606f
+        0x2661e
+        0x26bae
+        0x27119
+        0x2762f
+        0x27b1d
+        0x28003
+        0x284d1
+        0x2899c
+        0x28e3d
+        0x292da
+        0x29774
+        0x29c04
+        0x2a070
+        0x2a4d0
+        0x2a8da
+        0x2ace3
+        0x2b0dd
+        0x2b4bf
+        0x2b883
+        0x2bc21
+        0x2bfac
+        0x2c322
+        0x2c693
+        0x2c9f5
+        0x2cd33
+        0x2d064
+        0x2d394
+        0x2d6c1
+        0x2d9ae
+        0x2dc9a
+        0x2df7d
+        0x2e24d
+        0x2e4d9
+        0x2e73b
+        0x2e99d
+        0x2ebe4
+        0x2ee18
+        0x2f049
+        0x2f275
+        0x2f49a
+        0x2f6b8
+        0x2f8cf
+        0x2fae1
+        0x2fcf3
+        0x2fef7
+        0x300f3
+        0x302df
+        0x304bd
+        0x3068a
+        0x3084a
+        0x309ff
+        0x30bae
+        0x30d55
+        0x30ef7
+        0x3108a
+        0x3121c
+        0x313ac
+        0x31536
+        0x316b9
+        0x3183c
+        0x319ab
+        0x31b10
+        0x31c6b
+        0x31dc6
+        0x31f1b
+        0x3206b
+        0x321b9
+        0x32302
+        0x32447
+        0x3257f
+        0x326a5
+        0x327c1
+        0x328d6
+        0x329df
+        0x32ade
+        0x32bc7
+        0x32cad
+        0x32d82
+        0x32e51
+        0x32f1e
+        0x32fe0
+        0x330a1
+        0x33159
+        0x3320e
+        0x332c3
+        0x3336a
+        0x3340e
+        0x334ac
+        0x33544
+        0x335dc
+        0x3366d
+        0x336f8
+        0x33778
+        0x337df
+        0x33843
+        0x3389b
+        0x338f2
+        0x33946
+        0x3399a
+        0x339e2
+        0x33a29
+        0x33a60
+        0x33a8e
+        0x33abb
+        0x33ae6
+        0x33b0e
+        0x33b36
+        0x33b5e
+        0x33b83
+        0x33ba6
+        0x33bc6
+        0x33be6
+        0x33c04
+        0x33c21
+        0x33c3c
+        0x33c53
+        0x33c69
+        0x33c7e
+        0x33c93
+        0x33ca8
+        0x33cbd
+    .end array-data
+
+    :array_394
+    .array-data 4
+        0x0
+        0x1b
+        0x1b
+        -0xb34
+        0x4026
+        0x0
+        0x0
+        0x51
+        0x0
+        0x0
+        0x1c
+        0x1c
+        -0xdf0
+        0x7fff
+        0x0
+        0x0
+        0x28
+        0x0
+        0x0
+        0x1d
+        0x1d
+        -0x11c9
+        0x7fff
+        0x0
+        0x0
+        0x20
+        0x1
+        0x0
+        0x1e
+        0x1e
+        -0x12f5
+        0x7fff
+        0x0
+        0x0
+        0x20
+        0x2
+        0x0
+        0x1f
+        0x1f
+        -0xf1c
+        0x5a9d
+        0x0
+        0x0
+        0x30
+        0x3
+        0x600
+        0x20
+        0x20
+        -0xc80
+        0x50c3
+        0x0
+        0x0
+        0x89
+        0x4
+        0x601
+        0x21
+        0x21
+        -0xe77
+        0x50c3
+        0x318
+        0x36f
+        0x32
+        0x5
+        0x601
+        0x22
+        0x22
+        -0xedb
+        0x4026
+        0x318
+        0x36f
+        0x32
+        0x6
+        0x0
+        0x23
+        0x23
+        -0x1368
+        0x7fff
+        0x0
+        0x0
+        0x53
+        0x7
+        0x0
+        0x24
+        0x24
+        -0x1368
+        0x7fff
+        0x0
+        0x0
+        0x53
+        0x7
+        0x0
+        0x25
+        0x25
+        -0xfd3
+        0x47fa
+        0x0
+        0x0
+        0x35
+        0x8
+        0x0
+        0x26
+        0x26
+        -0x1037
+        0x5a9d
+        0x0
+        0x0
+        0x10
+        0x9
+        0x0
+        0x27
+        0x27
+        -0xdf0
+        0x7fff
+        0x0
+        0x0
+        0x28
+        0xa
+        0x0
+        0x28
+        0x28
+        -0x1037
+        0x5a9d
+        0x0
+        0x0
+        0x10
+        0x4
+        0x1
+        0x29
+        0x29
+        -0x16df
+        0x65ac
+        0x31e
+        0x3e1
+        0x2d
+        0xb
+        0x101
+        0x2a
+        0x2a
+        -0x1068
+        0x65ac
+        0x10c0
+        0x1d40
+        0x7
+        0xc
+        0x1
+        0x2b
+        0x2b
+        -0x167b
+        0x65ac
+        0x31e
+        0x3e1
+        0x2d
+        0xd
+        0x101
+        0x2c
+        0x2c
+        -0x1130
+        0x65ac
+        0x10c0
+        0x1d40
+        0x7
+        0xe
+        0x1
+        0x2d
+        0x2d
+        -0x167b
+        0x65ac
+        0x31e
+        0x3e1
+        0x2d
+        0xf
+        0x101
+        0x2e
+        0x2e
+        -0x11f8
+        0x65ac
+        0x10c0
+        0x1d40
+        0x7
+        0x10
+        0x1
+        0x2f
+        0x2f
+        -0x154f
+        0x65ac
+        0x31e
+        0x3e1
+        0x2d
+        0x11
+        0x1
+        0x30
+        0x30
+        -0x14eb
+        0x65ac
+        0x31e
+        0x3e1
+        0x2d
+        0x12
+        0x1
+        0x31
+        0x31
+        -0x1450
+        0x4026
+        0x50e
+        0x1692
+        0x8
+        0x13
+        0x1
+        0x32
+        0x32
+        -0x1487
+        0x65ac
+        0x31e
+        0x3e1
+        0x2d
+        0x14
+        0x1
+        0x33
+        0x33
+        -0x1494
+        0x4026
+        0x19c0
+        0x26c1
+        0x6
+        0x15
+        0x1
+        0x34
+        0x34
+        -0x15e0
+        0x7fff
+        0x50e
+        0x1692
+        0x8
+        0x16
+        0x1
+        0x35
+        0x35
+        -0x152a
+        0x392c
+        0x19c0
+        0x26c1
+        0x6
+        0x17
+        0x0
+        0x36
+        0x36
+        -0x1677
+        0x65ac
+        0x0
+        0x0
+        0x27
+        0x18
+        0x1
+        0x37
+        0x37
+        -0x14b4
+        0x7fff
+        0x50e
+        0x1692
+        0x8
+        0x19
+        0x0
+        0x38
+        0x38
+        -0x1c57
+        0x7fff
+        0x0
+        0x0
+        0x5a
+        0x1a
+        0x1
+        0x39
+        0x39
+        -0x1644
+        0x7fff
+        0x50e
+        0x1692
+        0x8
+        0x1b
+        0x1
+        0x3a
+        0x3a
+        -0x1b8d
+        0x5a9d
+        0x0
+        0xa6
+        0x71
+        0x1c
+        0x1
+        0x3b
+        0x3b
+        -0x1750
+        0x4026
+        0x19c0
+        0x26c1
+        0x6
+        0x1d
+        0x1
+        0x3c
+        0x3c
+        -0x1935
+        0x5a9d
+        0x1b0
+        0x246
+        0x3f
+        0x1e
+        0x1
+        0x3d
+        0x3d
+        -0x1ac5
+        0x4026
+        0x1b0
+        0x246
+        0x3f
+        0x1e
+        0x1
+        0x3e
+        0x3e
+        -0x1c55
+        0x50c3
+        0x1b0
+        0x246
+        0x3f
+        0x1f
+        0x1
+        0x3f
+        0x3f
+        -0x1cb9
+        0x5a9d
+        0x1b0
+        0x246
+        0x3f
+        0x20
+        0x1
+        0x40
+        0x40
+        -0x1f11
+        0x5a9d
+        0x1b0
+        0x246
+        0x3f
+        0x21
+        0x0
+        0x41
+        0x41
+        -0x1d83
+        0x7fff
+        0x0
+        0x0
+        0xe
+        0x22
+        0x0
+        0x42
+        0x42
+        -0x1f13
+        0x50c3
+        0x0
+        0x0
+        0xe
+        0x22
+        0x200
+        0x43
+        0x43
+        -0x1bf3
+        0x47fa
+        0x0
+        0x0
+        0x5a
+        0x23
+        0x200
+        0x44
+        0x44
+        -0x1e4b
+        0x47fa
+        0x0
+        0x0
+        0x5a
+        0x23
+        0x0
+        0x45
+        0x45
+        -0x1e4b
+        0x7fff
+        0x0
+        0x0
+        0x56
+        0x24
+        0x0
+        0x46
+        0x46
+        -0x1ac7
+        0x558c
+        0x0
+        0x0
+        0x56
+        0x25
+        0x301
+        0x47
+        0x47
+        -0x18d3
+        0x5a9d
+        0x0
+        0x4ca
+        0x23
+        0x26
+        0x301
+        0x48
+        0x48
+        -0x1b2b
+        0x65ac
+        0x0
+        0x4ca
+        0x23
+        0x26
+        0x400
+        0x49
+        0x49
+        -0x1f13
+        0x7fff
+        0x0
+        0x0
+        0x16
+        0x27
+        0x400
+        0x4a
+        0x4a
+        -0x2107
+        0x7fff
+        0x0
+        0x0
+        0x16
+        0x28
+        0x1
+        0x4b
+        0x4b
+        -0x1edc
+        0x5a9d
+        0x0
+        0x1f
+        0x8b
+        0x29
+        0x0
+        0x4c
+        0x4c
+        -0x28d7
+        0x5a9d
+        0x0
+        0x0
+        0x86
+        0x2a
+        0x0
+        0x4d
+        0x4d
+        -0x2747
+        0x5a9d
+        0x0
+        0x0
+        0x86
+        0x2b
+        0x0
+        0x4e
+        0x4e
+        -0x2295
+        0x4026
+        0x0
+        0x0
+        0x59
+        0x2c
+        0x0
+        0x4f
+        0x4f
+        -0x280d
+        0x4026
+        0x0
+        0x0
+        0x59
+        0x2d
+        0x501
+        0x50
+        0x50
+        -0x189c
+        0x32f5
+        0xd1
+        0xe6
+        0x67
+        0x2e
+        0x501
+        0x51
+        0x51
+        -0x1900
+        0x4026
+        0xd1
+        0xe6
+        0x67
+        0x2f
+        0x0
+        0x52
+        0x52
+        -0x2107
+        0x50c3
+        0x0
+        0x0
+        0x57
+        0x30
+        0x0
+        0x53
+        0x53
+        -0x22c4
+        0x7fff
+        0x0
+        0x0
+        0xd
+        0x31
+        0x1
+        0x54
+        0x54
+        -0x20d0
+        0x5a9d
+        0x0
+        0x2836
+        0x5
+        0x32
+        0x0
+        0x55
+        0x55
+        -0x25b7
+        0x7fff
+        0x0
+        0x0
+        0x87
+        0x4
+        0x0
+        0x56
+        0x56
+        -0x236c
+        0x4026
+        0x0
+        0x0
+        0x18
+        0x33
+        0x8001
+        0x57
+        0x57
+        -0x23d0
+        0x7fff
+        0x537
+        0x643
+        0x18
+        0x34
+        0x1
+        0xc
+        0x43
+        -0x19cd
+        0x5a9d
+        0x1b5
+        0x40c8
+        0x2
+        0x30
+        0x1
+        0x44
+        0x49
+        -0x1c1c
+        0x5a9d
+        0x1c4
+        0x41a3
+        0x0
+        0x30
+        0x8001
+        0x4a
+        0x6c
+        -0x2113
+        0x5a9d
+        0x194
+        0x413a
+        0x1
+        0x30
+        0x1
+        0xc
+        0x4e
+        -0x19cd
+        0x4026
+        0x1b5
+        0x40c8
+        0x2
+        0x30
+        0x1
+        0x4f
+        0x5b
+        -0x1c1c
+        0x4026
+        0x1c4
+        0x41a3
+        0x0
+        0x30
+        0x8001
+        0x5c
+        0x6c
+        -0x2113
+        0x4026
+        0x194
+        0x413a
+        0x1
+        0x30
+        0x1
+        0xc
+        0x4e
+        -0x19cd
+        0x4026
+        0x1b5
+        0x40c8
+        0x2
+        0x30
+        0x1
+        0x4f
+        0x5b
+        -0x1c1c
+        0x4026
+        0x1c4
+        0x41a3
+        0x0
+        0x30
+        0x8001
+        0x5c
+        0x6c
+        -0x2113
+        0x4026
+        0x194
+        0x413a
+        0x1
+        0x30
+        0x1
+        0xc
+        0x46
+        -0x19c8
+        0x5a9d
+        0x1b5
+        0x40c8
+        0x2
+        0x30
+        0x1
+        0x47
+        0x58
+        -0x1c17
+        0x5a9d
+        0x1c4
+        0x41a3
+        0x0
+        0x30
+        0x8001
+        0x59
+        0x6c
+        -0x210e
+        0x5a9d
+        0x194
+        0x413a
+        0x1
+        0x30
+        0x1
+        0xc
+        0x36
+        -0x1744
+        0x32f5
+        0x27f
+        0x1110
+        0xa
+        0x30
+        0x8001
+        0x37
+        0x6c
+        -0x18cf
+        0x47fa
+        0x2be
+        0xc28
+        0xc
+        0x30
+        0x1
+        0xc
+        0x42
+        -0x19d3
+        0x5a9d
+        0x1b5
+        0x40c8
+        0x2
+        0x30
+        0x1
+        0x43
+        0x57
+        -0x1c22
+        0x5a9d
+        0x1c4
+        0x41a3
+        0x0
+        0x30
+        0x8001
+        0x58
+        0x6c
+        -0x2119
+        0x4026
+        0x194
+        0x413a
+        0x1
+        0x30
+        0x1
+        0xc
+        0x2b
+        -0xbef
+        0x5a9d
+        0x398
+        0x567
+        0x1e
+        0x3b
+        0x8001
+        0x2c
+        0x60
+        -0x13c4
+        0x47fa
+        0x375
+        0x498
+        0x25
+        0x3b
+        0x1
+        0xc
+        0x30
+        -0xd85
+        0x47fa
+        0x47c
+        0x5ea
+        0x1a
+        0x3c
+        0x8001
+        0x31
+        0x60
+        -0x186d
+        0x4026
+        0x543
+        0x58c
+        0x1d
+        0x3c
+        0x1
+        0x21
+        0x38
+        -0x15e0
+        0x65ac
+        0x428
+        0x492
+        0x26
+        0x3d
+        0x1
+        0x39
+        0x48
+        -0x1770
+        0x65ac
+        0x3a2
+        0x3f6
+        0x2c
+        0x3d
+        0x8001
+        0x49
+        0x6c
+        -0x1db0
+        0x65ac
+        0x2d6
+        0x33a
+        0x34
+        0x3d
+        0x1
+        0x24
+        0x60
+        -0x1db0
+        0x50c3
+        0x27b
+        0x2df
+        0x3a
+        0x3e
+        0x8001
+        0x61
+        0x6c
+        -0x277c
+        0x32f5
+        0x0
+        0x1f
+        0x8b
+        0x3e
+        0x1
+        0x24
+        0x60
+        -0x1db0
+        0x392c
+        0x27b
+        0x2df
+        0x3a
+        0x0
+        0x8001
+        0x61
+        0x6c
+        -0x277c
+        0x32f5
+        0x0
+        0x1f
+        0x8b
+        0x0
+        0x1
+        0x24
+        0x53
+        -0x1776
+        0x32f5
+        0x346
+        0x39a
+        0x2f
+        0x3f
+        0x1
+        0x54
+        0x5d
+        -0x20d6
+        0x392c
+        0xd1
+        0xe6
+        0x67
+        0x3f
+        0x8001
+        0x5e
+        0x6c
+        -0x277c
+        0x32f5
+        0x0
+        0x1f
+        0x8b
+        0x3f
+        0x1
+        0x24
+        0x53
+        -0x1776
+        0x32f5
+        0x346
+        0x39a
+        0x2f
+        0x40
+        0x1
+        0x54
+        0x5d
+        -0x20d6
+        0x32f5
+        0xd1
+        0xe6
+        0x67
+        0x40
+        0x8001
+        0x5e
+        0x6c
+        -0x277c
+        0x32f5
+        0x0
+        0x1f
+        0x8b
+        0x40
+        0x1
+        0x15
+        0x38
+        -0x15db
+        0x5a9d
+        0x428
+        0x492
+        0x26
+        0x41
+        0x1
+        0x39
+        0x48
+        -0x176b
+        0x5a9d
+        0x3a2
+        0x3f6
+        0x2c
+        0x41
+        0x8001
+        0x49
+        0x6c
+        -0x1dae
+        0x5a9d
+        0x2d6
+        0x33a
+        0x34
+        0x41
+        0x1
+        0xc
+        0x53
+        -0x1776
+        0x4026
+        0x346
+        0x39a
+        0x2f
+        0x42
+        0x1
+        0x54
+        0x5d
+        -0x20d6
+        0x4026
+        0xd1
+        0xe6
+        0x67
+        0x42
+        0x8001
+        0x5e
+        0x6c
+        -0x277c
+        0x4026
+        0x0
+        0x1f
+        0x8b
+        0x42
+        0x1
+        0x18
+        0x53
+        -0x1776
+        0x4026
+        0x346
+        0x39a
+        0x2f
+        0x43
+        0x1
+        0x54
+        0x5d
+        -0x20d6
+        0x4026
+        0xd1
+        0xe6
+        0x67
+        0x43
+        0x8001
+        0x5e
+        0x6c
+        -0x277c
+        0x4026
+        0x0
+        0x1f
+        0x8b
+        0x43
+        0x1
+        0xc
+        0x53
+        -0x1784
+        0x4026
+        0x0
+        0x53
+        0x7e
+        0x44
+        0x1
+        0x54
+        0x5a
+        -0x2122
+        0x4026
+        0x0
+        0x14
+        0x91
+        0x44
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x4026
+        0x6
+        0x14
+        0x93
+        0x44
+        0x1
+        0x15
+        0x4b
+        -0x1c49
+        0x4026
+        0x1a3
+        0x1cc
+        0x4c
+        0x45
+        0x8001
+        0x4c
+        0x6c
+        -0x25da
+        0x392c
+        0xfe
+        0x108
+        0x65
+        0x45
+        0x8001
+        0x24
+        0x54
+        -0x1e4b
+        0x4026
+        0x0
+        0xad7
+        0x11
+        0x46
+        0x8001
+        0xc
+        0x6c
+        -0x19ff
+        0x5a9d
+        0x1e
+        0x114
+        0x64
+        0x47
+        0x0
+        0xc
+        0x3c
+        -0x1eea
+        0x65ac
+        0x0
+        0x0
+        0xf
+        0x48
+        0x8000
+        0x3d
+        0x60
+        -0x1eea
+        0x65ac
+        0x0
+        0x0
+        0xf
+        0x49
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x4a
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x4a
+        0x1
+        0xc
+        0x23
+        -0x14eb
+        0x4026
+        0xb35
+        0xec2
+        0xb
+        0x4b
+        0x1
+        0x24
+        0x30
+        -0x199b
+        0x50c3
+        0xb35
+        0xec2
+        0xb
+        0x4b
+        0x8001
+        0x31
+        0x48
+        -0x199b
+        0x50c3
+        0xb35
+        0xec2
+        0xb
+        0x4c
+        0x1
+        0x10
+        0x37
+        -0x1850
+        0x50c3
+        0x415
+        0x45f
+        0x29
+        0x4d
+        0x8001
+        0x38
+        0x60
+        -0x1a3e
+        0x50c3
+        0x38b
+        0x3c3
+        0x2e
+        0x4d
+        0x1
+        0x10
+        0x35
+        -0x176a
+        0x7214
+        0x474
+        0x5c7
+        0x1b
+        0x4e
+        0x1
+        0x36
+        0x46
+        -0x1c03
+        0x7214
+        0x2d6
+        0x32c
+        0x37
+        0x4e
+        0x8001
+        0x47
+        0x6c
+        -0x1e6c
+        0x7214
+        0x2ce
+        0x2ec
+        0x38
+        0x4e
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x4f
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x4f
+        0x1
+        0x10
+        0x36
+        -0x165f
+        0x50c3
+        0x14f2
+        0x1555
+        0x9
+        0x50
+        0x1
+        0x37
+        0x3f
+        -0x16db
+        0x65ac
+        0x552
+        0x5ae
+        0x1c
+        0x50
+        0x8001
+        0x40
+        0x6c
+        -0x1a58
+        0x4026
+        0x137
+        0x16e
+        0x58
+        0x50
+        0x1
+        0x10
+        0x30
+        -0x12be
+        0x50c3
+        0x46c
+        0x515
+        0x1f
+        0x51
+        0x8001
+        0x31
+        0x6c
+        -0x1764
+        0x50c3
+        0x44b
+        0x4a0
+        0x24
+        0x51
+        0x1
+        0x15
+        0x44
+        -0x210a
+        0x50c3
+        0x57
+        0x87a
+        0x12
+        0x52
+        0x1
+        0x45
+        0x52
+        -0x2300
+        0x50c3
+        0x78
+        0x877
+        0x13
+        0x52
+        0x8001
+        0x53
+        0x6c
+        -0x27b0
+        0x50c3
+        0x178
+        0x7f9
+        0x14
+        0x52
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x53
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x53
+        0x8001
+        0x37
+        0x6c
+        -0x1cc8
+        0x50c3
+        0x0
+        0x1dd
+        0x4b
+        0x54
+        0x8001
+        0x24
+        0x60
+        -0x1af4
+        0x392c
+        0x65
+        0x97
+        0x74
+        0x55
+        0x1
+        0x18
+        0x53
+        -0x1784
+        0x32f5
+        0x0
+        0x53
+        0x7e
+        0x56
+        0x1
+        0x54
+        0x5a
+        -0x2122
+        0x32f5
+        0x0
+        0x14
+        0x91
+        0x56
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x32f5
+        0x6
+        0x14
+        0x93
+        0x56
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x57
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x57
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x58
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x58
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x59
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x59
+        0x1
+        0x18
+        0x53
+        -0x1784
+        0x32f5
+        0x0
+        0x53
+        0x7e
+        0x5a
+        0x1
+        0x54
+        0x5a
+        -0x2122
+        0x32f5
+        0x0
+        0x14
+        0x91
+        0x5a
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x32f5
+        0x6
+        0x14
+        0x93
+        0x5a
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x5b
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x5b
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x5c
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x5c
+        0x1
+        0xc
+        0x3e
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x5d
+        0x8001
+        0x3f
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0x5d
+        0x1
+        0xc
+        0x3e
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0x5e
+        0x8001
+        0x3f
+        0x6c
+        -0x1e4b
+        0x4026
+        0xb
+        0x2de9
+        0x3
+        0x5e
+        0x1
+        0x18
+        0x4f
+        -0x1784
+        0x32f5
+        0x0
+        0x53
+        0x7e
+        0x5f
+        0x1
+        0x50
+        0x5a
+        -0x2122
+        0x32f5
+        0x0
+        0x14
+        0x91
+        0x5f
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x32f5
+        0x6
+        0x14
+        0x93
+        0x5f
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x32f5
+        0x17
+        0x2ac9
+        0x4
+        0x60
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x4026
+        0xb
+        0x2de9
+        0x3
+        0x60
+        0x8000
+        0x24
+        0x54
+        -0x1d4c
+        0x50c3
+        0x0
+        0x0
+        0x19
+        0x61
+        0x8001
+        0x24
+        0x60
+        -0x2297
+        0x50c3
+        0x5ca
+        0x64d
+        0x17
+        0x62
+        0x8001
+        0xc
+        0x60
+        -0x110e
+        0x7fff
+        0x332
+        0x409
+        0x2a
+        0x63
+        0x8001
+        0x24
+        0x54
+        -0x2178
+        0x47fa
+        0x0
+        0x125
+        0x62
+        0x64
+        0x8001
+        0xc
+        0x60
+        -0x1784
+        0x65ac
+        0x0
+        0x53
+        0x7d
+        0x65
+        0x8001
+        0xc
+        0x60
+        -0x1784
+        0x50c3
+        0x0
+        0x53
+        0x7d
+        0x66
+        0x1
+        0xc
+        0x53
+        -0x1784
+        0x32f5
+        0x0
+        0x53
+        0x7d
+        0x68
+        0x1
+        0x54
+        0x5a
+        -0x2122
+        0x32f5
+        0x0
+        0x14
+        0x92
+        0x68
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x32f5
+        0x6
+        0x14
+        0x94
+        0x68
+        0x8001
+        0x24
+        0x6c
+        -0x217a
+        0x7fff
+        0x1d8
+        0x1eb
+        0x4a
+        0x69
+        0x8001
+        0x24
+        0x6c
+        -0x217a
+        0x50c3
+        0x1d8
+        0x1eb
+        0x4a
+        0x6a
+        0x1
+        0xc
+        0x48
+        -0x177c
+        0x1ca8
+        0x2
+        0x56
+        0x7c
+        0x6b
+        0x1
+        0x49
+        0x65
+        -0x2134
+        0x2027
+        0x2
+        0x16
+        0x8f
+        0x6b
+        0x8001
+        0x66
+        0x6c
+        -0x25d3
+        0x50c3
+        0xad
+        0xb7
+        0x6e
+        0x6b
+        0x1
+        0x15
+        0x60
+        -0x1e58
+        0x32f5
+        0x1dd
+        0x1fb
+        0x49
+        0x6c
+        0x8001
+        0x61
+        0x6c
+        -0x25d3
+        0x32f5
+        0xad
+        0xb7
+        0x6e
+        0x6d
+        0x8001
+        0xc
+        0x6c
+        -0x1e5b
+        0x4026
+        0x1dd
+        0x1fb
+        0x49
+        0x6e
+        0x1
+        0xc
+        0x35
+        -0x136b
+        0x4026
+        0x184
+        0x21d
+        0x44
+        0x6f
+        0x8001
+        0x36
+        0x3c
+        -0x173d
+        0x2d6a
+        0x1d9
+        0x230
+        0x41
+        0x6f
+        0x8001
+        0x24
+        0x48
+        -0x173d
+        0x4026
+        0x1d9
+        0x230
+        0x41
+        0x70
+        0x1
+        0x30
+        0x3a
+        -0x1b8d
+        0x4026
+        0x164
+        0x192
+        0x52
+        0x71
+        0x1
+        0x3b
+        0x41
+        -0x1d96
+        0x4026
+        0x202
+        0x224
+        0x43
+        0x71
+        0x1
+        0x42
+        0x4e
+        -0x1fee
+        0x4026
+        0x1f9
+        0x211
+        0x47
+        0x71
+        0x8001
+        0x4f
+        0x60
+        -0x2411
+        0x4026
+        0xb2
+        0xbf
+        0x6d
+        0x71
+        0x1
+        0x37
+        0x3c
+        -0x1b8d
+        0x4026
+        0x164
+        0x192
+        0x52
+        0x72
+        0x1
+        0x3d
+        0x45
+        -0x1d96
+        0x4026
+        0x202
+        0x224
+        0x43
+        0x72
+        0x1
+        0x46
+        0x4f
+        -0x1fee
+        0x4026
+        0x1f9
+        0x211
+        0x47
+        0x72
+        0x8001
+        0x50
+        0x6c
+        -0x2411
+        0x4026
+        0xb2
+        0xbf
+        0x6d
+        0x72
+        0x1
+        0x10
+        0x52
+        -0x1f5d
+        0x5a9d
+        0xb4
+        0xce
+        0x6a
+        0x73
+        0x8001
+        0x53
+        0x6c
+        -0x1c48
+        0x47fa
+        0x3
+        0x2c
+        0x83
+        0x73
+        0x8001
+        0x15
+        0x6c
+        -0x22a5
+        0x50c3
+        0x1e3
+        0x203
+        0x48
+        0x74
+        0x1
+        0x15
+        0x59
+        -0x1c25
+        0x47fa
+        0x3
+        0x2d
+        0x82
+        0x75
+        0x8001
+        0x5a
+        0x6c
+        -0x238d
+        0x287a
+        0x6
+        0x14
+        0x94
+        0x75
+        0x1
+        0x15
+        0x2a
+        -0x124e
+        0x50c3
+        0x0
+        0xb4
+        0x6f
+        0x76
+        0x1
+        0x2b
+        0x33
+        -0x14a6
+        0x5a9d
+        0x0
+        0x7f
+        0x78
+        0x76
+        0x1
+        0x34
+        0x3a
+        -0x1894
+        0x65ac
+        0x0
+        0x47
+        0x7f
+        0x76
+        0x1
+        0x3b
+        0x44
+        -0x1d2c
+        0x5a9d
+        0x0
+        0x24
+        0x88
+        0x76
+        0x8001
+        0x45
+        0x6c
+        -0x217e
+        0x50c3
+        0x0
+        0x13
+        0x95
+        0x76
+        0x1
+        0x15
+        0x59
+        -0x1c1f
+        0x50c3
+        0x3
+        0x2d
+        0x82
+        0x77
+        0x8001
+        0x5a
+        0x6c
+        -0x238d
+        0x392c
+        0x6
+        0x14
+        0x94
+        0x77
+        0x1
+        0x15
+        0x2e
+        -0x1613
+        0x65ac
+        0xec
+        0x154
+        0x5c
+        0x78
+        0x1
+        0x2f
+        0x47
+        -0x19a3
+        0x50c3
+        0x338
+        0x375
+        0x31
+        0x78
+        0x1
+        0x48
+        0x58
+        -0x1ee3
+        0x47fa
+        0x2cf
+        0x2eb
+        0x39
+        0x78
+        0x1
+        0x59
+        0x5d
+        -0x22ac
+        0x4026
+        0x53
+        0x63
+        0x7a
+        0x78
+        0x8001
+        0x5e
+        0x6c
+        -0x25d9
+        0x4026
+        0xad
+        0xb7
+        0x6e
+        0x78
+        0x1
+        0x3c
+        0x47
+        -0x1c25
+        0x4026
+        0x0
+        0x2a
+        0x84
+        0x79
+        0x1
+        0x48
+        0x4e
+        -0x1edf
+        0x4026
+        0x0
+        0x1c
+        0x8d
+        0x79
+        0x8001
+        0x4f
+        0x60
+        -0x20d5
+        0x4026
+        0x0
+        0x15
+        0x90
+        0x79
+        0x1
+        0x30
+        0x41
+        -0x18ac
+        0x2d6a
+        0x0
+        0x46
+        0x80
+        0x7a
+        0x1
+        0x42
+        0x4f
+        -0x1e2c
+        0x392c
+        0x0
+        0x1f
+        0x8a
+        0x7a
+        0x8001
+        0x50
+        0x60
+        -0x1f5e
+        0x2d6a
+        0x0
+        0x1a
+        0x8e
+        0x7a
+        0x1
+        0x10
+        0x2c
+        -0x16ec
+        0x392c
+        0xa3
+        0xfe
+        0x66
+        0x7b
+        0x1
+        0x2d
+        0x33
+        -0x1912
+        0x4026
+        0x105
+        0x189
+        0x55
+        0x7b
+        0x1
+        0x34
+        0x3a
+        -0x1ca5
+        0x47fa
+        0xbe
+        0xe5
+        0x68
+        0x7b
+        0x1
+        0x3b
+        0x42
+        -0x1fa4
+        0x47fa
+        0xa8
+        0xc1
+        0x6c
+        0x7b
+        0x1
+        0x43
+        0x46
+        -0x2180
+        0x47fa
+        0x8a
+        0x9d
+        0x73
+        0x7b
+        0x1
+        0x47
+        0x50
+        -0x238f
+        0x47fa
+        0xa6
+        0xb4
+        0x70
+        0x7b
+        0x8001
+        0x51
+        0x6c
+        -0x275a
+        0x47fa
+        0x87
+        0x97
+        0x75
+        0x7b
+        0x8001
+        0xc
+        0x60
+        -0x138c
+        0x5a9d
+        0x23a
+        0x2cf
+        0x3b
+        0x7c
+        0x1
+        0xc
+        0x30
+        -0x16ec
+        0x392c
+        0xa3
+        0xfe
+        0x66
+        0x7d
+        0x1
+        0x31
+        0x36
+        -0x1912
+        0x4026
+        0x105
+        0x189
+        0x55
+        0x7d
+        0x1
+        0x37
+        0x3f
+        -0x1ca5
+        0x47fa
+        0xbe
+        0xe5
+        0x68
+        0x7d
+        0x1
+        0x40
+        0x46
+        -0x1fa4
+        0x47fa
+        0xa8
+        0xc1
+        0x6c
+        0x7d
+        0x1
+        0x47
+        0x4b
+        -0x2180
+        0x47fa
+        0x8a
+        0x9d
+        0x73
+        0x7d
+        0x1
+        0x4c
+        0x52
+        -0x238f
+        0x47fa
+        0xa6
+        0xb4
+        0x70
+        0x7d
+        0x8001
+        0x53
+        0x6c
+        -0x275a
+        0x47fa
+        0x87
+        0x97
+        0x75
+        0x7d
+        0x8002
+        0x24
+        0x54
+        -0x1c20
+        0x7214
+        0x0
+        0x0
+        0x0
+        0x7e
+        0x8002
+        0x24
+        0x54
+        -0x1db0
+        0x2027
+        0x0
+        0x0
+        0x0
+        0x7f
+        0x8002
+        0x24
+        0x54
+        -0x1c20
+        0x50c3
+        0x0
+        0x0
+        0x0
+        0x80
+        0x8001
+        0x24
+        0x54
+        -0x1770
+        -0x5edd
+        0x50e
+        0x1692
+        0x8
+        0x81
+        0x8001
+        0x24
+        0x54
+        -0x199b
+        0x7214
+        0x31e
+        0x3e1
+        0x2d
+        0x82
+        0x8001
+        0x24
+        0x54
+        -0x1ac7
+        0x50c3
+        0x31e
+        0x3e1
+        0x2d
+        0x83
+        0x8001
+        0x24
+        0x54
+        -0x1e4b
+        0x7214
+        0x31e
+        0x3e1
+        0x2d
+        0x84
+        0x8000
+        0x24
+        0x54
+        -0x1fdb
+        0x7fff
+        0x0
+        0x0
+        0x85
+        0x85
+        0x8000
+        0x24
+        0x54
+        -0x199b
+        0x50c3
+        0x0
+        0x0
+        0x5b
+        0x86
+        0x1
+        0x18
+        0x3e
+        -0x1b58
+        0x5a9d
+        0x11e
+        0x14d
+        0x5e
+        0x87
+        0x1
+        0x3f
+        0x42
+        -0x1cc4
+        0x65ac
+        0x129
+        0x14f
+        0x5d
+        0x87
+        0x1
+        0x43
+        0x48
+        -0x1e2a
+        0x5a9d
+        0x170
+        0x18f
+        0x54
+        0x87
+        0x8001
+        0x49
+        0x60
+        -0x2076
+        0x5a9d
+        0x74
+        0x8a
+        0x77
+        0x87
+        0x1
+        0x18
+        0x30
+        -0x1415
+        0x5a9d
+        0x135
+        0x1bf
+        0x4d
+        0x88
+        0x1
+        0x31
+        0x38
+        -0x187a
+        0x65ac
+        0xd3
+        0x11b
+        0x63
+        0x88
+        0x1
+        0x39
+        0x3f
+        -0x1b58
+        0x65ac
+        0x11e
+        0x14d
+        0x5e
+        0x88
+        0x8001
+        0x40
+        0x54
+        -0x1e2a
+        0x5a9d
+        0x170
+        0x18f
+        0x54
+        0x88
+        0x1
+        0x18
+        0x38
+        -0x187a
+        0x7214
+        0xd3
+        0x11b
+        0x63
+        0x89
+        0x1
+        0x39
+        0x3f
+        -0x1b58
+        0x7214
+        0x11e
+        0x14d
+        0x5e
+        0x89
+        0x1
+        0x40
+        0x45
+        -0x1e2a
+        0x7214
+        0x170
+        0x18f
+        0x54
+        0x89
+        0x8001
+        0x46
+        0x60
+        -0x2076
+        0x7214
+        0x74
+        0x8a
+        0x77
+        0x89
+        0x1
+        0x18
+        0x44
+        -0x1e2a
+        0x47fa
+        0x170
+        0x18f
+        0x54
+        0x8a
+        0x1
+        0x45
+        0x4c
+        -0x2076
+        0x65ac
+        0x74
+        0x8a
+        0x77
+        0x8a
+        0x8001
+        0x4d
+        0x6c
+        -0x2236
+        0x5a9d
+        0x7f
+        0x90
+        0x76
+        0x8a
+        0x1
+        0x18
+        0x52
+        -0x1dbd
+        0x5a9d
+        0x185
+        0x1a6
+        0x50
+        0x8b
+        0x8001
+        0x53
+        0x6c
+        -0x223c
+        0x65ac
+        0x92
+        0xa3
+        0x72
+        0x8b
+        0x1
+        0xc
+        0x3a
+        -0x1af2
+        0x7214
+        0x182
+        0x1b4
+        0x4e
+        0x8c
+        0x8001
+        0x3b
+        0x60
+        -0x1ccb
+        0x65ac
+        0x122
+        0x148
+        0x5f
+        0x8c
+        0x1
+        0xc
+        0x3a
+        -0x1af2
+        0x4026
+        0x182
+        0x1b4
+        0x4e
+        0x8d
+        0x8001
+        0x3b
+        0x60
+        -0x1ccb
+        0x47fa
+        0x122
+        0x148
+        0x5f
+        0x8d
+        0x1
+        0xc
+        0x30
+        -0x1af2
+        -0x7063
+        0x182
+        0x1b4
+        0x4e
+        0x8e
+        0x8001
+        0x31
+        0x54
+        -0x1ccb
+        0x7214
+        0x122
+        0x148
+        0x5f
+        0x8e
+        0x1
+        0xc
+        0x3c
+        -0x154d
+        0x50c3
+        0x13a
+        0x1ae
+        0x4f
+        0x8f
+        0x8001
+        0x3d
+        0x54
+        -0x1999
+        0x47fa
+        0x107
+        0x144
+        0x60
+        0x8f
+        0x1
+        0x18
+        0x3c
+        -0x1999
+        0x4026
+        0x107
+        0x144
+        0x60
+        0x90
+        0x1
+        0x3d
+        0x46
+        -0x1df5
+        0x50c3
+        0x117
+        0x137
+        0x61
+        0x90
+        0x8001
+        0x47
+        0x60
+        -0x1fa2
+        0x5a9d
+        0xb3
+        0xcc
+        0x6b
+        0x90
+        0x1
+        0x18
+        0x54
+        -0x2123
+        0x50c3
+        0xbf
+        0xd3
+        0x69
+        0x91
+        0x8001
+        0x55
+        0x6c
+        -0x25d3
+        0x50c3
+        0x5c
+        0x66
+        0x79
+        0x91
+        0x1
+        0x15
+        0x45
+        -0x1999
+        0x32f5
+        0x107
+        0x144
+        0x60
+        0x92
+        0x1
+        0x46
+        0x5e
+        -0x1df5
+        0x50c3
+        0x117
+        0x137
+        0x61
+        0x92
+        0x1
+        0x5f
+        0x60
+        -0x1fa2
+        -0x5edd
+        0xb3
+        0xcc
+        0x6b
+        0x92
+        0x8001
+        0x61
+        0x6c
+        -0x25d3
+        -0x5edd
+        0xad
+        0xb7
+        0x6e
+        0x92
+        0x1
+        0x10
+        0x37
+        -0x1fa4
+        0x50c3
+        0xa8
+        0xc1
+        0x6c
+        0x93
+        0x1
+        0x38
+        0x4a
+        -0x2180
+        0x65ac
+        0x8a
+        0x9d
+        0x73
+        0x93
+        0x8001
+        0x4b
+        0x60
+        -0x275a
+        0x65ac
+        0x87
+        0x97
+        0x75
+        0x93
+        0x1
+        0x18
+        0x48
+        -0x1fa2
+        0x65ac
+        0xb3
+        0xcc
+        0x6b
+        0x94
+        0x1
+        0x49
+        0x55
+        -0x2123
+        0x50c3
+        0xbf
+        0xd3
+        0x69
+        0x94
+        0x8001
+        0x56
+        0x6c
+        -0x25d3
+        0x47fa
+        0x5c
+        0x66
+        0x79
+        0x94
+        0x8001
+        0x24
+        0x6c
+        -0x1e32
+        0x47fa
+        0x72f
+        0x76d
+        0x15
+        0x95
+        0x8001
+        0x18
+        0x6c
+        -0x1c69
+        0x50c3
+        0x1ee
+        0x216
+        0x45
+        0x96
+        0x8001
+        0xc
+        0x6c
+        -0x1c69
+        0x50c3
+        0x1ee
+        0x216
+        0x45
+        0x97
+        0x8001
+        0x18
+        0x6c
+        -0x1c69
+        0x50c3
+        0x1ee
+        0x216
+        0x45
+        0x98
+        0x1
+        0x24
+        0x3c
+        -0x1324
+        0x1449
+        0x2
+        0x16
+        0x8f
+        0x99
+        0x8001
+        0x3d
+        0x54
+        -0x17c3
+        0x50c3
+        0xad
+        0xb7
+        0x6e
+        0x99
+        0x8001
+        0x18
+        0x60
+        -0x1999
+        0x392c
+        0x107
+        0x144
+        0x60
+        0x9a
+        0x8001
+        0x24
+        0x60
+        -0x1e32
+        0x65ac
+        0x72f
+        0x76d
+        0x15
+        0x9b
+        0x8001
+        0x18
+        0x6c
+        -0x1c69
+        0x50c3
+        0x1ee
+        0x216
+        0x45
+        0x9c
+        0x1
+        0x18
+        0x3a
+        -0x1eab
+        0x392c
+        0x0
+        0x1d
+        0x8c
+        0x9d
+        0x8001
+        0x3b
+        0x60
+        -0x1eab
+        0x392c
+        0x0
+        0x1d
+        0x8c
+        0x9d
+        0x1
+        0xc
+        0x53
+        -0x1784
+        0x32f5
+        0x0
+        0x53
+        0x7d
+        0x9e
+        0x1
+        0x54
+        0x5a
+        -0x2122
+        0x32f5
+        0x0
+        0x14
+        0x92
+        0x9e
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x32f5
+        0x6
+        0x14
+        0x94
+        0x9e
+        0x1
+        0x15
+        0x2a
+        -0x1237
+        0x65ac
+        0x417
+        0x4cd
+        0x22
+        0x9f
+        0x1
+        0x2b
+        0x30
+        -0x1550
+        0x7214
+        0x472
+        0x4e5
+        0x21
+        0x9f
+        0x1
+        0x31
+        0x35
+        -0x16d5
+        0x65ac
+        0x22f
+        0x28b
+        0x3c
+        0x9f
+        0x1
+        0x36
+        0x3c
+        -0x1a4c
+        0x65ac
+        0x1fc
+        0x233
+        0x40
+        0x9f
+        0x1
+        0x3d
+        0x41
+        -0x1ba8
+        0x7fff
+        0x333
+        0x360
+        0x33
+        0x9f
+        0x1
+        0x42
+        0x46
+        -0x1ad2
+        0x693e
+        0x3d5
+        0x408
+        0x2b
+        0x9f
+        0x1
+        0x47
+        0x4c
+        -0x1fe6
+        0x65ac
+        0x316
+        0x32e
+        0x36
+        0x9f
+        0x1
+        0x4d
+        0x52
+        -0x223e
+        0x65ac
+        0x250
+        0x261
+        0x3d
+        0x9f
+        0x1
+        0x53
+        0x57
+        -0x252d
+        0x5a9d
+        0x21f
+        0x22a
+        0x42
+        0x9f
+        0x1
+        0x58
+        0x60
+        -0x2757
+        0x47fa
+        0x259
+        0x261
+        0x3e
+        0x9f
+        0x8001
+        0x61
+        0x6c
+        -0x2946
+        0x47fa
+        0x20b
+        0x211
+        0x46
+        0x9f
+        0x1
+        0x30
+        0x45
+        -0x18a9
+        0x392c
+        0x0
+        0x46
+        0x80
+        0xa0
+        0x1
+        0x46
+        0x4f
+        -0x1e2c
+        0x47fa
+        0x0
+        0x1f
+        0x8a
+        0xa0
+        0x8001
+        0x50
+        0x60
+        -0x1f5e
+        0x392c
+        0x0
+        0x1a
+        0x8e
+        0xa0
+        0x1
+        0x24
+        0x48
+        -0x1bde
+        0x7214
+        0x0
+        0x57
+        0x7b
+        0xa1
+        0x8001
+        0x49
+        0x60
+        -0x1f18
+        0x7214
+        0x0
+        0x36
+        0x81
+        0xa1
+        0x8001
+        0x24
+        0x60
+        -0x1e32
+        0x65ac
+        0x72f
+        0x76d
+        0x15
+        0xa2
+        0x8001
+        0xc
+        0x60
+        -0x1114
+        0x7fff
+        0x332
+        0x409
+        0x2a
+        0xa3
+        0x8001
+        0x24
+        0x6c
+        -0x217a
+        0x65ac
+        0x1d8
+        0x1eb
+        0x4a
+        0xa4
+        0x8001
+        0xc
+        0x60
+        -0x138c
+        0x7214
+        0x23a
+        0x2cf
+        0x3b
+        0xa5
+        0x1
+        0xc
+        0x53
+        -0x1784
+        0x32f5
+        0x0
+        0x53
+        0x7d
+        0xa6
+        0x1
+        0x54
+        0x5a
+        -0x2122
+        0x32f5
+        0x0
+        0x14
+        0x92
+        0xa6
+        0x8001
+        0x5b
+        0x6c
+        -0x238d
+        0x32f5
+        0x6
+        0x14
+        0x94
+        0xa6
+        0x1
+        0x15
+        0x2e
+        -0x1613
+        0x7fff
+        0xec
+        0x154
+        0x5c
+        0xa7
+        0x1
+        0x2f
+        0x4b
+        -0x19a3
+        0x65ac
+        0x338
+        0x375
+        0x31
+        0xa7
+        0x1
+        0x4c
+        0x54
+        -0x1ee3
+        0x5a9d
+        0x2cf
+        0x2eb
+        0x39
+        0xa7
+        0x1
+        0x55
+        0x5d
+        -0x22ac
+        0x50c3
+        0x53
+        0x63
+        0x7a
+        0xa7
+        0x8001
+        0x5e
+        0x6c
+        -0x25d9
+        0x50c3
+        0xad
+        0xb7
+        0x6e
+        0xa7
+        0x1
+        0x15
+        0x2e
+        -0x1613
+        0x65ac
+        0xec
+        0x154
+        0x5c
+        0xa8
+        0x1
+        0x2f
+        0x47
+        -0x19a3
+        0x50c3
+        0x338
+        0x375
+        0x31
+        0xa8
+        0x1
+        0x48
+        0x58
+        -0x1ee3
+        0x47fa
+        0x2cf
+        0x2eb
+        0x39
+        0xa8
+        0x1
+        0x59
+        0x5d
+        -0x22ac
+        0x4026
+        0x53
+        0x63
+        0x7a
+        0xa8
+        0x8001
+        0x5e
+        0x6c
+        -0x25d9
+        0x4026
+        0xad
+        0xb7
+        0x6e
+        0xa8
+        0x1
+        0x15
+        0x2d
+        -0x1237
+        0x65ac
+        0x417
+        0x4cd
+        0x22
+        0xa9
+        0x1
+        0x2e
+        0x33
+        -0x1550
+        0x7214
+        0x472
+        0x4e5
+        0x21
+        0xa9
+        0x1
+        0x34
+        0x36
+        -0x16d5
+        0x65ac
+        0x22f
+        0x28b
+        0x3c
+        0xa9
+        0x1
+        0x37
+        0x3f
+        -0x1a4c
+        0x65ac
+        0x1fc
+        0x233
+        0x40
+        0xa9
+        0x1
+        0x40
+        0x44
+        -0x1ba8
+        0x7fff
+        0x333
+        0x360
+        0x33
+        0xa9
+        0x1
+        0x45
+        0x49
+        -0x1ad2
+        0x693e
+        0x3d5
+        0x408
+        0x2b
+        0xa9
+        0x1
+        0x4a
+        0x4f
+        -0x1fe6
+        0x65ac
+        0x316
+        0x32e
+        0x36
+        0xa9
+        0x1
+        0x50
+        0x58
+        -0x223e
+        0x5a9d
+        0x250
+        0x261
+        0x3d
+        0xa9
+        0x1
+        0x59
+        0x63
+        -0x2757
+        0x47fa
+        0x259
+        0x261
+        0x3e
+        0xa9
+        0x8001
+        0x64
+        0x6c
+        -0x2946
+        0x47fa
+        0x20b
+        0x211
+        0x46
+        0xa9
+        0x1
+        0x15
+        0x2d
+        -0x1237
+        0x65ac
+        0x417
+        0x4cd
+        0x22
+        0xaa
+        0x1
+        0x2e
+        0x33
+        -0x1550
+        0x7214
+        0x472
+        0x4e5
+        0x21
+        0xaa
+        0x1
+        0x34
+        0x36
+        -0x16d5
+        0x65ac
+        0x22f
+        0x28b
+        0x3c
+        0xaa
+        0x1
+        0x37
+        0x3f
+        -0x1a4c
+        0x65ac
+        0x1fc
+        0x233
+        0x40
+        0xaa
+        0x1
+        0x40
+        0x44
+        -0x1ba8
+        0x7fff
+        0x333
+        0x360
+        0x33
+        0xaa
+        0x1
+        0x45
+        0x49
+        -0x1ad2
+        0x693e
+        0x3d5
+        0x408
+        0x2b
+        0xaa
+        0x1
+        0x4a
+        0x4f
+        -0x1fe6
+        0x65ac
+        0x316
+        0x32e
+        0x36
+        0xaa
+        0x1
+        0x50
+        0x58
+        -0x223e
+        0x5a9d
+        0x250
+        0x261
+        0x3d
+        0xaa
+        0x1
+        0x59
+        0x63
+        -0x2757
+        0x47fa
+        0x259
+        0x261
+        0x3e
+        0xab
+        0x8001
+        0x64
+        0x6c
+        -0x2946
+        0x47fa
+        0x20b
+        0x211
+        0x46
+        0xac
+        0x8001
+        0x24
+        0x6c
+        -0x217a
+        0x50c3
+        0x1d8
+        0x1eb
+        0x4a
+        0xad
+        0x8001
+        0xc
+        0x6c
+        -0x1e32
+        0x50c3
+        0x72f
+        0x76d
+        0x15
+        0xae
+        0x1
+        0xc
+        0x2c
+        -0x16ec
+        0x47fa
+        0xa3
+        0xfe
+        0x66
+        0xaf
+        0x1
+        0x2d
+        0x33
+        -0x1912
+        0x50c3
+        0x105
+        0x189
+        0x55
+        0xaf
+        0x1
+        0x34
+        0x3a
+        -0x1ca5
+        0x5a9d
+        0xbe
+        0xe5
+        0x68
+        0xaf
+        0x1
+        0x3b
+        0x42
+        -0x1fa4
+        0x5a9d
+        0xa8
+        0xc1
+        0x6c
+        0xaf
+        0x1
+        0x43
+        0x46
+        -0x2180
+        0x5a9d
+        0x8a
+        0x9d
+        0x73
+        0xaf
+        0x1
+        0x47
+        0x50
+        -0x238f
+        0x5a9d
+        0xa6
+        0xb4
+        0x70
+        0xaf
+        0x8001
+        0x51
+        0x6c
+        -0x275a
+        0x5a9d
+        0x87
+        0x97
+        0x75
+        0xaf
+        0x1
+        0xc
+        0x41
+        -0x1b8d
+        0x4026
+        0x17
+        0x2ac9
+        0x4
+        0xb0
+        0x8001
+        0x42
+        0x6c
+        -0x1e4b
+        0x50c3
+        0xb
+        0x2de9
+        0x3
+        0xb0
+        0x1
+        0xc
+        0x30
+        -0x12be
+        0x7214
+        0x46c
+        0x515
+        0x1f
+        0xb1
+        0x8001
+        0x31
+        0x6c
+        -0x1764
+        0x7214
+        0x44b
+        0x4a0
+        0x24
+        0xb1
+        0x1
+        0xc
+        0x53
+        -0x1c49
+        0x50c3
+        0x1a3
+        0x1cc
+        0x4c
+        0xb2
+        0x8001
+        0x54
+        0x6c
+        -0x278b
+        0x50c3
+        0x0
+        0x1f
+        0x8b
+        0xb2
+        0x1
+        0x37
+        0x3c
+        -0x1b8d
+        0x47fa
+        0x164
+        0x192
+        0x52
+        0xb3
+        0x1
+        0x3d
+        0x45
+        -0x1d96
+        0x47fa
+        0x202
+        0x224
+        0x43
+        0xb3
+        0x1
+        0x46
+        0x4f
+        -0x1fee
+        0x47fa
+        0x1f9
+        0x211
+        0x47
+        0xb3
+        0x8001
+        0x50
+        0x6c
+        -0x2411
+        0x5a9d
+        0xb2
+        0xbf
+        0x6d
+        0xb3
+        0x8001
+        0x24
+        0x60
+        -0x1e32
+        -0x5edd
+        0x72f
+        0x76d
+        0x15
+        0xb4
+        0x1
+        0xc
+        0x53
+        -0x1776
+        0x4026
+        0x346
+        0x39a
+        0x2f
+        0xb5
+        0x1
+        0x54
+        0x5d
+        -0x20d6
+        0x47fa
+        0xd1
+        0xe6
+        0x67
+        0xb5
+        0x8001
+        0x5e
+        0x6c
+        -0x277c
+        0x4026
+        0x0
+        0x1f
+        0x8b
+        0xb5
+        0x1
+        0xc
+        0x38
+        -0x15db
+        0x5a9d
+        0x428
+        0x492
+        0x26
+        0xb6
+        0x1
+        0x39
+        0x48
+        -0x176b
+        0x5a9d
+        0x3a2
+        0x3f6
+        0x2c
+        0xb6
+        0x8001
+        0x49
+        0x6c
+        -0x1dae
+        0x5a9d
+        0x2d6
+        0x33a
+        0x34
+        0xb6
+        0x8001
+        0x18
+        0x6c
+        -0x1db0
+        0x5a9d
+        0x27b
+        0x2df
+        0x3a
+        0x3e
+        0x1
+        0x24
+        0x53
+        -0x1776
+        0x32f5
+        0x346
+        0x39a
+        0x2f
+        0xb7
+        0x1
+        0x54
+        0x5d
+        -0x20d6
+        0x32f5
+        0xd1
+        0xe6
+        0x67
+        0xb7
+        0x8001
+        0x5e
+        0x6c
+        -0x277c
+        0x32f5
+        0x0
+        0x1f
+        0x8b
+        0xb7
+        0x1
+        0xc
+        0x42
+        -0x19d3
+        0x5a9d
+        0x1b5
+        0x40c8
+        0x2
+        0xb8
+        0x1
+        0x43
+        0x57
+        -0x1c22
+        0x5a9d
+        0x1c4
+        0x41a3
+        0x0
+        0xb8
+        0x8001
+        0x58
+        0x6c
+        -0x2119
+        0x4026
+        0x194
+        0x413a
+        0x1
+        0xb8
+    .end array-data
+
+    :array_1e1a
+    .array-data 2
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x68efs
+        0x0s
+        0x68efs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7714s
+        0x0s
+        0x77ccs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x6747s
+        0x0s
+        0x6747s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7fcbs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x5355s
+        0x0s
+        0x5355s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7c8as
+        0x0s
+        0x7cc2s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x7fffs
+        0x7f97s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x0s
+        0x7e5ds
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x433ds
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x1s
+        0x7fffs
+        0x7bf2s
+        0x0s
+        0x7bf2s
+        0x7fffs
+        0x2f9s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x2cs
+        0x7fffs
+        0x5cc5s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x38s
+        0x7fffs
+        0x7bf2s
+        0x0s
+        0x7bf2s
+        0x7fffs
+        0x2f9s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x1fs
+        0x2527s
+        0x5355s
+        0x0s
+        0x5355s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x38s
+        0x7fffs
+        0x7b81s
+        0x0s
+        0x7b81s
+        0x7fffs
+        0x2f9s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x6s
+        0x7fffs
+        0x7d7bs
+        0x0s
+        0x7dc2s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x38s
+        0x7fffs
+        0x7b3es
+        0x0s
+        0x7b3es
+        0x7fffs
+        0x2f9s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x6s
+        0x7fffs
+        0x7a9fs
+        0x0s
+        0x7a9fs
+        0x7fffs
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x1fs
+        0x7fffs
+        0x7cdcs
+        0x0s
+        0x7cdcs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x19s
+        0x7fffs
+        0x7950s
+        0x0s
+        0x7950s
+        0x7fffs
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3fs
+        0x7fffs
+        0x7e21s
+        0x0s
+        0x7e0fs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x25s
+        0x4a4ds
+        0x7c8as
+        0x0s
+        0x7ca7s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x25s
+        0x7fffs
+        0x7cf4s
+        0x0s
+        0x7d20s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x25s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0xcs
+        0x7fffs
+        0x7a78s
+        0x0s
+        0x7a78s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x19s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x19s
+        0x7fffs
+        0x7c49s
+        0x0s
+        0x7c25s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x19s
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0xf0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x38s
+        0x7fffs
+        0x7de6s
+        0x0s
+        0x7ddas
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x25s
+        0x7fffs
+        0x6747s
+        0x0s
+        0x6747s
+        0x7fffs
+        0xedcs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x32s
+        0x7fffs
+        0x5cc5s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x32s
+        0x7fffs
+        0x72fas
+        0x0s
+        0x72fas
+        0x7fffs
+        0xedcs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x32s
+        0x7fffs
+        0x7620s
+        0x0s
+        0x761as
+        0x7fffs
+        0xedcs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x2cs
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x7f2es
+        0x7fffs
+        0xfes
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x19s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x3fs
+        0xedcs
+        0x5cc5s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x3fs
+        0x7fffs
+        0x5cc5s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x3bs
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x32s
+        0x7fffs
+        0x7089s
+        0x0s
+        0x7089s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x2cs
+        0x76es
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        -0x64s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x2cs
+        0x7fffs
+        0x2352s
+        0x0s
+        0x2352s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x19s
+        0x7fffs
+        0x74c1s
+        0x0s
+        0x74c1s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3fs
+        0x7fffs
+        0x7620s
+        0x0s
+        0x761as
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3fs
+        0x4a4ds
+        0x4e02s
+        0x0s
+        0x4e02s
+        0x3b7s
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x64s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x19s
+        0xedcs
+        0x433ds
+        0x0s
+        0x433ds
+        0x3b7s
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x1f4s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x19s
+        0x7fffs
+        0x433ds
+        0x0s
+        0x433ds
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x38s
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        -0x38s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x79ccs
+        0x0s
+        0x79ccs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7cdcs
+        0x0s
+        0x7d47s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x73e5s
+        0x0s
+        0x73e5s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7bfes
+        0x0s
+        0x7a78s
+        0x7fffs
+        0x126s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x2710s
+        0x1bd1s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7a9fs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        -0x8fcs
+        0x2e90s
+        0x0s
+        0x0s
+        0x0s
+        0x496s
+        0x0s
+        0x7fffs
+        0x7cf4s
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        0x7d0s
+        0x29e1s
+        0x0s
+        0x8s
+        0xfs
+        0x496s
+        0x0s
+        0x7fffs
+        0x7cf4s
+        0x3b7s
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        0x7d0s
+        0x233fs
+        0x0s
+        0x5s
+        0xfs
+        0x1db8s
+        0x0s
+        0x7fffs
+        0x761ds
+        0x7fffs
+        0x45s
+        0x170as
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        0x1770s
+        0x2378s
+        0x0s
+        0x0s
+        -0x2s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7299s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x1s
+        0x1415s
+        0x0s
+        0x7fffs
+        0x75f2s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x6747s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x0s
+        0x6747s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x7d48s
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x960s
+        0x2531s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x761as
+        0x0s
+        0x761as
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x2ddas
+        0x0s
+        0x10s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x0s
+        0x7579s
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7bf2s
+        0x0s
+        0x7af4s
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7ea2s
+        0x0s
+        0x62f1s
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d34s
+        0x0s
+        0x7cdcs
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7cc2s
+        0x0s
+        0x7cc2s
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x2527s
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x76es
+        0x39s
+        0x3333s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1770s
+        0x159fs
+        0x0s
+        0x4s
+        0x0s
+        0x7fffs
+        0x7c0as
+        0x0s
+        0x7bf2s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fs
+        0x7faes
+        0xee3s
+        0x7e5ds
+        0x5fs
+        0x26s
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x1293s
+        0x7f97s
+        0xdees
+        0x7089s
+        0xedcs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x64s
+        0x0s
+        0x2e8fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7cbfs
+        0x0s
+        0x7cbfs
+        0x7fffs
+        0x14fs
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x1b58s
+        0x233fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7a9fs
+        0x0s
+        0x7a9fs
+        0x7fffs
+        0x14fs
+        0x0s
+        0x0s
+        0x0s
+        0x2s
+        0x3b7s
+        0x0s
+        0x1b58s
+        0x233fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f74s
+        0x1840s
+        0x7cbfs
+        0x17cs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0xf00s
+        0x206es
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x7dabs
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1388s
+        0x2081s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7cbfs
+        0x0s
+        0x7cbfs
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x1388s
+        0x1efes
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d75s
+        0x0s
+        0x77dds
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7df5s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0xacs
+        0x3dds
+        0x0s
+        0x3e8s
+        0x2b63s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x1840s
+        0x7cbfs
+        0x5fs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x656s
+        0x0s
+        0xde8s
+        0x2282s
+        0x1s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7e6as
+        0x0s
+        0x6747s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x1770s
+        0x26b3s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7df5s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7bf2s
+        0x4984s
+        0x2352s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7fcbs
+        0x80s
+        0x7da8s
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x2e90s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x7d48s
+        0x7fffs
+        0x43s
+        0x0s
+        0x0s
+        0x3s
+        0x0s
+        0x23cs
+        0x0s
+        0x1388s
+        0x159fs
+        0x0s
+        0x0s
+        0x0s
+        0xedcs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x7e8s
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3f0s
+        -0x1es
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x2f9s
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x1179s
+        0x1bdbs
+        0x0s
+        0x8s
+        0x0s
+        0x76es
+        0x7f74s
+        0x1840s
+        0x7dabs
+        0x27as
+        0x26s
+        0x4000s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0xbabs
+        0x1ec5s
+        0x0s
+        0xcs
+        0x0s
+        0x7fffs
+        0x7f51s
+        0x0s
+        0x7cbfs
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x48as
+        0x0s
+        0xfd5s
+        0x1efas
+        0x2s
+        0xcs
+        0x0s
+        0x17cs
+        0x7facs
+        0x1840s
+        0x7cbfs
+        0x7fffs
+        0x70s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x22b7s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x4f4s
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x13f9s
+        0x1f2ds
+        0x0s
+        0x4s
+        0x0s
+        0x76es
+        0x7f97s
+        0x1840s
+        0x7805s
+        0x76es
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0xdacs
+        0x1ec5s
+        0x0s
+        0x5s
+        0x0s
+        0x76es
+        0x7f97s
+        0x1840s
+        0x7805s
+        0x4f4s
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x12a5s
+        0x20a3s
+        0x0s
+        0x5s
+        0x0s
+        0x1dcs
+        0x7f97s
+        0x2a39s
+        0x7cbfs
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0xedcs
+        0x7f97s
+        0x4984s
+        0x761as
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x1db8s
+        0x7f97s
+        0x4984s
+        0x433ds
+        0x9e8s
+        0x105s
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x4b0s
+        0x2daas
+        0x0s
+        0x4s
+        0x0s
+        0x7fffs
+        0x7ed4s
+        0x3ae4s
+        0x761as
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x24s
+        0x887s
+        0x0s
+        0x0s
+        0x2e8fs
+        0x1s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x17cs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7a9fs
+        0x0s
+        0x7a9fs
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x5cc5s
+        0x4f4s
+        0xbes
+        0x3333s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0xc80s
+        0x2081s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x43fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x1ffbs
+        0x159fs
+        0x0s
+        0x5s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x72fas
+        0x7fffs
+        0xbes
+        0x1df3s
+        0x0s
+        0x5s
+        0x0s
+        0x3dds
+        0x0s
+        0x17a5s
+        0x159fs
+        0x0s
+        0x5s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x76es
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0xa8cs
+        0x267cs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x6cf9s
+        0x76es
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0xa8cs
+        0x267cs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x4f4s
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3b7s
+        0x0s
+        0x9c4s
+        0x28fas
+        0x1s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x5bc5s
+        0x5cc5s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dcs
+        0x0s
+        0xfa0s
+        0x27efs
+        0x1s
+        0x4s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x6cf9s
+        0x7fffs
+        0x7es
+        0x1df3s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x715s
+        0x23c2s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7bf2s
+        0x0s
+        0x7bf2s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x79ccs
+        0x0s
+        0x7714s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x2daas
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x4984s
+        0x6cf9s
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0xcs
+        0x22s
+        0x3b7s
+        0x0s
+        0xbb8s
+        0x27efs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x4984s
+        0x6cf9s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0xcs
+        0x22s
+        0x3b7s
+        0x0s
+        0x76cs
+        0x272fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x6747s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0xcs
+        0x22s
+        0x3dcs
+        0x0s
+        0x3e8s
+        0x2b63s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x6747s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0xcs
+        0x22s
+        0x3dcs
+        0x0s
+        0x7d0s
+        0x2b63s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7ef9s
+        0x0s
+        0x6747s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0xfa0s
+        0x2081s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7c58s
+        0x4db5s
+        0x2352s
+        0x7fffs
+        0x1dcs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x5acs
+        0x0s
+        0x0s
+        0x2e8fs
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7d48s
+        0x5bc5s
+        0x2352s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x22s
+        0x54bs
+        0x0s
+        0x0s
+        0x2e65s
+        0x1s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7ed4s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0xdacs
+        0x233fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x433ds
+        0x5bc5s
+        0x0s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x11s
+        0x5f1s
+        0x0s
+        0x0s
+        0x2aads
+        0x1s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7ef9s
+        0x0s
+        0x6747s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0xc80s
+        0x2211s
+        0x0s
+        0x4s
+        0x0s
+        0xedcs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x1s
+        0x0s
+        0x0s
+        0x2527s
+        0x7f97s
+        0x4984s
+        0x62f1s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x2e65s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x20s
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x18s
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x2f9s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0xbb8s
+        0x27efs
+        0x0s
+        0x8s
+        0x0s
+        0x7fs
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x5f2s
+        0x0s
+        0x0s
+        0x2c9fs
+        0x4s
+        0x0s
+        0x0s
+        0x3b7s
+        0x7ea6s
+        0x0s
+        0x7e83s
+        0x7fffs
+        0x13s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x2c9fs
+        0x0s
+        0x0s
+        0x0s
+        0x187s
+        0x0s
+        0x0s
+        0x79ccs
+        0xbes
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7805s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x2f9s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x4b0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7bf2s
+        0x0s
+        0x7cbfs
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x32s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x7d48s
+        0x7fffs
+        0x4a4ds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x125cs
+        0x1e59s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7579s
+        0x0s
+        0x7579s
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x7fffs
+        0x7f2es
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x433ds
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3b7s
+        0x0s
+        0x7d0s
+        0x29c8s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x2a39s
+        0x433ds
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0xcs
+        0x22s
+        0x3d6s
+        0x0s
+        0x0s
+        0x2a9es
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x433ds
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3b7s
+        0x0s
+        0x4b0s
+        0x27eas
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x433ds
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3b7s
+        0x0s
+        0x44cs
+        0x2535s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7f2es
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x13s
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3dcs
+        0x0s
+        0x7d0s
+        0x2ad2s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x4984s
+        0x5cc5s
+        0x4a4ds
+        0x27as
+        0x0s
+        0x0s
+        0xas
+        0x20s
+        0x3f0s
+        0x0s
+        0x4b0s
+        0x276as
+        0x0s
+        0x0s
+        0x0s
+        0x9e8s
+        0x0s
+        0x7fffs
+        0x6cf9s
+        0x76es
+        0x17cs
+        0x0s
+        0x0s
+        0x7s
+        0x22s
+        0x3dcs
+        0x0s
+        0x654s
+        0x22e5s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x2a39s
+        0x5cc5s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x7s
+        0x22s
+        0x3dcs
+        0x0s
+        0x898s
+        0x2322s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x3ae4s
+        0x5cc5s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3d6s
+        0x0s
+        0x9c4s
+        0x2535s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x3ae4s
+        0x5cc5s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3b7s
+        0x0s
+        0x5dcs
+        0x2c9fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x9s
+        0x22s
+        0x3d6s
+        0x0s
+        0x5dcs
+        0x2531s
+        0x0s
+        0x0s
+        0x0s
+        0xedcs
+        0x0s
+        0x7fffs
+        0x7089s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x0s
+        0x5f1s
+        0x0s
+        0x0s
+        0x2531s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x4a4ds
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x1388s
+        0x27efs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3b7s
+        0x0s
+        0x5dcs
+        0x26b3s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7fbas
+        0x2da2s
+        0x5cc5s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x7d48s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0xd70s
+        0x242cs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x761as
+        0x0s
+        0x7805s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7bf2s
+        0x0s
+        0x7805s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x11s
+        0x3dds
+        0x0s
+        0xfa0s
+        0x1e8fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0xdees
+        0x5cc5s
+        0x30fs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x64s
+        0x0s
+        0x5f2s
+        0x1f4s
+        0x0s
+        0x2e65s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x433ds
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x8s
+        0x22s
+        0x3dds
+        -0x16s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x714fs
+        0x1a80s
+        0x5cc5s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x1388s
+        0x2531s
+        0x1s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x7cbfs
+        0x76es
+        0xfes
+        0x4000s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0xe2bs
+        0x2933s
+        0x0s
+        0x5s
+        0x0s
+        0xedcs
+        0x0s
+        0x7fffs
+        0x5cc5s
+        0x76es
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x1bs
+        0x0s
+        0x2e8fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x0s
+        0x7fffs
+        0x7bf2s
+        0x4cs
+        0x42s
+        0x276cs
+        0x0s
+        0x5s
+        0x0s
+        0x3dds
+        0x0s
+        0x1f47s
+        0x159fs
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7ed4s
+        0x0s
+        0x72fas
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0x9c4s
+        0x2348s
+        0x0s
+        0x0s
+        0x0s
+        0x2527s
+        0x7f97s
+        0x2a39s
+        0x62f1s
+        0x7fffs
+        0x7fffs
+        0x7fffs
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7f2es
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0xas
+        0x22s
+        0x3dcs
+        0x0s
+        0xa28s
+        0x2529s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d6as
+        0x2560s
+        0x5cc5s
+        0x92cs
+        0x187s
+        0x0s
+        0x0s
+        0xas
+        0x34s
+        0x3d4s
+        0x0s
+        0x1964s
+        0x233fs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x6747s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x3ae4s
+        0x433ds
+        0x7fffs
+        0x4f4s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3b7s
+        0x0s
+        0x7d0s
+        0x27efs
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f2es
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x17cs
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0xbb8s
+        0x2496s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x76es
+        0x7fs
+        0x2a7fs
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1770s
+        0x1bd1s
+        0x0s
+        0x4s
+        0x0s
+        0x7fffs
+        0x7ef9s
+        0x0s
+        0x6747s
+        0x7fffs
+        0x15s
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0xdacs
+        0x185cs
+        0x0s
+        0x5s
+        0x0s
+        0x7fffs
+        0x7ef9s
+        0x0s
+        0x6747s
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0xaf0s
+        0x1bd1s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7ea2s
+        0x0s
+        0x72fas
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0x834s
+        0x259as
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x0s
+        0x761as
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0xbb8s
+        0x259as
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7e20s
+        0x0s
+        0x6ef0s
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0x3e8s
+        0x2348s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7d48s
+        0x0s
+        0x7089s
+        0x7fffs
+        0x7fs
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dds
+        0x0s
+        0x3e8s
+        0x2348s
+        0x0s
+        0x0s
+        0x0s
+        0xedcs
+        0x7d48s
+        0x3ae4s
+        0x433ds
+        0x7fffs
+        0x4f4s
+        0x0s
+        0x0s
+        0x0s
+        0x34s
+        0x3dfs
+        0x0s
+        0x0s
+        0x2b63s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7e5ds
+        0x3ae4s
+        0x5cc5s
+        0x1db8s
+        0x93s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1194s
+        0x2531s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7f97s
+        0x4984s
+        0x5cc5s
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x7d0s
+        0x2081s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7fcbs
+        0x80s
+        0x73e5s
+        0x7fffs
+        0x6c1s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1770s
+        0x1e8fs
+        0x0s
+        0x8s
+        0x0s
+        0x4a4ds
+        0x7ec0s
+        0x0s
+        0x7c8as
+        0x7fffs
+        0x5fs
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1194s
+        0x1bd1s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7f30s
+        0xe3es
+        0x7d6bs
+        0x7fffs
+        0xbes
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0xfa0s
+        0x2081s
+        0x0s
+        0x8s
+        0x0s
+        0x7fffs
+        0x7f5as
+        0x354cs
+        0x6747s
+        0x7fffs
+        0x3fs
+        0x0s
+        0x0s
+        0xcs
+        0x22s
+        0x3dcs
+        0x0s
+        0x7d0s
+        0x2b63s
+        0x0s
+        0x0s
+        0x0s
+        0x4a4ds
+        0x7714s
+        0x0s
+        0x5cc5s
+        0x7fffs
+        0x76es
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x3dds
+        0x0s
+        0x1388s
+        0x2081s
+        0x1s
+        0x0s
+        0x0s
+        0x105s
+        0x7ed2s
+        0x0s
+        0x7cc2s
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x7fffs
+        0x7ea2s
+        0x0s
+        0x7bfes
+        0x92cs
+        0x27s
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3dds
+        0x0s
+        0xe10s
+        0x1bd1s
+        0x0s
+        0x4s
+        0x0s
+        0x7fffs
+        0x7d5as
+        0x0s
+        0x7d5as
+        0x7fffs
+        0x27as
+        0x0s
+        0x0s
+        0x0s
+        0x22s
+        0x3b7s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x685s
+        0x7fcbs
+        0x4b2as
+        0x75f2s
+        0x7fffs
+        0x128s
+        0x0s
+        0x0s
+        0x0s
+        0x0s
+        0x613s
+        0x0s
+        0xbb8s
+        0x26b3s
+        0x0s
+        0x4s
+        0x0s
+    .end array-data
+.end method
+
+.method public static a(I)Lax/X0/i$a;
+    .registers 13
+
+    .line 1
+    mul-int/lit8 p0, p0, 0x11
+
+    .line 2
+    .line 3
+    new-instance v0, Lax/X0/i$a;
+
+    .line 4
+    .line 5
+    new-instance v1, Lax/X0/i$b;
+
+    .line 6
+    .line 7
+    sget-object v2, Lax/X0/i;->e:[S
+
+    .line 8
+    .line 9
+    add-int/lit8 v3, p0, 0x1
+
+    .line 10
+    .line 11
+    aget-short v4, v2, p0
+
+    .line 12
+    .line 13
+    add-int/lit8 v5, p0, 0x2
+
+    .line 14
+    .line 15
+    aget-short v3, v2, v3
+
+    .line 16
+    .line 17
+    add-int/lit8 v6, p0, 0x3
+
+    .line 18
+    .line 19
+    aget-short v5, v2, v5
+
+    .line 20
+    .line 21
+    add-int/lit8 v7, p0, 0x4
+
+    .line 22
+    .line 23
+    aget-short v6, v2, v6
+
+    .line 24
+    .line 25
+    invoke-direct {v1, v4, v3, v5, v6}, Lax/X0/i$b;-><init>(SSSS)V
+
+    .line 26
+    .line 27
+    .line 28
+    move-object v3, v2
+
+    .line 29
+    new-instance v2, Lax/X0/i$b;
+
+    .line 30
+    .line 31
+    add-int/lit8 v4, p0, 0x5
+
+    .line 32
+    .line 33
+    aget-short v5, v3, v7
+
+    .line 34
+    .line 35
+    add-int/lit8 v6, p0, 0x6
+
+    .line 36
+    .line 37
+    aget-short v4, v3, v4
+
+    .line 38
+    .line 39
+    add-int/lit8 v7, p0, 0x7
+
+    .line 40
+    .line 41
+    aget-short v6, v3, v6
+
+    .line 42
+    .line 43
+    add-int/lit8 v8, p0, 0x8
+
+    .line 44
+    .line 45
+    aget-short v7, v3, v7
+
+    .line 46
+    .line 47
+    invoke-direct {v2, v5, v4, v6, v7}, Lax/X0/i$b;-><init>(SSSS)V
+
+    .line 48
+    .line 49
+    .line 50
+    add-int/lit8 v4, p0, 0x9
+
+    .line 51
+    .line 52
+    aget-short v5, v3, v8
+
+    .line 53
+    .line 54
+    add-int/lit8 v6, p0, 0xa
+
+    .line 55
+    .line 56
+    aget-short v4, v3, v4
+
+    .line 57
+    .line 58
+    add-int/lit8 v7, p0, 0xb
+
+    .line 59
+    .line 60
+    aget-short v6, v3, v6
+
+    .line 61
+    .line 62
+    add-int/lit8 v8, p0, 0xc
+
+    .line 63
+    .line 64
+    aget-short v7, v3, v7
+
+    .line 65
+    .line 66
+    add-int/lit8 v9, p0, 0xd
+
+    .line 67
+    .line 68
+    aget-short v8, v3, v8
+
+    .line 69
+    .line 70
+    add-int/lit8 v10, p0, 0xe
+
+    .line 71
+    .line 72
+    aget-short v9, v3, v9
+
+    .line 73
+    .line 74
+    add-int/lit8 v11, p0, 0xf
+
+    .line 75
+    .line 76
+    aget-short v10, v3, v10
+
+    .line 77
+    .line 78
+    int-to-byte v10, v10
+
+    .line 79
+    add-int/lit8 p0, p0, 0x10
+
+    .line 80
+    .line 81
+    aget-short v11, v3, v11
+
+    .line 82
+    .line 83
+    aget-short p0, v3, p0
+
+    .line 84
+    .line 85
+    int-to-byte p0, p0
+
+    .line 86
+    move v3, v5
+
+    .line 87
+    move v5, v6
+
+    .line 88
+    move v6, v7
+
+    .line 89
+    move v7, v8
+
+    .line 90
+    move v8, v9
+
+    .line 91
+    move v9, v10
+
+    .line 92
+    move v10, v11
+
+    .line 93
+    move v11, p0
+
+    .line 94
+    invoke-direct/range {v0 .. v11}, Lax/X0/i$a;-><init>(Lax/X0/i$b;Lax/X0/i$b;SSSSSSBSB)V
+
+    .line 95
+    .line 96
+    .line 97
+    return-object v0
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+.end method
+
+.method public static b(I)Lax/X0/i$c;
+    .registers 13
+
+    .line 1
+    mul-int/lit8 p0, p0, 0x9
+
+    .line 2
+    .line 3
+    sget-object v0, Lax/X0/i;->d:[I
+
+    .line 4
+    .line 5
+    add-int/lit8 v1, p0, 0x1
+
+    .line 6
+    .line 7
+    aget v7, v0, p0
+
+    .line 8
+    .line 9
+    add-int/lit8 v2, p0, 0x2
+
+    .line 10
+    .line 11
+    aget v1, v0, v1
+
+    .line 12
+    .line 13
+    int-to-byte v8, v1
+
+    .line 14
+    add-int/lit8 v1, p0, 0x3
+
+    .line 15
+    .line 16
+    aget v2, v0, v2
+
+    .line 17
+    .line 18
+    int-to-byte v9, v2
+
+    .line 19
+    add-int/lit8 v2, p0, 0x4
+
+    .line 20
+    .line 21
+    aget v1, v0, v1
+
+    .line 22
+    .line 23
+    int-to-short v10, v1
+
+    .line 24
+    add-int/lit8 v1, p0, 0x5
+
+    .line 25
+    .line 26
+    aget v2, v0, v2
+
+    .line 27
+    .line 28
+    int-to-short v11, v2
+
+    .line 29
+    add-int/lit8 v2, p0, 0x6
+
+    .line 30
+    .line 31
+    aget v3, v0, v1
+
+    .line 32
+    .line 33
+    add-int/lit8 v1, p0, 0x7
+
+    .line 34
+    .line 35
+    aget v4, v0, v2
+
+    .line 36
+    .line 37
+    add-int/lit8 p0, p0, 0x8
+
+    .line 38
+    .line 39
+    aget v5, v0, v1
+
+    .line 40
+    .line 41
+    aget v6, v0, p0
+
+    .line 42
+    .line 43
+    new-instance v2, Lax/X0/i$c;
+
+    .line 44
+    .line 45
+    invoke-direct/range {v2 .. v11}, Lax/X0/i$c;-><init>(IIIIIBBSS)V
+
+    .line 46
+    .line 47
+    .line 48
+    return-object v2
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+.end method
+
+.method public static c()[Ljava/lang/String;
+    .registers 130
+
+    .line 1
+    const-string v128, "Gunshot"
+
+    .line 2
+    .line 3
+    const-string v129, "Rhythm"
+
+    .line 4
+    .line 5
+    const-string v1, "Acoustic Grand"
+
+    .line 6
+    .line 7
+    const-string v2, "Bright Acoustic"
+
+    .line 8
+    .line 9
+    const-string v3, "Electric Grand"
+
+    .line 10
+    .line 11
+    const-string v4, "Honky-Tonk"
+
+    .line 12
+    .line 13
+    const-string v5, "Electric Piano 1"
+
+    .line 14
+    .line 15
+    const-string v6, "Electric Piano 2"
+
+    .line 16
+    .line 17
+    const-string v7, "Harpsichord"
+
+    .line 18
+    .line 19
+    const-string v8, "Clav"
+
+    .line 20
+    .line 21
+    const-string v9, "Celesta"
+
+    .line 22
+    .line 23
+    const-string v10, "Glockenspiel"
+
+    .line 24
+    .line 25
+    const-string v11, "Music Box"
+
+    .line 26
+    .line 27
+    const-string v12, "Vibraphone"
+
+    .line 28
+    .line 29
+    const-string v13, "Marimba"
+
+    .line 30
+    .line 31
+    const-string v14, "Xylophone"
+
+    .line 32
+    .line 33
+    const-string v15, "Tubular Bells"
+
+    .line 34
+    .line 35
+    const-string v16, "Dulcimer"
+
+    .line 36
+    .line 37
+    const-string v17, "Drawbar Organ"
+
+    .line 38
+    .line 39
+    const-string v18, "Percussive Organ"
+
+    .line 40
+    .line 41
+    const-string v19, "Rock Organ"
+
+    .line 42
+    .line 43
+    const-string v20, "Church Organ"
+
+    .line 44
+    .line 45
+    const-string v21, "Reed Organ"
+
+    .line 46
+    .line 47
+    const-string v22, "Accordian"
+
+    .line 48
+    .line 49
+    const-string v23, "Harmonica"
+
+    .line 50
+    .line 51
+    const-string v24, "Tango Accordian"
+
+    .line 52
+    .line 53
+    const-string v25, "Acoustic Guitar(nylon)"
+
+    .line 54
+    .line 55
+    const-string v26, "Acoustic Guitar(steel)"
+
+    .line 56
+    .line 57
+    const-string v27, "Electric Guitar(jazz)"
+
+    .line 58
+    .line 59
+    const-string v28, "Electric Guitar(clean)"
+
+    .line 60
+    .line 61
+    const-string v29, "Electric Guitar(muted)"
+
+    .line 62
+    .line 63
+    const-string v30, "Overdriven Guitar"
+
+    .line 64
+    .line 65
+    const-string v31, "Distortion Guitar"
+
+    .line 66
+    .line 67
+    const-string v32, "Guitar Harmonics"
+
+    .line 68
+    .line 69
+    const-string v33, "Acoustic Bass"
+
+    .line 70
+    .line 71
+    const-string v34, "Electric Bass(finger)"
+
+    .line 72
+    .line 73
+    const-string v35, "Electric Bass(pick)"
+
+    .line 74
+    .line 75
+    const-string v36, "Fretless Bass"
+
+    .line 76
+    .line 77
+    const-string v37, "Slap Bass 1"
+
+    .line 78
+    .line 79
+    const-string v38, "Slap Bass 2"
+
+    .line 80
+    .line 81
+    const-string v39, "Synth Bass 1"
+
+    .line 82
+    .line 83
+    const-string v40, "Synth Bass 2"
+
+    .line 84
+    .line 85
+    const-string v41, "Violin"
+
+    .line 86
+    .line 87
+    const-string v42, "Viola"
+
+    .line 88
+    .line 89
+    const-string v43, "Cello"
+
+    .line 90
+    .line 91
+    const-string v44, "Contrabass"
+
+    .line 92
+    .line 93
+    const-string v45, "Tremolo Strings"
+
+    .line 94
+    .line 95
+    const-string v46, "Pizzicato Strings"
+
+    .line 96
+    .line 97
+    const-string v47, "Orchestral Harp"
+
+    .line 98
+    .line 99
+    const-string v48, "Timpani"
+
+    .line 100
+    .line 101
+    const-string v49, "String Ensembles 1"
+
+    .line 102
+    .line 103
+    const-string v50, "String Ensembles 2"
+
+    .line 104
+    .line 105
+    const-string v51, "SynthStrings 1"
+
+    .line 106
+    .line 107
+    const-string v52, "SynthStrings 2"
+
+    .line 108
+    .line 109
+    const-string v53, "Choir Aahs"
+
+    .line 110
+    .line 111
+    const-string v54, "Voice Oohs"
+
+    .line 112
+    .line 113
+    const-string v55, "Synth Voice"
+
+    .line 114
+    .line 115
+    const-string v56, "Orchestra Hit"
+
+    .line 116
+    .line 117
+    const-string v57, "Trumpet"
+
+    .line 118
+    .line 119
+    const-string v58, "Trombone"
+
+    .line 120
+    .line 121
+    const-string v59, "Tuba"
+
+    .line 122
+    .line 123
+    const-string v60, "Muted Trumpet"
+
+    .line 124
+    .line 125
+    const-string v61, "French Horn"
+
+    .line 126
+    .line 127
+    const-string v62, "Brass Section"
+
+    .line 128
+    .line 129
+    const-string v63, "SynthBrass 1"
+
+    .line 130
+    .line 131
+    const-string v64, "SynthBrass 2"
+
+    .line 132
+    .line 133
+    const-string v65, "Soprano Sax"
+
+    .line 134
+    .line 135
+    const-string v66, "Alto Sax"
+
+    .line 136
+    .line 137
+    const-string v67, "Tenor Sax"
+
+    .line 138
+    .line 139
+    const-string v68, "Baritone Sax"
+
+    .line 140
+    .line 141
+    const-string v69, "Oboe"
+
+    .line 142
+    .line 143
+    const-string v70, "English Horn"
+
+    .line 144
+    .line 145
+    const-string v71, "Bassoon"
+
+    .line 146
+    .line 147
+    const-string v72, "Clarinet"
+
+    .line 148
+    .line 149
+    const-string v73, "Piccolo"
+
+    .line 150
+    .line 151
+    const-string v74, "Flute"
+
+    .line 152
+    .line 153
+    const-string v75, "Recorder"
+
+    .line 154
+    .line 155
+    const-string v76, "Pan Flute"
+
+    .line 156
+    .line 157
+    const-string v77, "Blown Bottle"
+
+    .line 158
+    .line 159
+    const-string v78, "Skakuhachi"
+
+    .line 160
+    .line 161
+    const-string v79, "Whistle"
+
+    .line 162
+    .line 163
+    const-string v80, "Ocarina"
+
+    .line 164
+    .line 165
+    const-string v81, "Lead 1 (square)"
+
+    .line 166
+    .line 167
+    const-string v82, "Lead 2 (sawtooth)"
+
+    .line 168
+    .line 169
+    const-string v83, "Lead 3 (calliope)"
+
+    .line 170
+    .line 171
+    const-string v84, "Lead 4 (chiff)"
+
+    .line 172
+    .line 173
+    const-string v85, "Lead 5 (charang)"
+
+    .line 174
+    .line 175
+    const-string v86, "Lead 6 (voice)"
+
+    .line 176
+    .line 177
+    const-string v87, "Lead 7 (fifths)"
+
+    .line 178
+    .line 179
+    const-string v88, "Lead 8 (bass+lead)"
+
+    .line 180
+    .line 181
+    const-string v89, "Pad 1 (new age)"
+
+    .line 182
+    .line 183
+    const-string v90, "Pad 2 (warm)"
+
+    .line 184
+    .line 185
+    const-string v91, "Pad 3 (polysynth)"
+
+    .line 186
+    .line 187
+    const-string v92, "Pad 4 (choir)"
+
+    .line 188
+    .line 189
+    const-string v93, "Pad 5 (bowed)"
+
+    .line 190
+    .line 191
+    const-string v94, "Pad 6 (metallic)"
+
+    .line 192
+    .line 193
+    const-string v95, "Pad 7 (halo)"
+
+    .line 194
+    .line 195
+    const-string v96, "Pad 8 (sweep)"
+
+    .line 196
+    .line 197
+    const-string v97, "FX 1 (rain)"
+
+    .line 198
+    .line 199
+    const-string v98, "FX 2 (soundtrack)"
+
+    .line 200
+    .line 201
+    const-string v99, "FX 3 (crystal)"
+
+    .line 202
+    .line 203
+    const-string v100, "FX 4 (atmosphere)"
+
+    .line 204
+    .line 205
+    const-string v101, "FX 5 (brightness)"
+
+    .line 206
+    .line 207
+    const-string v102, "FX 6 (goblins)"
+
+    .line 208
+    .line 209
+    const-string v103, "FX 7 (echoes)"
+
+    .line 210
+    .line 211
+    const-string v104, "FX 8 (sci-fi)"
+
+    .line 212
+    .line 213
+    const-string v105, "Sitar"
+
+    .line 214
+    .line 215
+    const-string v106, "Banjo"
+
+    .line 216
+    .line 217
+    const-string v107, "Shamisen"
+
+    .line 218
+    .line 219
+    const-string v108, "Koto"
+
+    .line 220
+    .line 221
+    const-string v109, "Kalimba"
+
+    .line 222
+    .line 223
+    const-string v110, "Bagpipe"
+
+    .line 224
+    .line 225
+    const-string v111, "Fiddle"
+
+    .line 226
+    .line 227
+    const-string v112, "Shanai"
+
+    .line 228
+    .line 229
+    const-string v113, "Tinkle Bell"
+
+    .line 230
+    .line 231
+    const-string v114, "Agogo"
+
+    .line 232
+    .line 233
+    const-string v115, "Steel Drums"
+
+    .line 234
+    .line 235
+    const-string v116, "Woodblock"
+
+    .line 236
+    .line 237
+    const-string v117, "Taiko Drum"
+
+    .line 238
+    .line 239
+    const-string v118, "Melodic Tom"
+
+    .line 240
+    .line 241
+    const-string v119, "Synth Drum"
+
+    .line 242
+    .line 243
+    const-string v120, "Reverse Cymbal"
+
+    .line 244
+    .line 245
+    const-string v121, "Guitar Fret Noise"
+
+    .line 246
+    .line 247
+    const-string v122, "Breath Noise"
+
+    .line 248
+    .line 249
+    const-string v123, "Seashore"
+
+    .line 250
+    .line 251
+    const-string v124, "Bird Tweet"
+
+    .line 252
+    .line 253
+    const-string v125, "Telephone Ring"
+
+    .line 254
+    .line 255
+    const-string v126, "Helicopter"
+
+    .line 256
+    .line 257
+    const-string v127, "Applause"
+
+    .line 258
+    .line 259
+    filled-new-array/range {v1 .. v129}, [Ljava/lang/String;
+
+    .line 260
+    .line 261
+    .line 262
+    move-result-object v0
+
+    .line 263
+    return-object v0
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
+    .line 565
+    .line 566
+    .line 567
+    .line 568
+    .line 569
+    .line 570
+    .line 571
+    .line 572
+    .line 573
+    .line 574
+    .line 575
+    .line 576
+    .line 577
+    .line 578
+    .line 579
+    .line 580
+    .line 581
+    .line 582
+    .line 583
+    .line 584
+    .line 585
+    .line 586
+    .line 587
+    .line 588
+    .line 589
+    .line 590
+    .line 591
+    .line 592
+    .line 593
+    .line 594
+    .line 595
+    .line 596
+    .line 597
+    .line 598
+    .line 599
+    .line 600
+    .line 601
+    .line 602
+    .line 603
+    .line 604
+    .line 605
+    .line 606
+    .line 607
+    .line 608
+    .line 609
+    .line 610
+    .line 611
+    .line 612
+    .line 613
+    .line 614
+    .line 615
+    .line 616
+    .line 617
+    .line 618
+    .line 619
+    .line 620
+    .line 621
+    .line 622
+    .line 623
+    .line 624
+    .line 625
+    .line 626
+    .line 627
+    .line 628
+    .line 629
+    .line 630
+    .line 631
+    .line 632
+    .line 633
+    .line 634
+    .line 635
+    .line 636
+    .line 637
+    .line 638
+    .line 639
+    .line 640
+    .line 641
+    .line 642
+    .line 643
+    .line 644
+    .line 645
+    .line 646
+    .line 647
+    .line 648
+    .line 649
+    .line 650
+    .line 651
+    .line 652
+    .line 653
+    .line 654
+    .line 655
+    .line 656
+    .line 657
+    .line 658
+    .line 659
+    .line 660
+    .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
+    .line 721
+    .line 722
+    .line 723
+    .line 724
+    .line 725
+    .line 726
+    .line 727
+    .line 728
+    .line 729
+    .line 730
+    .line 731
+    .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
+    .line 853
+    .line 854
+    .line 855
+    .line 856
+    .line 857
+    .line 858
+    .line 859
+    .line 860
+    .line 861
+    .line 862
+    .line 863
+    .line 864
+    .line 865
+    .line 866
+    .line 867
+    .line 868
+    .line 869
+    .line 870
+    .line 871
+    .line 872
+    .line 873
+    .line 874
+    .line 875
+    .line 876
+    .line 877
+    .line 878
+    .line 879
+    .line 880
+    .line 881
+    .line 882
+    .line 883
+    .line 884
+    .line 885
+    .line 886
+    .line 887
+    .line 888
+    .line 889
+    .line 890
+    .line 891
+    .line 892
+    .line 893
+    .line 894
+    .line 895
+    .line 896
+    .line 897
+    .line 898
+    .line 899
+    .line 900
+    .line 901
+    .line 902
+    .line 903
+    .line 904
+    .line 905
+    .line 906
+    .line 907
+    .line 908
+    .line 909
+    .line 910
+    .line 911
+    .line 912
+    .line 913
+    .line 914
+    .line 915
+    .line 916
+    .line 917
+    .line 918
+    .line 919
+    .line 920
+    .line 921
+    .line 922
+    .line 923
+    .line 924
+    .line 925
+    .line 926
+    .line 927
+    .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
+    .line 1125
+    .line 1126
+    .line 1127
+    .line 1128
+    .line 1129
+    .line 1130
+    .line 1131
+    .line 1132
+    .line 1133
+    .line 1134
+    .line 1135
+    .line 1136
+    .line 1137
+    .line 1138
+    .line 1139
+    .line 1140
+    .line 1141
+    .line 1142
+    .line 1143
+    .line 1144
+    .line 1145
+    .line 1146
+    .line 1147
+    .line 1148
+    .line 1149
+    .line 1150
+    .line 1151
+    .line 1152
+    .line 1153
+    .line 1154
+    .line 1155
+    .line 1156
+    .line 1157
+    .line 1158
+    .line 1159
+    .line 1160
+    .line 1161
+    .line 1162
+    .line 1163
+    .line 1164
+    .line 1165
+    .line 1166
+    .line 1167
+    .line 1168
+    .line 1169
+    .line 1170
+    .line 1171
+    .line 1172
+    .line 1173
+    .line 1174
+    .line 1175
+    .line 1176
+    .line 1177
+    .line 1178
+    .line 1179
+    .line 1180
+    .line 1181
+    .line 1182
+    .line 1183
+    .line 1184
+    .line 1185
+    .line 1186
+    .line 1187
+    .line 1188
+    .line 1189
+    .line 1190
+    .line 1191
+    .line 1192
+    .line 1193
+    .line 1194
+    .line 1195
+    .line 1196
+    .line 1197
+    .line 1198
+    .line 1199
+    .line 1200
+    .line 1201
+    .line 1202
+    .line 1203
+    .line 1204
+    .line 1205
+    .line 1206
+    .line 1207
+    .line 1208
+    .line 1209
+    .line 1210
+    .line 1211
+    .line 1212
+    .line 1213
+    .line 1214
+    .line 1215
+    .line 1216
+    .line 1217
+    .line 1218
+    .line 1219
+    .line 1220
+    .line 1221
+    .line 1222
+    .line 1223
+    .line 1224
+    .line 1225
+    .line 1226
+    .line 1227
+    .line 1228
+    .line 1229
+    .line 1230
+    .line 1231
+    .line 1232
+    .line 1233
+    .line 1234
+    .line 1235
+    .line 1236
+    .line 1237
+    .line 1238
+    .line 1239
+    .line 1240
+    .line 1241
+    .line 1242
+    .line 1243
+.end method
+
+.method public static d(I)I
+    .registers 2
+
+    .line 1
+    sget-object v0, Lax/X0/i;->a:[I
+
+    .line 2
+    .line 3
+    aget p0, v0, p0
+
+    .line 4
+    .line 5
+    return p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public static e()I
+    .registers 1
+
+    .line 1
+    sget-object v0, Lax/X0/i;->c:[I
+
+    .line 2
+    .line 3
+    array-length v0, v0
+
+    .line 4
+    return v0
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+.end method
+
+.method public static f(I)I
+    .registers 2
+
+    .line 1
+    sget-object v0, Lax/X0/i;->c:[I
+
+    .line 2
+    .line 3
+    aget p0, v0, p0
+
+    .line 4
+    .line 5
+    return p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public static g(I)I
+    .registers 2
+
+    .line 1
+    sget-object v0, Lax/X0/i;->b:[I
+
+    .line 2
+    .line 3
+    aget p0, v0, p0
+
+    .line 4
+    .line 5
+    return p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public static h(Landroid/content/Context;)[S
+    .registers 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lax/X0/c;
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p0}, Lax/X0/i;->i(Landroid/content/Context;)[B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    sget-object v0, Lax/X0/i;->c:[I
+
+    .line 6
+    .line 7
+    array-length v1, v0
+
+    .line 8
+    add-int/lit8 v1, v1, -0x1
+
+    .line 9
+    .line 10
+    aget v0, v0, v1
+
+    .line 11
+    .line 12
+    sget-object v1, Lax/X0/i;->b:[I
+
+    .line 13
+    .line 14
+    array-length v2, v1
+
+    .line 15
+    add-int/lit8 v2, v2, -0x1
+
+    .line 16
+    .line 17
+    aget v1, v1, v2
+
+    .line 18
+    .line 19
+    add-int/2addr v0, v1
+
+    .line 20
+    array-length v1, p0
+
+    .line 21
+    invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v0
+
+    .line 25
+    new-array v0, v0, [S
+
+    .line 26
+    .line 27
+    const/4 v1, 0x0
+
+    .line 28
+    :goto_1b
+    array-length v2, p0
+
+    .line 29
+    if-ge v1, v2, :cond_28
+
+    .line 30
+    .line 31
+    aget-byte v2, p0, v1
+
+    .line 32
+    .line 33
+    shl-int/lit8 v2, v2, 0x8
+
+    .line 34
+    .line 35
+    int-to-short v2, v2
+
+    .line 36
+    aput-short v2, v0, v1
+
+    .line 37
+    .line 38
+    add-int/lit8 v1, v1, 0x1
+
+    .line 39
+    .line 40
+    goto :goto_1b
+
+    .line 41
+    :cond_28
+    return-object v0
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+.end method
+
+.method private static i(Landroid/content/Context;)[B
+    .registers 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lax/X0/c;
+        }
+    .end annotation
+
+    .line 1
+    :try_start_0
+    invoke-virtual {p0}, Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    const-string v0, "sonivox_wave_data.dat"
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, v0}, Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    invoke-static {p0}, Lax/S0/a;->i(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p0
+
+    .line 15
+    check-cast p0, Ljava/io/InputStream;
+    :try_end_10
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_10} :catch_59
+
+    .line 16
+    .line 17
+    :try_start_10
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 18
+    .line 19
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 20
+    .line 21
+    .line 22
+    new-instance v1, Ljava/io/BufferedReader;
+
+    .line 23
+    .line 24
+    new-instance v2, Ljava/io/InputStreamReader;
+
+    .line 25
+    .line 26
+    invoke-direct {v2, p0}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-direct {v1, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+
+    .line 30
+    .line 31
+    .line 32
+    :cond_1f
+    :goto_1f
+    invoke-virtual {v1}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v2
+
+    .line 36
+    if-eqz v2, :cond_3c
+
+    .line 37
+    .line 38
+    const-string v3, "/"
+
+    .line 39
+    .line 40
+    invoke-virtual {v2, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v3
+
+    .line 44
+    if-nez v3, :cond_1f
+
+    .line 45
+    .line 46
+    const-string v3, " "
+
+    .line 47
+    .line 48
+    invoke-virtual {v2, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    .line 49
+    .line 50
+    .line 51
+    move-result v3
+
+    .line 52
+    if-eqz v3, :cond_36
+
+    .line 53
+    .line 54
+    goto :goto_1f
+
+    .line 55
+    :cond_36
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 56
+    .line 57
+    .line 58
+    goto :goto_1f
+
+    .line 59
+    :catchall_3a
+    move-exception v0
+
+    .line 60
+    goto :goto_4e
+
+    .line 61
+    :cond_3c
+    invoke-static {}, Lax/s7/a;->a()Lax/s7/a;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v1
+
+    .line 65
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object v0
+
+    .line 69
+    invoke-virtual {v1, v0}, Lax/s7/a;->b(Ljava/lang/CharSequence;)[B
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v0
+    :try_end_48
+    .catchall {:try_start_10 .. :try_end_48} :catchall_3a
+
+    .line 73
+    if-eqz p0, :cond_4d
+
+    .line 74
+    .line 75
+    :try_start_4a
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
+    :try_end_4d
+    .catch Ljava/io/IOException; {:try_start_4a .. :try_end_4d} :catch_59
+
+    .line 76
+    .line 77
+    .line 78
+    :cond_4d
+    return-object v0
+
+    .line 79
+    :goto_4e
+    if-eqz p0, :cond_58
+
+    .line 80
+    .line 81
+    :try_start_50
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
+    :try_end_53
+    .catchall {:try_start_50 .. :try_end_53} :catchall_54
+
+    .line 82
+    .line 83
+    .line 84
+    goto :goto_58
+
+    .line 85
+    :catchall_54
+    move-exception p0
+
+    .line 86
+    :try_start_55
+    invoke-virtual {v0, p0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+
+    .line 87
+    .line 88
+    .line 89
+    :cond_58
+    :goto_58
+    throw v0
+    :try_end_59
+    .catch Ljava/io/IOException; {:try_start_55 .. :try_end_59} :catch_59
+
+    .line 90
+    :catch_59
+    move-exception p0
+
+    .line 91
+    new-instance v0, Lax/X0/c;
+
+    .line 92
+    .line 93
+    const-string v1, "Could not load wave table data"
+
+    .line 94
+    .line 95
+    invoke-direct {v0, v1, p0}, Lax/X0/c;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 96
+    .line 97
+    .line 98
+    throw v0
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+.end method

@@ -1,0 +1,7 @@
+.class public interface abstract Lax/V/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lax/V/a;
+.implements Landroid/view/SubMenu;

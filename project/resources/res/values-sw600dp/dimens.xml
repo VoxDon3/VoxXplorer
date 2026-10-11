@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="design_navigation_max_width">320dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24dp</dimen>
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="design_tab_scrollable_min_width">160dp</dimen>
+    <dimen name="desktop2_grid_column_width">160dp</dimen>
+    <dimen name="desktop2_grid_icon_size">120dp</dimen>
+    <dimen name="desktop_grid_column_width">160dp</dimen>
+    <dimen name="desktop_grid_icon_size">120dp</dimen>
+    <dimen name="desktop_item_info_text_size">16sp</dimen>
+    <dimen name="desktop_item_name_text_size">20sp</dimen>
+    <dimen name="file_grid_column_width_large">94dp</dimen>
+    <dimen name="file_grid_column_width_medium">80dp</dimen>
+    <dimen name="file_grid_folder_icon_size_large">30dp</dimen>
+    <dimen name="file_grid_folder_icon_size_medium">26dp</dimen>
+    <dimen name="file_grid_icon_size_large">88dp</dimen>
+    <dimen name="file_grid_icon_size_medium">74dp</dimen>
+    <dimen name="file_grid_padding">8dp</dimen>
+    <dimen name="file_grid_text_size">17sp</dimen>
+    <dimen name="mtrl_bottomappbar_height">64dp</dimen>
+    <dimen name="mtrl_toolbar_default_height">64dp</dimen>
+</resources>

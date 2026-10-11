@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_app_title">"앱 종료"</string>
+    <string name="exit_app_message">"Vox Xplorer를 닫으시겠습니까?"</string>
+    <string name="exit_app_ok">"닫기"</string>
+    <string name="exit_app_cancel">"취소"</string>
+</resources>

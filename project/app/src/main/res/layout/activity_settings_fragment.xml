@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.voxdon.xplorer.widget.WindowInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            app:navigationContentDescription="@string/abc_action_bar_up_description"
+            style="@style/ToolbarStyle.Default"/>
+        <View
+            android:background="@color/actionbar_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.voxdon.xplorer.widget.WindowInsetsFrameLayout>

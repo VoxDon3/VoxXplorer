@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recovered from the Gradle-cache AARs: entries the text-dump
+     res tree lost. Removing this file only removes them again. -->
+<resources>
+    <style name="Base.V22.Theme.AppCompat.Light" parent="Base.V21.Theme.AppCompat.Light"> <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item> <!-- We use the framework provided edit text background on 22+ --> <item name="editTextBackground">?android:attr/editTextBackground</item> </style>
+</resources>

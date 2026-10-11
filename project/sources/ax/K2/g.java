@@ -1,0 +1,5 @@
+package ax.K2;
+
+/* loaded from: classes.dex */
+public interface g {
+}

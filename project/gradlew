@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+exec /opt/gradle/gradle-7.6/bin/gradle "$@"

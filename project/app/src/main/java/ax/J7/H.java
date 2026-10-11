@@ -1,0 +1,24 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package ax.J7;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public final class H {
+    private final AtomicInteger a = new AtomicInteger();
+    private final AtomicInteger b = new AtomicInteger();
+
+    public void a() {
+        this.b.getAndIncrement();
+    }
+
+    public void b() {
+        this.a.getAndIncrement();
+    }
+
+    public void c() {
+        this.b.set(0);
+    }
+}
+

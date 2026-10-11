@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="desktop_item_info_text_size">18sp</dimen>
+    <dimen name="desktop_item_name_text_size">22sp</dimen>
+    <dimen name="file_grid_column_width_large">132dp</dimen>
+    <dimen name="file_grid_column_width_medium">100dp</dimen>
+    <dimen name="file_grid_folder_icon_margintop_large">5dp</dimen>
+    <dimen name="file_grid_folder_icon_margintop_medium">4dp</dimen>
+    <dimen name="file_grid_folder_icon_size_large">42dp</dimen>
+    <dimen name="file_grid_folder_icon_size_medium">33dp</dimen>
+    <dimen name="file_grid_icon_size_large">122dp</dimen>
+    <dimen name="file_grid_icon_size_medium">94dp</dimen>
+    <dimen name="file_grid_text_size">18sp</dimen>
+    <dimen name="file_list_filename_size_large">22sp</dimen>
+</resources>

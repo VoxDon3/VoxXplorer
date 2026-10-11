@@ -1,0 +1,11 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package ax.K2;
+
+public interface r {
+    public void a();
+
+    public void h(String var1);
+}
+

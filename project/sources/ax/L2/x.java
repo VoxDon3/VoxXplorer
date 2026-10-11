@@ -1,0 +1,11 @@
+package ax.L2;
+
+import java.util.concurrent.Executor;
+
+/* loaded from: classes.dex */
+public class x implements Executor {
+    @Override // java.util.concurrent.Executor
+    public void execute(Runnable runnable) {
+        runnable.run();
+    }
+}

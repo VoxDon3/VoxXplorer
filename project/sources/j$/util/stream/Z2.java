@@ -1,0 +1,31 @@
+package j$.util.stream;
+
+import java.util.function.IntConsumer;
+
+/* loaded from: classes2.dex */
+public final class Z2 extends AbstractC3832b3 implements IntConsumer {
+    public final int[] c;
+
+    public final /* synthetic */ IntConsumer andThen(IntConsumer intConsumer) {
+        return j$.util.function.a.d(this, intConsumer);
+    }
+
+    public Z2(int i) {
+        this.c = new int[i];
+    }
+
+    @Override // j$.util.stream.AbstractC3832b3
+    public final void b(Object obj, long j) {
+        IntConsumer intConsumer = (IntConsumer) obj;
+        for (int i = 0; i < j; i++) {
+            intConsumer.accept(this.c[i]);
+        }
+    }
+
+    @Override // java.util.function.IntConsumer
+    public final void accept(int i) {
+        int i2 = this.b;
+        this.b = i2 + 1;
+        this.c[i2] = i;
+    }
+}

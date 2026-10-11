@@ -1,0 +1,8 @@
+package ax.i7;
+
+import java.io.IOException;
+
+/* loaded from: classes3.dex */
+public interface n {
+    boolean a(p pVar, boolean z) throws IOException;
+}

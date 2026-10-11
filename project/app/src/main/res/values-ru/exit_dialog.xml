@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_app_title">"Закрыть приложение"</string>
+    <string name="exit_app_message">"Закрыть Vox Xplorer?"</string>
+    <string name="exit_app_ok">"Закрыть"</string>
+    <string name="exit_app_cancel">"Отмена"</string>
+</resources>

@@ -1,0 +1,78 @@
+package j$.util.stream;
+
+import j$.util.Spliterator;
+import java.util.function.IntFunction;
+import okhttp3.internal.http2.Http2;
+
+/* renamed from: j$.util.stream.q2, reason: case insensitive filesystem */
+/* loaded from: classes2.dex */
+public final class C3906q2 extends AbstractC3942y {
+    public final /* synthetic */ long m;
+    public final /* synthetic */ long n;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C3906q2(AbstractC3947z abstractC3947z, int i, long j, long j2) {
+        super(abstractC3947z, i, 0);
+        this.m = j;
+        this.n = j2;
+    }
+
+    @Override // j$.util.stream.AbstractC3823a
+    public final Spliterator K(AbstractC3823a abstractC3823a, Spliterator spliterator) {
+        long C = abstractC3823a.C(spliterator);
+        long j = this.n;
+        if (C > 0 && spliterator.hasCharacteristics(Http2.INITIAL_MAX_FRAME_SIZE)) {
+            j$.util.S s = (j$.util.S) abstractC3823a.S(spliterator);
+            long j2 = this.m;
+            return new C3882l3(s, j2, AbstractC3919t1.A(j2, j));
+        }
+        if (V2.ORDERED.q(abstractC3823a.f)) {
+            return ((E0) new C3915s2(this, abstractC3823a, spliterator, new T(24), this.m, this.n).invoke()).spliterator();
+        }
+        j$.util.S s2 = (j$.util.S) abstractC3823a.S(spliterator);
+        long j3 = this.m;
+        if (j3 <= C) {
+            long j4 = C - j3;
+            if (j >= 0) {
+                j4 = Math.min(j, j4);
+            }
+            j = j4;
+            j3 = 0;
+        }
+        return new C3911r3(s2, j3, j);
+    }
+
+    @Override // j$.util.stream.AbstractC3823a
+    public final E0 J(AbstractC3823a abstractC3823a, Spliterator spliterator, IntFunction intFunction) {
+        long j;
+        long j2;
+        long C = abstractC3823a.C(spliterator);
+        if (C > 0 && spliterator.hasCharacteristics(Http2.INITIAL_MAX_FRAME_SIZE)) {
+            AbstractC3823a abstractC3823a2 = abstractC3823a;
+            while (abstractC3823a2.e > 0) {
+                abstractC3823a2 = abstractC3823a2.b;
+            }
+            return AbstractC3919t1.C(abstractC3823a, AbstractC3919t1.y(abstractC3823a2.H(), spliterator, this.m, this.n), true);
+        }
+        if (!V2.ORDERED.q(abstractC3823a.f)) {
+            j$.util.S s = (j$.util.S) abstractC3823a.S(spliterator);
+            long j3 = this.m;
+            long j4 = this.n;
+            if (j3 <= C) {
+                long j5 = C - j3;
+                j = j4 >= 0 ? Math.min(j4, j5) : j5;
+                j2 = 0;
+            } else {
+                j = j4;
+                j2 = j3;
+            }
+            return AbstractC3919t1.C(this, new C3911r3(s, j2, j), true);
+        }
+        return (E0) new C3915s2(this, abstractC3823a, spliterator, intFunction, this.m, this.n).invoke();
+    }
+
+    @Override // j$.util.stream.AbstractC3823a
+    public final InterfaceC3866i2 M(int i, InterfaceC3866i2 interfaceC3866i2) {
+        return new C3901p2(this, interfaceC3866i2);
+    }
+}

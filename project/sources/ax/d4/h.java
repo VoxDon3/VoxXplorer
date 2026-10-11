@@ -1,0 +1,8 @@
+package ax.d4;
+
+/* loaded from: classes.dex */
+public interface h {
+    void a(i iVar);
+
+    void b(i iVar);
+}

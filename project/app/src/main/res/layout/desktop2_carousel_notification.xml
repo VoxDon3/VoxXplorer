@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ff000000"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/desktop2_carousel_foreground_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/message"
+            android:paddingLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:maxWidth="100dp"
+            android:singleLine="true"
+            android:paddingStart="2dp"/>
+        <Button
+            android:textSize="16sp"
+            android:textColor="@color/desktop2_carousel_foreground_color"
+            android:layout_gravity="center"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_columnSpan="2"
+            app:strokeColor="@color/desktop2_carousel_foreground_color"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </LinearLayout>
+</RelativeLayout>

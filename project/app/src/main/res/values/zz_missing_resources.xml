@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="bottom_menu_cancel" />
+    <item type="id" name="bottom_menu_more" />
+    <item type="id" name="bottom_menu_paste" />
+    <item type="id" name="bottom_menu_save" />
+    <item type="id" name="bottom_menu_select" />
+    <string name="cancel"></string>
+</resources>

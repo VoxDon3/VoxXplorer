@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_app_title">"App schließen"</string>
+    <string name="exit_app_message">"Möchtest du Vox Xplorer schließen?"</string>
+    <string name="exit_app_ok">"Schließen"</string>
+    <string name="exit_app_cancel">"Abbrechen"</string>
+</resources>

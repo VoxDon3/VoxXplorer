@@ -1,0 +1,166 @@
+.class Lax/n/h$m;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lax/n/h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "m"
+.end annotation
+
+
+# direct methods
+.method static a(Landroid/app/Activity;)Landroid/window/OnBackInvokedDispatcher;
+    .registers 1
+
+    .line 1
+    invoke-static {p0}, Lax/n/t;->a(Landroid/app/Activity;)Landroid/window/OnBackInvokedDispatcher;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method static b(Ljava/lang/Object;Lax/n/h;)Landroid/window/OnBackInvokedCallback;
+    .registers 3
+
+    .line 1
+    invoke-static {p1}, Lj$/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lax/n/v;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p1}, Lax/n/v;-><init>(Lax/n/h;)V
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-static {p0}, Lax/n/r;->a(Ljava/lang/Object;)Landroid/window/OnBackInvokedDispatcher;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    const p1, 0xf4240
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-static {p0, p1, v0}, Lax/n/u;->a(Landroid/window/OnBackInvokedDispatcher;ILandroid/window/OnBackInvokedCallback;)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-object v0
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+.end method
+
+.method static c(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 2
+
+    .line 1
+    invoke-static {p1}, Lax/n/q;->a(Ljava/lang/Object;)Landroid/window/OnBackInvokedCallback;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    invoke-static {p0}, Lax/n/r;->a(Ljava/lang/Object;)Landroid/window/OnBackInvokedDispatcher;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    invoke-static {p0, p1}, Lax/n/s;->a(Landroid/window/OnBackInvokedDispatcher;Landroid/window/OnBackInvokedCallback;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+.end method

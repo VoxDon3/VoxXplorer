@@ -1,0 +1,15 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package com.google.android.gms.common.api;
+
+import android.os.Parcelable;
+import com.google.android.gms.common.api.Scope;
+
+public final class a
+implements Parcelable.Creator {
+    public final /* synthetic */ Object[] newArray(int n8) {
+        return new Scope[n8];
+    }
+}
+

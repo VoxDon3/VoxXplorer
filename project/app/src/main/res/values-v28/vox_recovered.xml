@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recovered from the Gradle-cache AARs: entries the text-dump
+     res tree lost. Removing this file only removes them again. -->
+<resources>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="Base.V26.Theme.AppCompat.Light"> <!-- We can use the platform styles on API 28+ --> <item name="dialogCornerRadius">?android:attr/dialogCornerRadius</item> </style>
+</resources>
