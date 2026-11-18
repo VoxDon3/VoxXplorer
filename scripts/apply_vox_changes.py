@@ -59,12 +59,12 @@ for path in sorted(ROOT.rglob('*')):
                       r'\1Vox Xplorer\2', text)
 
     if path == ROOT / 'project/resources/AndroidManifest.xml' or path == ROOT / 'AndroidManifest.xml':
-        text = re.sub(r'android:versionCode="278"', 'android:versionCode="282"', text)
-        text = re.sub(r'android:versionName="2\.8\.2"', 'android:versionName="2.8.2"', text)
+        text = re.sub(r'android:versionCode="[^"]*"', 'android:versionCode="101"', text)
+        text = re.sub(r'android:versionName="[^"]*"', 'android:versionName="1.0.1"', text)
 
     if path == ROOT / 'project/app/build.gradle':
-        text = re.sub(r'versionCode\s+278', 'versionCode 282', text)
-        text = re.sub(r'versionName\s+"2\.8\.2"', 'versionName "2.8.2"', text)
+        text = re.sub(r'versionCode\s+\d+', 'versionCode 101', text)
+        text = re.sub(r'versionName\s+"[^"]*"', 'versionName "1.0.1"', text)
 
     if text != orig:
         path.write_bytes(text.encode('utf-8'))

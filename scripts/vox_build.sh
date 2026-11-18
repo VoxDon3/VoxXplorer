@@ -74,7 +74,7 @@ $AAPT2 link \
   --stable-ids "$ROOT/scripts/ids_full.txt" \
   --auto-add-overlay \
   --min-sdk-version 21 --target-sdk-version 36 \
-  --version-code 282 --version-name 2.8.2
+  --version-code 101 --version-name 1.0.1
 
 for d in smali smali_classes2 smali_classes3; do
   case "$d" in
