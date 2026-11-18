@@ -1895,7 +1895,7 @@
 
     .line 117
     :cond_74
-    const-string p2, "/Android/media/com.cxinventor.file.explorer/.localcache"
+    const-string p2, "/Android/media/com.voxdon.xplorer/.localcache"
 
     .line 118
     .line 119
@@ -4253,7 +4253,7 @@
 
     .line 80
     :cond_4f
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 81
     .line 82
@@ -4261,7 +4261,7 @@
     move-result-object p1
 
     .line 84
-    invoke-virtual {p1}, Lcom/alphainventor/filemanager/shizuku/c;->l()Z
+    invoke-virtual {p1}, Lcom/voxdon/xplorer/shizuku/c;->l()Z
 
     .line 85
     .line 86
@@ -4273,7 +4273,7 @@
 
     .line 89
     .line 90
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 91
     .line 92
@@ -4281,7 +4281,7 @@
     move-result-object p1
 
     .line 94
-    invoke-virtual {p1, p0, v1, p2}, Lcom/alphainventor/filemanager/shizuku/c;->r(Lcom/voxdon/xplorer/file/x;Lax/c3/K;Ljava/lang/String;)Lcom/voxdon/xplorer/file/n;
+    invoke-virtual {p1, p0, v1, p2}, Lcom/voxdon/xplorer/shizuku/c;->r(Lcom/voxdon/xplorer/file/x;Lax/c3/K;Ljava/lang/String;)Lcom/voxdon/xplorer/file/n;
 
     .line 95
     .line 96
@@ -16418,7 +16418,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 20
     .line 21
@@ -16434,7 +16434,7 @@
     move-result-object v1
 
     .line 27
-    invoke-virtual {v0, p0, v3, v1}, Lcom/alphainventor/filemanager/shizuku/c;->E(Lcom/voxdon/xplorer/file/x;Lax/c3/K;Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v0, p0, v3, v1}, Lcom/voxdon/xplorer/shizuku/c;->E(Lcom/voxdon/xplorer/file/x;Lax/c3/K;Ljava/lang/String;)Ljava/util/List;
 
     .line 28
     .line 29
@@ -16848,7 +16848,7 @@
     move-object v1, p0
 
     .line 218
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 219
     .line 220
@@ -16856,7 +16856,7 @@
     move-result-object v6
 
     .line 222
-    invoke-virtual {v6}, Lcom/alphainventor/filemanager/shizuku/c;->l()Z
+    invoke-virtual {v6}, Lcom/voxdon/xplorer/shizuku/c;->l()Z
 
     .line 223
     .line 224
@@ -16868,7 +16868,7 @@
 
     .line 227
     .line 228
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 229
     .line 230
@@ -16884,7 +16884,7 @@
     move-result-object v7
 
     .line 236
-    invoke-virtual {v6, p0, v3, v7}, Lcom/alphainventor/filemanager/shizuku/c;->E(Lcom/voxdon/xplorer/file/x;Lax/c3/K;Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {v6, p0, v3, v7}, Lcom/voxdon/xplorer/shizuku/c;->E(Lcom/voxdon/xplorer/file/x;Lax/c3/K;Ljava/lang/String;)Ljava/util/List;
 
     .line 237
     .line 238
@@ -17219,7 +17219,7 @@
 
     .line 399
     .line 400
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 401
     .line 402
@@ -17227,7 +17227,7 @@
     move-result-object v0
 
     .line 404
-    invoke-virtual {v0}, Lcom/alphainventor/filemanager/shizuku/c;->C()Z
+    invoke-virtual {v0}, Lcom/voxdon/xplorer/shizuku/c;->C()Z
 
     .line 405
     .line 406
@@ -22765,7 +22765,7 @@
     .line 74
     .line 75
     :try_start_4a
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 76
     .line 77
@@ -22781,7 +22781,7 @@
     move-result-object v3
 
     .line 83
-    invoke-virtual {v2, v3, v9}, Lcom/alphainventor/filemanager/shizuku/c;->v(Ljava/lang/String;Z)Ljava/io/OutputStream;
+    invoke-virtual {v2, v3, v9}, Lcom/voxdon/xplorer/shizuku/c;->v(Ljava/lang/String;Z)Ljava/io/OutputStream;
 
     .line 84
     .line 85
@@ -24609,7 +24609,7 @@
     move-result v5
 
     .line 38
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 39
     .line 40
@@ -24633,7 +24633,7 @@
     move-result-object v13
 
     .line 50
-    invoke-virtual {v11, v12, v13}, Lcom/alphainventor/filemanager/shizuku/c;->H(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v11, v12, v13}, Lcom/voxdon/xplorer/shizuku/c;->H(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 51
     .line 52
@@ -28772,7 +28772,7 @@
 
     .line 63
     .line 64
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 65
     .line 66
@@ -28788,7 +28788,7 @@
     move-result-object p3
 
     .line 72
-    invoke-virtual {p2, p3, v4, v5}, Lcom/alphainventor/filemanager/shizuku/c;->s(Ljava/lang/String;J)Ljava/io/InputStream;
+    invoke-virtual {p2, p3, v4, v5}, Lcom/voxdon/xplorer/shizuku/c;->s(Ljava/lang/String;J)Ljava/io/InputStream;
 
     .line 73
     .line 74
@@ -29917,7 +29917,7 @@
 
     .line 17
     .line 18
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 19
     .line 20
@@ -29933,7 +29933,7 @@
     move-result-object p1
 
     .line 26
-    invoke-virtual {v0, p1}, Lcom/alphainventor/filemanager/shizuku/c;->o(Ljava/lang/String;)Z
+    invoke-virtual {v0, p1}, Lcom/voxdon/xplorer/shizuku/c;->o(Ljava/lang/String;)Z
 
     .line 27
     .line 28
@@ -30167,7 +30167,7 @@
 
     .line 17
     .line 18
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 19
     .line 20
@@ -30183,7 +30183,7 @@
     move-result-object v2
 
     .line 26
-    invoke-virtual {v0, v2}, Lcom/alphainventor/filemanager/shizuku/c;->p(Ljava/lang/String;)Z
+    invoke-virtual {v0, v2}, Lcom/voxdon/xplorer/shizuku/c;->p(Ljava/lang/String;)Z
 
     .line 27
     .line 28
@@ -30577,7 +30577,7 @@
     move-result v1
 
     .line 15
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 16
     .line 17
@@ -30593,7 +30593,7 @@
     move-result-object v4
 
     .line 23
-    invoke-virtual {v3, v4}, Lcom/alphainventor/filemanager/shizuku/c;->q(Ljava/lang/String;)Z
+    invoke-virtual {v3, v4}, Lcom/voxdon/xplorer/shizuku/c;->q(Ljava/lang/String;)Z
 
     .line 24
     .line 25
@@ -31775,7 +31775,7 @@
 
     .line 12
     .line 13
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 14
     .line 15
@@ -31791,7 +31791,7 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {v0, p1}, Lcom/alphainventor/filemanager/shizuku/c;->x(Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
+    invoke-virtual {v0, p1}, Lcom/voxdon/xplorer/shizuku/c;->x(Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
 
     .line 22
     .line 23
@@ -32658,7 +32658,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 20
     .line 21
@@ -32666,7 +32666,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0, p1, p2}, Lcom/alphainventor/filemanager/shizuku/c;->v(Ljava/lang/String;Z)Ljava/io/OutputStream;
+    invoke-virtual {v0, p1, p2}, Lcom/voxdon/xplorer/shizuku/c;->v(Ljava/lang/String;Z)Ljava/io/OutputStream;
 
     .line 24
     .line 25
@@ -33072,7 +33072,7 @@
 
     .line 21
     .line 22
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 23
     .line 24
@@ -33088,7 +33088,7 @@
     move-result-object v1
 
     .line 30
-    invoke-virtual {v0, v1, p2, p3}, Lcom/alphainventor/filemanager/shizuku/c;->I(Ljava/lang/String;J)Z
+    invoke-virtual {v0, v1, p2, p3}, Lcom/voxdon/xplorer/shizuku/c;->I(Ljava/lang/String;J)Z
 
     .line 31
     .line 32
@@ -37472,7 +37472,7 @@
 
     .line 24
     .line 25
-    const-string v0, "/Android/data/com.cxinventor.file.explorer"
+    const-string v0, "/Android/data/com.voxdon.xplorer"
 
     .line 26
     .line 27

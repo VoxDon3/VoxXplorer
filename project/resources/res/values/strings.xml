@@ -49,7 +49,7 @@
     <string name="app_backup_storage">App backup location</string>
     <string name="app_caches">Cache files</string>
     <string name="app_caches_desc">Cache files are temporary files stored by apps.</string>
-    <string name="app_name">Cx File Explorer</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apps_all">ALL</string>
     <string name="apps_downloaded">DOWNLOADED</string>
@@ -294,6 +294,7 @@
     <string name="duplicate_downloads">Duplicate downloads</string>
     <string name="duplicate_files">Duplicate files</string>
     <string name="empty">Empty</string>
+    <string name="vox_build_tag">Vox 2.8.2</string>
     <string name="empty_folder">Empty folder</string>
     <string name="empty_recycle_bin_message">Are you sure you want to empty the Recycle Bin?</string>
     <string name="enter_host">Please enter the hostname.</string>
@@ -433,7 +434,7 @@
     <string name="filetype_file">File</string>
     <string name="filetype_folder">Folder</string>
     <string name="filetype_others">Others</string>
-    <string name="firebase_database_url">https://cx-file-explorer.firebaseio.com</string>
+    <string name="firebase_database_url">https://voxdon-xplorer.firebaseio.com</string>
     <string name="folder_alarms">Alarms</string>
     <string name="folder_backups">Backups</string>
     <string name="folder_camera">Camera</string>
@@ -460,7 +461,7 @@
     <string name="google_api_key">AIzaSyDgDD70zbma9JvsCQBkieXgbLz0UFYU5Io</string>
     <string name="google_app_id">1:324424549089:android:c447488ae444d622</string>
     <string name="google_crash_reporting_api_key">AIzaSyDgDD70zbma9JvsCQBkieXgbLz0UFYU5Io</string>
-    <string name="google_storage_bucket">cx-file-explorer.appspot.com</string>
+    <string name="google_storage_bucket">voxdon-xplorer.appspot.com</string>
     <string name="hint_android10_document_tree">Tap %1$s button on the next screen.</string>
     <string name="hint_document_tree_sdcard">Please allow the app to access the SD card by following the instructions below.</string>
     <string name="hint_document_tree_steps_0">0. Enable Documents app</string>
@@ -862,7 +863,7 @@
     <string name="progress_moving_to_recycle_bin">Recycling</string>
     <string name="progress_remaining_time">Remaining time: %s</string>
     <string name="progress_restoring_from_recycle_bin">Restoring</string>
-    <string name="project_id">cx-file-explorer</string>
+    <string name="project_id">voxdon-xplorer</string>
     <string name="rate_message">If you like this app, please rate us 5 stars on Google Play.</string>
     <string name="rate_never">Never</string>
     <string name="rate_not_now">Not now</string>
@@ -1035,4 +1036,10 @@
     <string name="wifi">Wi-Fi</string>
     <string name="yes">Yes</string>
     <string name="zip_file_extension">.zip</string>
+    <string name="setting_app_language">"App language"</string>
+    <string name="language_english">"English"</string>
+    <string name="language_arabic">"Arabic"</string>
+    <string name="language_french">"French"</string>
+    <string name="language_spanish">"Spanish"</string>
+    <string name="language_korean">"Korean"</string>
 </resources>

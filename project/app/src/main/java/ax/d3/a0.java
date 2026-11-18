@@ -6,8 +6,8 @@ package ax.d3;
 import android.app.Activity;
 import ax.Q2.f;
 import ax.d3.E;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.file.OneDriveFileHelper;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.file.OneDriveFileHelper;
 
 public class a0
 extends E {

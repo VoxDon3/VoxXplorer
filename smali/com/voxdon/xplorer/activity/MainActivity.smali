@@ -6625,6 +6625,14 @@
 .method private v2(Lcom/voxdon/xplorer/bookmark/Bookmark;)V
     .registers 6
 
+    if-eqz p1, :vox_v2_null
+    invoke-virtual {p1}, Lcom/voxdon/xplorer/bookmark/Bookmark;->u()Lax/c3/K;
+    move-result-object v0
+    if-eqz v0, :vox_v2_null
+
+    :vox_v2_null
+    return-void
+
     .line 1
     invoke-virtual {p0}, Lax/n/c;->getSupportActionBar()Lax/n/a;
 

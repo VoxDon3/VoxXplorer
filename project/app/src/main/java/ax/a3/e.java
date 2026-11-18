@@ -16,8 +16,8 @@ import ax.b3.j;
 import ax.u3.d;
 import ax.u3.h;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.io.IOException;
 
 public class e

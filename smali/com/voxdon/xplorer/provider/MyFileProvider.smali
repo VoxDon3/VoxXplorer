@@ -4901,7 +4901,7 @@
 
     .line 69
     .line 70
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 71
     .line 72
@@ -4917,7 +4917,7 @@
     move-result-object v0
 
     .line 78
-    invoke-virtual {v1, v0}, Lcom/alphainventor/filemanager/shizuku/c;->w(Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
+    invoke-virtual {v1, v0}, Lcom/voxdon/xplorer/shizuku/c;->w(Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
 
     .line 79
     .line 80

@@ -6,7 +6,7 @@ package ax.d3;
 import android.os.Bundle;
 import ax.Q2.f;
 import ax.d3.E;
-import com.alphainventor.filemanager.file.Q;
+import com.voxdon.xplorer.file.Q;
 
 public class q0
 extends E {

@@ -4877,23 +4877,23 @@
         <item name="android:textSize">@dimen/toolbarSubtitleSize</item>
     </style>
     <style name="ToolbarSubtitleStyle.Dark" parent="@style/ToolbarSubtitleStyle">
-        <item name="android:textColor">@color/toolbar_dark_foreground</item>
+        <item name="android:textColor">@color/vox_path</item>
     </style>
     <style name="ToolbarSubtitleStyle.Default" parent="@style/ToolbarSubtitleStyle.Light">
     </style>
     <style name="ToolbarSubtitleStyle.Light" parent="@style/ToolbarSubtitleStyle">
-        <item name="android:textColor">@color/toolbar_light_foreground</item>
+        <item name="android:textColor">@color/vox_path</item>
     </style>
     <style name="ToolbarTitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:textSize">@dimen/toolbarTitleSize</item>
     </style>
     <style name="ToolbarTitleStyle.Dark" parent="@style/ToolbarTitleStyle">
-        <item name="android:textColor">@color/toolbar_dark_foreground</item>
+        <item name="android:textColor">@color/vox_title</item>
     </style>
     <style name="ToolbarTitleStyle.Default" parent="@style/ToolbarTitleStyle.Light">
     </style>
     <style name="ToolbarTitleStyle.Light" parent="@style/ToolbarTitleStyle">
-        <item name="android:textColor">@color/toolbar_light_foreground</item>
+        <item name="android:textColor">@color/vox_title</item>
     </style>
     <style name="TransparentTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>

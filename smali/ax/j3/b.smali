@@ -1346,7 +1346,7 @@
     .line 71
     .line 72
     .line 73
-    const-string v3, "Cx file explorer ("
+    const-string v3, "Vox Xplorer ("
 
     .line 74
     .line 75

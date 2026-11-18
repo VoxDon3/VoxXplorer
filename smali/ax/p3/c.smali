@@ -22,7 +22,7 @@
     .registers 1
 
     .line 1
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->b()V
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->b()V
 
     return-void
 .end method

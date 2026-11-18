@@ -49,7 +49,7 @@
     <string name="app_backup_storage">"앱 백업 저장소"</string>
     <string name="app_caches">"임시 파일"</string>
     <string name="app_caches_desc">"임시 파일은 앱이 임시로 저장하고 사용하는 파일입니다"</string>
-    <string name="app_name">"복스 익스플로러"</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="appbar_scrolling_view_behavior">"com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"</string>
     <string name="apps_all">"전부"</string>
     <string name="apps_downloaded">"다운로드"</string>

@@ -19,8 +19,8 @@ import ax.c3.k;
 import ax.g3.i;
 import ax.u3.b;
 import ax.u3.c;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.y;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -312,7 +312,7 @@ public class F {
                                         break block19;
                                     }
                                 }
-                                object = new FileInputStream(((com.alphainventor.filemanager.file.i)object).e0(true).getFileDescriptor());
+                                object = new FileInputStream(((com.voxdon.xplorer.file.i)object).e0(true).getFileDescriptor());
                                 try {
                                     object5 = new S(l.a((FileInputStream)object));
                                     object4 = object;
@@ -467,7 +467,7 @@ public class F {
                                         break block29;
                                     }
                                 }
-                                var0 = new FileInputStream(((com.alphainventor.filemanager.file.i)var0).e0(true).getFileDescriptor());
+                                var0 = new FileInputStream(((com.voxdon.xplorer.file.i)var0).e0(true).getFileDescriptor());
                                 var4_10 = new S(l.a((FileInputStream)var0));
                                 var3_7 = var0;
                                 var0 = var4_10;
@@ -640,7 +640,7 @@ lbl98:
                                     break block28;
                                 }
                             }
-                            var0 = new FileInputStream(((com.alphainventor.filemanager.file.i)var0).e0(true).getFileDescriptor());
+                            var0 = new FileInputStream(((com.voxdon.xplorer.file.i)var0).e0(true).getFileDescriptor());
                             var4_16 = var3_14;
                             var3_14 = var0;
                             try {

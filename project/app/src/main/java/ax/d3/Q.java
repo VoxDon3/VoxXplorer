@@ -18,10 +18,10 @@ import ax.c3.K;
 import ax.d3.E;
 import ax.t3.k;
 import ax.u3.g;
-import com.alphainventor.filemanager.activity.b;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.activity.b;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.file.y;
 
 public class Q
 extends E {

@@ -19,8 +19,8 @@ import ax.g3.c;
 import ax.t3.j;
 import ax.t3.k;
 import ax.u3.o;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.file.r;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.file.r;
 import com.google.android.material.snackbar.Snackbar;
 
 public class L

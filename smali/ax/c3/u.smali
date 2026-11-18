@@ -1491,7 +1491,7 @@
 
     .line 4
     .line 5
-    const-string v0, "com.alphainventor.plugin.fileuri"
+    const-string v0, "com.voxdon.plugin.fileuri"
 
     .line 6
     .line 7
@@ -2461,7 +2461,7 @@
     .line 6
     .line 7
     .line 8
-    const-string v1, "com.alphainventor.plugin.fileuri"
+    const-string v1, "com.voxdon.plugin.fileuri"
 
     .line 9
     .line 10

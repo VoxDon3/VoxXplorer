@@ -13,7 +13,7 @@ import ax.Q2.a;
 import ax.a3.B;
 import ax.a3.C;
 import ax.t3.c;
-import com.alphainventor.filemanager.activity.MainActivity;
+import com.voxdon.xplorer.activity.MainActivity;
 
 public class w
 extends C {

@@ -27,10 +27,10 @@ import ax.d3.E;
 import ax.d3.k;
 import ax.u3.o;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.b;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.y;
-import com.alphainventor.filemanager.provider.MyFileProvider;
+import com.voxdon.xplorer.file.b;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.y;
+import com.voxdon.xplorer.provider.MyFileProvider;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -46,7 +46,7 @@ extends E {
     private boolean D2;
     private Uri E2;
     ProgressDialog s2;
-    private com.alphainventor.filemanager.file.o t2;
+    private com.voxdon.xplorer.file.o t2;
     private boolean u2;
     private String v2;
     private String w2;
@@ -123,14 +123,14 @@ extends E {
     }
 
     private boolean Ga() {
-        com.alphainventor.filemanager.file.o o8 = this.t2;
+        com.voxdon.xplorer.file.o o8 = this.t2;
         if (o8 == null) {
             return false;
         }
-        return ((com.alphainventor.filemanager.file.b)o8.u()).c1();
+        return ((com.voxdon.xplorer.file.b)o8.u()).c1();
     }
 
-    private void Ha(com.alphainventor.filemanager.file.b b8, String string) {
+    private void Ha(com.voxdon.xplorer.file.b b8, String string) {
         String string2;
         if (this.b() == null) {
             return;
@@ -140,14 +140,14 @@ extends E {
             string3 = this.b().getString(2131951846);
         }
         this.A(L.n3(string3, string, new L.c(){
-            final com.alphainventor.filemanager.file.b a;
+            final com.voxdon.xplorer.file.b a;
             final l b;
             {
                 this.b = l8;
                 this.a = b8;
             }
 
-            public static /* synthetic */ void b(a a8, com.alphainventor.filemanager.file.b b8, String string, b.e e8) {
+            public static /* synthetic */ void b(a a8, com.voxdon.xplorer.file.b b8, String string, b.e e8) {
                 a8.getClass();
                 if (e8 == b.e.q) {
                     b8.n1(string);
@@ -157,7 +157,7 @@ extends E {
                 if (e8 == b.e.c0) {
                     new Handler().postDelayed(new Runnable(){
                         final a c0;
-                        final com.alphainventor.filemanager.file.b q;
+                        final com.voxdon.xplorer.file.b q;
                         {
                             this.c0 = a8;
                             this.q = b8;
@@ -179,7 +179,7 @@ extends E {
                 if (this.b.b() == null) {
                     return;
                 }
-                com.alphainventor.filemanager.file.b b8 = this.a;
+                com.voxdon.xplorer.file.b b8 = this.a;
                 b8.r1(string, new k(this, b8, string));
             }
 
@@ -210,7 +210,7 @@ extends E {
         return c8;
     }
 
-    static /* synthetic */ com.alphainventor.filemanager.file.o ya(l l8) {
+    static /* synthetic */ com.voxdon.xplorer.file.o ya(l l8) {
         return l8.t2;
     }
 
@@ -257,14 +257,14 @@ extends E {
     }
 
     boolean Ca() {
-        com.alphainventor.filemanager.file.o o8 = this.t2;
+        com.voxdon.xplorer.file.o o8 = this.t2;
         if (o8 == null) {
             return false;
         }
-        return ((com.alphainventor.filemanager.file.b)o8.u()).b1();
+        return ((com.voxdon.xplorer.file.b)o8.u()).b1();
     }
 
-    public void Ea(com.alphainventor.filemanager.file.o o8) {
+    public void Ea(com.voxdon.xplorer.file.o o8) {
         this.t2 = o8;
         o8.n0();
     }
@@ -331,8 +331,8 @@ extends E {
 
     @Override
     protected void h9() {
-        com.alphainventor.filemanager.file.b b8;
-        if (this.T7() && (b8 = (com.alphainventor.filemanager.file.b)this.w7().u()).c1() && !b8.f1()) {
+        com.voxdon.xplorer.file.b b8;
+        if (this.T7() && (b8 = (com.voxdon.xplorer.file.b)this.w7().u()).c1() && !b8.f1()) {
             this.Ha(b8, null);
             return;
         }
@@ -388,13 +388,13 @@ extends E {
                 if (this.t2 == null) {
                     object = x.d(f.X0, this.x3());
                     this.t2 = object;
-                    ((com.alphainventor.filemanager.file.o)object).n0();
+                    ((com.voxdon.xplorer.file.o)object).n0();
                 }
-                object = (com.alphainventor.filemanager.file.b)this.t2.u();
-                this.z2 = ((com.alphainventor.filemanager.file.b)object).O0();
-                this.B2 = ((com.alphainventor.filemanager.file.b)object).N0();
-                this.y2 = ((com.alphainventor.filemanager.file.b)object).T0();
-                this.v2 = ((com.alphainventor.filemanager.file.b)object).W0();
+                object = (com.voxdon.xplorer.file.b)this.t2.u();
+                this.z2 = ((com.voxdon.xplorer.file.b)object).O0();
+                this.B2 = ((com.voxdon.xplorer.file.b)object).N0();
+                this.y2 = ((com.voxdon.xplorer.file.b)object).T0();
+                this.v2 = ((com.voxdon.xplorer.file.b)object).W0();
             } else {
                 this.y2 = this.j0().getInt("file_descriptor", 0);
                 this.v2 = this.j0().getString("archive_name");
@@ -454,9 +454,9 @@ extends E {
             return;
         }
         if (bl) {
-            object = (com.alphainventor.filemanager.file.b)this.w7().u();
-            if (((com.alphainventor.filemanager.file.b)object).c1()) {
-                this.Ha((com.alphainventor.filemanager.file.b)object, null);
+            object = (com.voxdon.xplorer.file.b)this.w7().u();
+            if (((com.voxdon.xplorer.file.b)object).c1()) {
+                this.Ha((com.voxdon.xplorer.file.b)object, null);
                 return;
             }
             this.h9();
@@ -534,7 +534,7 @@ extends E {
 
     @Override
     public void s1() {
-        com.alphainventor.filemanager.file.o o8 = this.t2;
+        com.voxdon.xplorer.file.o o8 = this.t2;
         if (o8 != null) {
             o8.k0(false);
             this.t2 = null;
@@ -543,7 +543,7 @@ extends E {
     }
 
     @Override
-    public com.alphainventor.filemanager.file.o w7() {
+    public com.voxdon.xplorer.file.o w7() {
         if (this.t2 == null) {
             int n8 = this.B2;
             if (n8 != 1 && n8 != 2) {

@@ -1,34 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="app_language_entries">
+        <item>@string/system_language</item>
+        <item>@string/language_english</item>
+        <item>@string/language_arabic</item>
+        <item>@string/language_french</item>
+        <item>@string/language_spanish</item>
+        <item>@string/language_korean</item>
+    </string-array>
+    <string-array name="app_language_values">
+        <item>system</item>
+        <item>en</item>
+        <item>ar</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>ko</item>
+    </string-array>
     <array name="app_backup_storage_entries">
         <item>@string/location_mainstorage</item>
         <item>@string/location_sdcard</item>
     </array>
-    <array name="app_backup_storage_values">
+    <string-array name="app_backup_storage_values">
         <item>0</item>
         <item>1</item>
-    </array>
+    </string-array>
     <array name="appopen_menu">
         <item>@string/menu_open</item>
         <item>@string/menu_info</item>
         <item>@string/menu_store</item>
     </array>
-    <array name="controls_timeout_entries">
+    <string-array name="controls_timeout_entries">
         <item>3</item>
         <item>5</item>
         <item>7</item>
         <item>10</item>
         <item>15</item>
         <item>@string/switch_off_text</item>
-    </array>
-    <array name="controls_timeout_values">
+    </string-array>
+    <string-array name="controls_timeout_values">
         <item>3</item>
         <item>5</item>
         <item>7</item>
         <item>10</item>
         <item>15</item>
         <item>0</item>
-    </array>
+    </string-array>
     <array name="date_filter_values">
         <item>@string/option_any_date</item>
         <item>@string/option_today</item>
@@ -53,14 +69,14 @@
         <item>NO_UP_BUTTON</item>
         <item>ALTERNATIVE</item>
     </array>
-    <array name="dev_settings_navigation_values">
+    <string-array name="dev_settings_navigation_values">
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
-    </array>
+    </string-array>
     <array name="dev_settings_sdcard_type_string">
         <item>NO_SDCARD</item>
         <item>AVAILABLE</item>
@@ -87,10 +103,10 @@
         <item>@string/gigabyteShort</item>
         <item>@string/gibibyteShort</item>
     </array>
-    <array name="file_size_unit_values">
+    <string-array name="file_size_unit_values">
         <item>0</item>
         <item>1</item>
-    </array>
+    </string-array>
     <array name="language_values">
         <item>af</item>
         <item>sq</item>
@@ -167,19 +183,19 @@
         <item>01/23/2024</item>
         <item>2014-06-15</item>
     </array>
-    <array name="list_date_format_values">
+    <string-array name="list_date_format_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </array>
+    </string-array>
     <array name="music_player_engine_entries">
         <item>@string/system_music_player_engine</item>
         <item>@string/builtin_music_player_engine</item>
     </array>
-    <array name="music_player_engine_values">
+    <string-array name="music_player_engine_values">
         <item>1</item>
         <item>0</item>
-    </array>
+    </string-array>
     <array name="night_mode_entries">
         <item>@string/theme_default</item>
         <item>@string/theme_light</item>
@@ -191,17 +207,17 @@
         <item>@string/theme_light</item>
         <item>@string/theme_dark</item>
     </array>
-    <array name="night_mode_values">
+    <string-array name="night_mode_values">
         <item>-1</item>
         <item>1</item>
         <item>2</item>
         <item>0</item>
-    </array>
-    <array name="night_mode_values_no_auto">
+    </string-array>
+    <string-array name="night_mode_values_no_auto">
         <item>-1</item>
         <item>1</item>
         <item>2</item>
-    </array>
+    </string-array>
     <array name="openas_menu">
         <item>@string/text</item>
         <item>@string/image</item>
@@ -209,14 +225,14 @@
         <item>@string/video</item>
         <item>@string/other</item>
     </array>
-    <array name="seek_time_entries">
+    <string-array name="seek_time_entries">
         <item>5</item>
         <item>10</item>
         <item>15</item>
         <item>20</item>
         <item>30</item>
         <item>60</item>
-    </array>
+    </string-array>
     <array name="settings_image_sort_method_entries">
         <item>@string/sort_no_sort</item>
         <item>@string/sort_name_ascend</item>
@@ -275,7 +291,7 @@
         <item>&gt; 1 GB</item>
         <item>@string/option_custom</item>
     </array>
-    <array name="storage_full_thredhold_entries">
+    <string-array name="storage_full_thredhold_entries">
         <item>@string/switch_off_text</item>
         <item>99%</item>
         <item>98%</item>
@@ -284,8 +300,8 @@
         <item>95%</item>
         <item>90%</item>
         <item>85%</item>
-    </array>
-    <array name="storage_full_threshold_values">
+    </string-array>
+    <string-array name="storage_full_threshold_values">
         <item>200</item>
         <item>99</item>
         <item>98</item>
@@ -294,5 +310,5 @@
         <item>95</item>
         <item>90</item>
         <item>85</item>
-    </array>
+    </string-array>
 </resources>

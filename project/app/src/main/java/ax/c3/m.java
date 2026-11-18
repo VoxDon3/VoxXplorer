@@ -9,7 +9,7 @@ import ax.G4.t;
 import ax.G4.x;
 import ax.c3.d0;
 import ax.c3.v;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 import java.io.File;
 
 public class m
@@ -23,7 +23,7 @@ extends n {
     private boolean q0;
     private String r0;
 
-    public m(com.alphainventor.filemanager.file.k k8, P p8) {
+    public m(com.voxdon.xplorer.file.k k8, P p8) {
         super(k8);
         this.k0 = p8;
         this.l0 = p8.b();
@@ -41,7 +41,7 @@ extends n {
         this.q0 = false;
     }
 
-    public m(com.alphainventor.filemanager.file.k k8, String string) {
+    public m(com.voxdon.xplorer.file.k k8, String string) {
         super(k8);
         this.l0 = string;
         if ("/".equals(string)) {

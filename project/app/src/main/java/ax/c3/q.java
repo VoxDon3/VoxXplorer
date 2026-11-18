@@ -5,7 +5,7 @@ package ax.c3;
 
 import ax.c3.B;
 import ax.c3.d0;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.y;
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,10 +17,10 @@ import java.util.Locale;
 
 public class q {
     static HashMap<String, q> c = new HashMap();
-    Comparator<com.alphainventor.filemanager.file.n> a;
+    Comparator<com.voxdon.xplorer.file.n> a;
     boolean b;
 
-    q(Comparator<com.alphainventor.filemanager.file.n> comparator, boolean bl) {
+    q(Comparator<com.voxdon.xplorer.file.n> comparator, boolean bl) {
         this.a = comparator;
         this.b = bl;
     }
@@ -100,19 +100,19 @@ public class q {
      * Enabled unnecessary exception pruning
      * Enabled aggressive exception aggregation
      */
-    public static List<com.alphainventor.filemanager.file.n> g(List<com.alphainventor.filemanager.file.n> object, q arrayList) {
+    public static List<com.voxdon.xplorer.file.n> g(List<com.voxdon.xplorer.file.n> object, q arrayList) {
         Object object2;
         ArrayList<Object> arrayList2;
         block27: {
             Object object3;
             int n8;
-            Comparator<com.alphainventor.filemanager.file.n> comparator;
+            Comparator<com.voxdon.xplorer.file.n> comparator;
             block25: {
                 if (object == null) {
                     return null;
                 }
                 if (arrayList == null) {
-                    return new ArrayList<com.alphainventor.filemanager.file.n>((Collection<com.alphainventor.filemanager.file.n>)object);
+                    return new ArrayList<com.voxdon.xplorer.file.n>((Collection<com.voxdon.xplorer.file.n>)object);
                 }
                 comparator = ((q)((Object)arrayList)).b();
                 if (((q)((Object)arrayList)).d()) {
@@ -138,12 +138,12 @@ public class q {
                     return arrayList;
                 }
                 while (object.hasNext()) {
-                    object2 = (com.alphainventor.filemanager.file.n)object.next();
+                    object2 = (com.voxdon.xplorer.file.n)object.next();
                     if (object2.isDirectory()) {
                         arrayList2.add(object2);
                         continue;
                     }
-                    arrayList.add((com.alphainventor.filemanager.file.n)object2);
+                    arrayList.add((com.voxdon.xplorer.file.n)object2);
                 }
                 object2 = new ArrayList();
                 n8 = 0;
@@ -163,10 +163,10 @@ public class q {
                         catch (IllegalArgumentException illegalArgumentException2) {}
                     }
                     if (arrayList2.size() > 0) {
-                        object = (com.alphainventor.filemanager.file.n)arrayList2.get(0);
+                        object = (com.voxdon.xplorer.file.n)arrayList2.get(0);
                         object3 = ax.Ha.c.h().d("FUSORT1!!!:").f().l(illegalArgumentException);
                         StringBuilder stringBuilder = new StringBuilder();
-                        stringBuilder.append(((com.alphainventor.filemanager.file.n)object).P().I());
+                        stringBuilder.append(((com.voxdon.xplorer.file.n)object).P().I());
                         stringBuilder.append(":");
                         stringBuilder.append(comparator.getClass().getName());
                         ((ax.Ha.b)object3).g(stringBuilder.toString()).h();
@@ -192,12 +192,12 @@ public class q {
                     catch (IllegalArgumentException illegalArgumentException3) {}
                 }
                 if (arrayList.size() > 0) {
-                    object3 = (com.alphainventor.filemanager.file.n)arrayList.get(0);
+                    object3 = (com.voxdon.xplorer.file.n)arrayList.get(0);
                     if (bl && arrayList.size() < 30) {
                         int n9 = arrayList.size();
                         object = "";
                         while (n8 < n9) {
-                            com.alphainventor.filemanager.file.n n10 = arrayList.get(n8);
+                            com.voxdon.xplorer.file.n n10 = arrayList.get(n8);
                             ++n8;
                             StringBuilder stringBuilder = new StringBuilder();
                             stringBuilder.append((String)object);
@@ -209,7 +209,7 @@ public class q {
                     }
                     ax.Ha.b b8 = ax.Ha.c.h().d("FUSORT3!!!:").f().l(illegalArgumentException);
                     object = new StringBuilder();
-                    ((StringBuilder)object).append(((com.alphainventor.filemanager.file.n)object3).P().I());
+                    ((StringBuilder)object).append(((com.voxdon.xplorer.file.n)object3).P().I());
                     ((StringBuilder)object).append(":");
                     ((StringBuilder)object).append(comparator.getClass().getName());
                     b8.g(((StringBuilder)object).toString()).h();
@@ -228,7 +228,7 @@ public class q {
      * Enabled unnecessary exception pruning
      * Enabled aggressive exception aggregation
      */
-    public static void h(List<com.alphainventor.filemanager.file.n> list, q object) {
+    public static void h(List<com.voxdon.xplorer.file.n> list, q object) {
         if (list == null) return;
         if (object == null) return;
         if (((q)object).b() == null) {
@@ -261,7 +261,7 @@ public class q {
         }
     }
 
-    public Comparator<com.alphainventor.filemanager.file.n> b() {
+    public Comparator<com.voxdon.xplorer.file.n> b() {
         return this.a;
     }
 
@@ -270,7 +270,7 @@ public class q {
     }
 
     public static class a
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator q;
 
         public a() {
@@ -285,13 +285,13 @@ public class q {
             this.q.setStrength(3);
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             return this.q.compare(n9.B(), n8.B());
         }
     }
 
     public static class b
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator q;
 
         public b() {
@@ -306,16 +306,16 @@ public class q {
             this.q.setStrength(3);
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             return this.q.compare(n8.B(), n9.B());
         }
     }
 
     public static class c
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         h q = new h();
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8 = n8.q() - n9.q();
             long l9 = l8 == 0L ? 0 : (l8 < 0L ? -1 : 1);
             if (l9 < 0) {
@@ -329,10 +329,10 @@ public class q {
     }
 
     public static class d
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         h q = new h();
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8;
             boolean bl = n8 instanceof y;
             long l9 = bl ? ((y)n8).D0() : n8.q();
@@ -349,10 +349,10 @@ public class q {
     }
 
     public static class e
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         h q = new h();
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8;
             boolean bl = n8 instanceof y;
             long l9 = bl ? ((y)n8).D0() : n8.q();
@@ -369,10 +369,10 @@ public class q {
     }
 
     public static class f
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         h q = new h();
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8 = n8.q() - n9.q();
             long l9 = l8 == 0L ? 0 : (l8 < 0L ? -1 : 1);
             if (l9 < 0) {
@@ -386,7 +386,7 @@ public class q {
     }
 
     public static class g
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator c0;
         ax.u3.a q;
 
@@ -403,7 +403,7 @@ public class q {
             this.q = new ax.u3.a(this.c0);
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             try {
                 int n10 = this.q.a(n9.B(), n8.B());
                 return n10;
@@ -422,7 +422,7 @@ public class q {
     }
 
     public static class h
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator c0;
         ax.u3.a q;
 
@@ -439,7 +439,7 @@ public class q {
             this.q = new ax.u3.a(this.c0);
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             try {
                 int n10 = this.q.a(n8.B(), n9.B());
                 return n10;
@@ -458,7 +458,7 @@ public class q {
     }
 
     public static class i
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator q;
 
         public i() {
@@ -473,7 +473,7 @@ public class q {
             this.q.setStrength(3);
         }
 
-        private boolean b(com.alphainventor.filemanager.file.n n8) {
+        private boolean b(com.voxdon.xplorer.file.n n8) {
             String string;
             if (B.P(n8) && (string = n8.W()) != null && string.equals("/Android")) {
                 return true;
@@ -481,7 +481,7 @@ public class q {
             return n8.h();
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             boolean bl = this.b(n8);
             boolean bl2 = this.b(n9);
             if (bl && !bl2) {
@@ -495,7 +495,7 @@ public class q {
     }
 
     public static class j
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator q;
 
         public j() {
@@ -510,7 +510,7 @@ public class q {
             this.q.setStrength(3);
         }
 
-        private boolean b(com.alphainventor.filemanager.file.n n8) {
+        private boolean b(com.voxdon.xplorer.file.n n8) {
             String string;
             if (B.P(n8) && (string = n8.W()) != null && d0.H("/Android", string)) {
                 return true;
@@ -518,7 +518,7 @@ public class q {
             return n8.h();
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             boolean bl = this.b(n8);
             boolean bl2 = this.b(n9);
             if (bl && !bl2) {
@@ -547,11 +547,11 @@ public class q {
     }
 
     public static class k
-    implements Comparator<com.alphainventor.filemanager.file.n> {
-        private Comparator<com.alphainventor.filemanager.file.n> c0;
+    implements Comparator<com.voxdon.xplorer.file.n> {
+        private Comparator<com.voxdon.xplorer.file.n> c0;
         Collator q;
 
-        k(Comparator<com.alphainventor.filemanager.file.n> collator) {
+        k(Comparator<com.voxdon.xplorer.file.n> collator) {
             this.c0 = collator;
             this.q = collator = Collator.getInstance();
             try {
@@ -563,13 +563,13 @@ public class q {
             this.q.setStrength(3);
         }
 
-        public int a(com.alphainventor.filemanager.file.n object, com.alphainventor.filemanager.file.n object2) {
-            int n8 = this.c0.compare((com.alphainventor.filemanager.file.n)object, (com.alphainventor.filemanager.file.n)object2);
+        public int a(com.voxdon.xplorer.file.n object, com.voxdon.xplorer.file.n object2) {
+            int n8 = this.c0.compare((com.voxdon.xplorer.file.n)object, (com.voxdon.xplorer.file.n)object2);
             if (n8 != 0) {
                 return n8;
             }
-            object = ((com.alphainventor.filemanager.file.n)object).T();
-            object2 = ((com.alphainventor.filemanager.file.n)object2).T();
+            object = ((com.voxdon.xplorer.file.n)object).T();
+            object2 = ((com.voxdon.xplorer.file.n)object2).T();
             if (object == null && object2 != null) {
                 return 1;
             }
@@ -582,19 +582,19 @@ public class q {
             return 0;
         }
 
-        public Comparator<com.alphainventor.filemanager.file.n> b() {
+        public Comparator<com.voxdon.xplorer.file.n> b() {
             return this.c0;
         }
     }
 
     public static class l
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator q = Collator.getInstance();
 
         l() {
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8;
             long l9;
             block6: {
@@ -638,13 +638,13 @@ public class q {
     }
 
     public static class m
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator q = Collator.getInstance();
 
         m() {
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8;
             long l9;
             block6: {
@@ -688,8 +688,8 @@ public class q {
     }
 
     public static class n
-    implements Comparator<com.alphainventor.filemanager.file.n> {
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+    implements Comparator<com.voxdon.xplorer.file.n> {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             long l8 = ax.T2.h.T(n8).Y(n8) - ax.T2.h.T(n9).Y(n9);
             long l9 = l8 == 0L ? 0 : (l8 < 0L ? -1 : 1);
             if (l9 > 0) {
@@ -703,7 +703,7 @@ public class q {
     }
 
     public static class o
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator c0;
         g q = new g();
 
@@ -714,7 +714,7 @@ public class q {
             this.c0.setStrength(3);
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             if (n8.isDirectory() && n9.isDirectory()) {
                 return this.q.a(n8, n9);
             }
@@ -729,7 +729,7 @@ public class q {
     }
 
     public static class p
-    implements Comparator<com.alphainventor.filemanager.file.n> {
+    implements Comparator<com.voxdon.xplorer.file.n> {
         Collator c0;
         h q = new h();
 
@@ -740,7 +740,7 @@ public class q {
             this.c0.setStrength(3);
         }
 
-        public int a(com.alphainventor.filemanager.file.n n8, com.alphainventor.filemanager.file.n n9) {
+        public int a(com.voxdon.xplorer.file.n n8, com.voxdon.xplorer.file.n n9) {
             String string;
             if (n8.isDirectory() && n9.isDirectory()) {
                 return this.q.a(n8, n9);

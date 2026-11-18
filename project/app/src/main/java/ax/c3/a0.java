@@ -6,8 +6,8 @@ package ax.c3;
 import ax.c3.d0;
 import ax.c3.v;
 import ax.la.u;
-import com.alphainventor.filemanager.file.I;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.I;
+import com.voxdon.xplorer.file.n;
 
 public class a0
 extends n {

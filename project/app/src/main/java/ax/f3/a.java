@@ -5,7 +5,7 @@ package ax.f3;
 
 import android.content.Context;
 import ax.Q2.g;
-import com.alphainventor.filemanager.license.datatypes.ProductCatalogImpl;
+import com.voxdon.xplorer.license.datatypes.ProductCatalogImpl;
 import java.util.logging.Logger;
 
 public class a {

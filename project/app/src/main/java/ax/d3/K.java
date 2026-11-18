@@ -7,7 +7,7 @@ import android.os.Bundle;
 import ax.Q2.f;
 import ax.d3.E;
 import ax.i3.a;
-import com.alphainventor.filemanager.file.q;
+import com.voxdon.xplorer.file.q;
 
 public class K
 extends E {

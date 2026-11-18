@@ -45,7 +45,7 @@
     <string name="app_backup_storage">ऐप बैकअप स्टोरेज</string>
     <string name="app_caches">कैश फाइलें</string>
     <string name="app_caches_desc">कैश फाइलें अस्थाई फाइलें होती हैं जो आपके एप द्वारा संचित होती हैं</string>
-    <string name="app_name">फाइल प्रबंधक +</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">सभी</string>
     <string name="apps_downloaded">डाउनलोड किया हुआ</string>
     <string name="archive_is_damaged">संग्रह या तो अज्ञात प्रारूप में है या क्षतिग्रस्त है</string>

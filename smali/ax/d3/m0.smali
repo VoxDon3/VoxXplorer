@@ -475,7 +475,7 @@
     .line 113
     .line 114
     .line 115
-    const-string v2, "APP VERSION : 2.7.8\n"
+    const-string v2, "APP VERSION : 2.8.2\n"
 
     .line 116
     .line 117
@@ -3643,7 +3643,7 @@
     .line 23
     .line 24
     .line 25
-    const-string v2, "cx.fileexplorer@gmail.com"
+    const-string v2, "vox.xplorer@gmail.com"
 
     .line 26
     .line 27

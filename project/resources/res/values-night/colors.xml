@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="control_highlight">@color/ripple_vivid_dark</color>
     <color name="transfer_item_background">#ff1976d2</color>
     <color name="vivid_messsage_text_color">#66b2ff</color>
-    <color name="window_background">@color/background_material_dark</color>
+    <color name="window_background">#FF0A0F14</color>
+    <color name="main_background">#FF0A0F14</color>
+    <color name="accent_color">#4d9bff</color>
+    <color name="color_primary">#00E5FF</color>
+    <color name="color_primary_variant">#00B8D4</color>
+    <color name="color_surface">#0f1629</color>
+    <color name="color_on_primary">#FF0A0F14</color>
+    <color name="color_on_surface">#E6F4FBFF</color>
+    <color name="color_secondary">#4d9bff</color>
+    <color name="main_secondary_text">#E6F4FBFF</color>
+    <color name="control_highlight">#333DC0F0</color>
+    <color name="background_material_dark">#05070f</color>
+    <color name="vox_title">#00E5FF</color>
+    <color name="vox_path">#80DEEA</color>
+    <color name="vox_clip">#FFD54F</color>
+    <color name="vox_error">#E65100</color>
+    <color name="vox_text">#E6F4FBFF</color>
+    <color name="vox_text_dim">#99B8CBD8</color>
+    <color name="vox_shell">#FF0A0F14</color>
+    <color name="vox_rim">#3DC0F0FF</color>
+    <color name="vox_rim_hl">#77BEF3FF</color>
+    <color name="vox_glass_top">#D91A2836</color>
+    <color name="vox_glass_top_hl">#F22A4A58</color>
 </resources>

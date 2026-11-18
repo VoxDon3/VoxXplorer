@@ -5,7 +5,7 @@ package ax.d3;
 
 import ax.Q2.f;
 import ax.d3.E;
-import com.alphainventor.filemanager.file.d;
+import com.voxdon.xplorer.file.d;
 
 public class o
 extends E {

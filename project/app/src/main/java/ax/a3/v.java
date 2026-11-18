@@ -38,10 +38,10 @@ import ax.u3.h;
 import ax.u3.q;
 import ax.x3.C;
 import ax.x3.o;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.file.L;
-import com.alphainventor.filemanager.file.T;
-import com.alphainventor.filemanager.file.W;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.file.L;
+import com.voxdon.xplorer.file.T;
+import com.voxdon.xplorer.file.W;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
@@ -459,7 +459,7 @@ lbl23:
      * Enabled unnecessary exception pruning
      * Enabled aggressive exception aggregation
      */
-    private void S3(View var1_1, com.alphainventor.filemanager.file.o var2_2, com.alphainventor.filemanager.file.n var3_7) {
+    private void S3(View var1_1, com.voxdon.xplorer.file.o var2_2, com.voxdon.xplorer.file.n var3_7) {
         block12: {
             var4_8 = null;
             var4_8 = var2_2 = var2_2.J(var3_7, 0L);
@@ -597,7 +597,7 @@ lbl37:
                     }
 
                     @Override
-                    public void c(com.alphainventor.filemanager.file.o o8, com.alphainventor.filemanager.file.n n8) {
+                    public void c(com.voxdon.xplorer.file.o o8, com.voxdon.xplorer.file.n n8) {
                         if (n8 != null) {
                             c c8 = this.a;
                             c8.d.S3(c8.c, o8, n8);

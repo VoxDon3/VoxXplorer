@@ -28,10 +28,10 @@ import ax.a3.t;
 import ax.c3.B;
 import ax.c3.K;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.f;
-import com.alphainventor.filemanager.file.j;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.x;
+import com.voxdon.xplorer.file.f;
+import com.voxdon.xplorer.file.j;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.x;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,9 +40,9 @@ import java.util.Map;
 public class r
 extends I {
     private DialogInterface.OnCancelListener A0;
-    private com.alphainventor.filemanager.file.o B0;
+    private com.voxdon.xplorer.file.o B0;
     private List<n> C0;
-    private com.alphainventor.filemanager.file.f D0;
+    private com.voxdon.xplorer.file.f D0;
     private int E0;
     private int F0;
     private boolean G0;
@@ -120,8 +120,8 @@ extends I {
     }
 
     private void E3() {
-        com.alphainventor.filemanager.file.f f8;
-        this.D0 = f8 = new com.alphainventor.filemanager.file.f(f.c.q, this.B0, this.I0.q(), this.I0.u(), new f.b(this){
+        com.voxdon.xplorer.file.f f8;
+        this.D0 = f8 = new com.voxdon.xplorer.file.f(f.c.q, this.B0, this.I0.q(), this.I0.u(), new f.b(this){
             final r a;
             {
                 this.a = r8;
@@ -167,7 +167,7 @@ extends I {
         }
     }
 
-    static /* synthetic */ com.alphainventor.filemanager.file.o p3(r r8, com.alphainventor.filemanager.file.o o8) {
+    static /* synthetic */ com.voxdon.xplorer.file.o p3(r r8, com.voxdon.xplorer.file.o o8) {
         r8.B0 = o8;
         return o8;
     }
@@ -314,7 +314,7 @@ extends I {
 
     @Override
     public void v1() {
-        com.alphainventor.filemanager.file.f f8 = this.D0;
+        com.voxdon.xplorer.file.f f8 = this.D0;
         if (f8 != null) {
             f8.e();
         }
@@ -327,7 +327,7 @@ extends I {
 
     class g
     extends q<Void, Void, List<n>> {
-        com.alphainventor.filemanager.file.o h;
+        com.voxdon.xplorer.file.o h;
         Exception i;
         Context j;
         final r k;
@@ -342,7 +342,7 @@ extends I {
         protected List<n> w(Void ... object) {
             try {
                 object = this.h;
-                object = ((com.alphainventor.filemanager.file.o)object).z(((com.alphainventor.filemanager.file.o)object).V());
+                object = ((com.voxdon.xplorer.file.o)object).z(((com.voxdon.xplorer.file.o)object).V());
                 object = this.h.f0((n)object);
                 return object;
             }

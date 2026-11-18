@@ -38,9 +38,9 @@ import ax.u3.q;
 import ax.u3.z;
 import ax.x3.m;
 import ax.x3.v;
-import com.alphainventor.filemanager.activity.PaymentActivity;
-import com.alphainventor.filemanager.file.w;
-import com.alphainventor.filemanager.widget.RefreshProgressBar;
+import com.voxdon.xplorer.activity.PaymentActivity;
+import com.voxdon.xplorer.file.w;
+import com.voxdon.xplorer.widget.RefreshProgressBar;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -57,7 +57,7 @@ b.f {
     private GridView Q0;
     private m R0;
     private ax.Z2.d S0;
-    private com.alphainventor.filemanager.file.w T0;
+    private com.voxdon.xplorer.file.w T0;
     private RefreshProgressBar U0;
     private boolean V0;
     private BroadcastReceiver W0;
@@ -319,7 +319,7 @@ b.f {
         k82 = K.a(f.F0, 0);
         ax.Z2.b.k().s(k82, k82.e());
         if (this.b() != null && bl) {
-            com.alphainventor.filemanager.file.w.W(this.b());
+            com.voxdon.xplorer.file.w.W(this.b());
             d.F(this.b()).Z();
         }
         this.g5(true);
@@ -338,10 +338,10 @@ b.f {
                 if (!this.S0.z(i8)) continue;
                 this.P5(i8);
             }
-            com.alphainventor.filemanager.file.w w8 = this.T0;
+            com.voxdon.xplorer.file.w w8 = this.T0;
             if (w8 == null || w8.m() == q.f.d0) {
                 this.V0 = true;
-                this.T0 = w8 = com.alphainventor.filemanager.file.w.C((Context)this.f0(), new w.d(this){
+                this.T0 = w8 = com.voxdon.xplorer.file.w.C((Context)this.f0(), new w.d(this){
                     final w a;
                     {
                         this.a = w8;

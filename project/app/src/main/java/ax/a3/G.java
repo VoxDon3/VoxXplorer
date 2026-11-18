@@ -267,7 +267,7 @@ extends e {
 
                     @Override
                     public void a(View object) {
-                        if (this.c.b.f0() != null && !((com.alphainventor.filemanager.activity.a)this.c.b.f0()).U(this.c.b.v0, this.c.b.w0) && !((G)(object = this.c.b)).f3((Context)((Fragment)object).f0())) {
+                        if (this.c.b.f0() != null && !((com.voxdon.xplorer.activity.a)this.c.b.f0()).U(this.c.b.v0, this.c.b.w0) && !((G)(object = this.c.b)).f3((Context)((Fragment)object).f0())) {
                             object = this.c.b;
                             ((G)object).i3((Context)((Fragment)object).f0());
                             return;

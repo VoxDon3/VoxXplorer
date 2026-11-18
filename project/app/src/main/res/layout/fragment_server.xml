@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content">
                 <LinearLayout
                     android:orientation="vertical"
-                    android:background="@color/cx_ftp_server_content_background"
+                    android:background="@color/vox_ftp_server_content_background"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minHeight="210dp">
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <RelativeLayout
-                    android:background="@color/cx_ftp_server_content_background"
+                    android:background="@color/vox_ftp_server_content_background"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:minHeight="210dp">

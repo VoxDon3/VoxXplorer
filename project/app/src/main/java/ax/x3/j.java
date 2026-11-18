@@ -13,7 +13,7 @@ import android.widget.TextView;
 import ax.Q2.f;
 import ax.V2.d;
 import ax.s3.b;
-import com.alphainventor.filemanager.bookmark.Bookmark;
+import com.voxdon.xplorer.bookmark.Bookmark;
 import java.util.List;
 
 public class j

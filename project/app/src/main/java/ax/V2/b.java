@@ -16,10 +16,10 @@ import ax.b3.j;
 import ax.c3.K;
 import ax.c3.x;
 import ax.t3.k;
-import com.alphainventor.filemanager.bookmark.Bookmark;
-import com.alphainventor.filemanager.bookmark.BookmarkProvider;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.bookmark.Bookmark;
+import com.voxdon.xplorer.bookmark.BookmarkProvider;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.io.File;
 import java.util.logging.Logger;
 

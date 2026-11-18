@@ -33,13 +33,13 @@ import ax.d3.s;
 import ax.u3.g;
 import ax.u3.r;
 import ax.u3.z;
-import com.alphainventor.filemanager.activity.DefaultsSettingsActivity;
-import com.alphainventor.filemanager.activity.PaymentActivity;
-import com.alphainventor.filemanager.activity.UsbAttachActivity;
-import com.alphainventor.filemanager.file.f;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.file.y;
-import com.alphainventor.filemanager.service.CommandService;
+import com.voxdon.xplorer.activity.DefaultsSettingsActivity;
+import com.voxdon.xplorer.activity.PaymentActivity;
+import com.voxdon.xplorer.activity.UsbAttachActivity;
+import com.voxdon.xplorer.file.f;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.file.y;
+import com.voxdon.xplorer.service.CommandService;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Map;
@@ -53,7 +53,7 @@ Y {
     private ax.i.r n0;
     private PreferenceScreen o0;
 
-    private void g3(PreferenceScreen preferenceScreen, ArrayList<com.alphainventor.filemanager.file.n> arrayList, int n8) {
+    private void g3(PreferenceScreen preferenceScreen, ArrayList<com.voxdon.xplorer.file.n> arrayList, int n8) {
         o.l(this, ax.c3.x.e(K.e), arrayList, 1, false, false, n8, 2131952655, new h.a(){
             final PreferenceScreen a;
             final n0 b;
@@ -89,9 +89,9 @@ Y {
         return false;
     }
 
-    private void j3(PreferenceScreen preferenceScreen, ArrayList<com.alphainventor.filemanager.file.n> arrayList, int n8) {
-        com.alphainventor.filemanager.file.o o8 = ax.c3.x.e(K.e);
-        new com.alphainventor.filemanager.file.f(f.c.q, o8, arrayList, false, new f.b(){
+    private void j3(PreferenceScreen preferenceScreen, ArrayList<com.voxdon.xplorer.file.n> arrayList, int n8) {
+        com.voxdon.xplorer.file.o o8 = ax.c3.x.e(K.e);
+        new com.voxdon.xplorer.file.f(f.c.q, o8, arrayList, false, new f.b(){
             final PreferenceScreen a;
             final ArrayList b;
             final int c;
@@ -141,7 +141,7 @@ Y {
     }
 
     private void k3() {
-        ArrayList<com.alphainventor.filemanager.file.n> arrayList;
+        ArrayList<com.voxdon.xplorer.file.n> arrayList;
         if (this.b() == null) {
             return;
         }
@@ -150,14 +150,14 @@ Y {
         if (!y8.n()) {
             arrayList = null;
         } else {
-            arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
+            arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
             arrayList.add(y8);
         }
         this.m3(preferenceScreen, arrayList, 2131952056);
     }
 
     private void l3() {
-        ArrayList<com.alphainventor.filemanager.file.n> arrayList;
+        ArrayList<com.voxdon.xplorer.file.n> arrayList;
         if (this.b() == null) {
             return;
         }
@@ -166,13 +166,13 @@ Y {
         if (!y8.n()) {
             arrayList = null;
         } else {
-            arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
+            arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
             arrayList.add(y8);
         }
         this.m3(preferenceScreen, arrayList, 2131952057);
     }
 
-    private void m3(PreferenceScreen preferenceScreen, ArrayList<com.alphainventor.filemanager.file.n> arrayList, int n8) {
+    private void m3(PreferenceScreen preferenceScreen, ArrayList<com.voxdon.xplorer.file.n> arrayList, int n8) {
         preferenceScreen.H0(null);
         if (arrayList != null && !arrayList.isEmpty()) {
             this.j3(preferenceScreen, arrayList, n8);
@@ -188,7 +188,7 @@ Y {
     }
 
     private void o3() {
-        ArrayList<com.alphainventor.filemanager.file.n> arrayList;
+        ArrayList<com.voxdon.xplorer.file.n> arrayList;
         if (this.b() == null) {
             return;
         }
@@ -197,7 +197,7 @@ Y {
         if (arrayList2.isEmpty()) {
             arrayList = null;
         } else {
-            arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
+            arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
             int n8 = arrayList2.size();
             for (int i8 = 0; i8 < n8; ++i8) {
                 File file = arrayList2.get(i8);

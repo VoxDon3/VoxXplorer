@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_app_title">"Uygulamayı kapat"</string>
+    <string name="exit_app_message">"Vox Xplorer kapatılsın mı?"</string>
+    <string name="exit_app_ok">"Kapat"</string>
+    <string name="exit_app_cancel">"İptal"</string>
+</resources>

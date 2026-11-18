@@ -58,7 +58,7 @@
 
     .line 1
     :try_start_0
-    const-string p1, "https://www.alphainventor.com/cx-file-explorer-privacy-policy"
+    const-string p1, "https://www.voxdon.com/vox-xplorer-privacy-policy"
 
     .line 2
     .line 3

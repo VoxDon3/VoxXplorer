@@ -23,8 +23,8 @@ import ax.c3.z;
 import ax.u3.b;
 import ax.u3.h;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.y;
 
 public class a
 extends I {

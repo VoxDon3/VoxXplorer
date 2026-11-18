@@ -11,8 +11,8 @@ import ax.a3.x;
 import ax.c3.d0;
 import ax.c3.k;
 import ax.u3.b;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.util.List;
 import java.util.Locale;
 

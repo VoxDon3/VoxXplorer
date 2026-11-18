@@ -45,7 +45,7 @@
     <string name="app_backup_storage">Speicher für App-Backups</string>
     <string name="app_caches">Cache-Dateien</string>
     <string name="app_caches_desc">Cache-Dateien sind temporäre Dateien, die von Apps gespeichert wurden.</string>
-    <string name="app_name">Cx Datei Explorer</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">ALLE</string>
     <string name="apps_downloaded">HERUNTERGELADEN</string>
     <string name="archive_is_damaged">Das Archiv ist entweder in einem unbekannten Format oder beschädigt.</string>

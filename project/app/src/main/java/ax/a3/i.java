@@ -14,7 +14,7 @@ import androidx.fragment.app.e;
 import ax.Q2.f;
 import ax.a3.t;
 import ax.u3.h;
-import com.alphainventor.filemanager.activity.MainActivity;
+import com.voxdon.xplorer.activity.MainActivity;
 import java.io.Serializable;
 
 public class i

@@ -3,7 +3,7 @@
  */
 package ax.o3;
 
-import com.alphainventor.filemanager.service.ScanService;
+import com.voxdon.xplorer.service.ScanService;
 
 public final class g {
     public static /* bridge */ /* synthetic */ void a(ScanService scanService, int n8) {

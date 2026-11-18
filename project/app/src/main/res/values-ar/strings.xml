@@ -49,7 +49,7 @@
     <string name="app_backup_storage">"تخزين النسخ الاحتياطية للتطبيقات"</string>
     <string name="app_caches">"ملفات ذاكرة التخزين المؤقت"</string>
     <string name="app_caches_desc">"ملفات ذاكرة التخزين المؤقت هي ملفات مؤقتة تخزنها تطبيقاتك"</string>
-    <string name="app_name">"فوكس إكسبلورر"</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apps_all">"الكل"</string>
     <string name="apps_downloaded">"تم التنزيل"</string>

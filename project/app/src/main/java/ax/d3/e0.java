@@ -30,8 +30,8 @@ import ax.u3.B;
 import ax.u3.g;
 import ax.u3.m;
 import ax.u3.o;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.activity.UsbAttachActivity;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.activity.UsbAttachActivity;
 
 public class e0
 extends Fragment
@@ -154,7 +154,7 @@ implements Y {
                     @Override
                     public void a(View view) {
                         try {
-                            view = B.C("https://www.alphainventor.com/cx-file-explorer-privacy-policy");
+                            view = B.C("https://www.voxdon.com/vox-xplorer-privacy-policy");
                             u.p0(this.c, (Intent)view);
                             return;
                         }

@@ -14,7 +14,7 @@ import ax.d3.Y;
 import ax.d3.w0;
 import ax.n.c;
 import ax.u3.z;
-import com.alphainventor.filemanager.widget.WindowInsetsFrameLayout;
+import com.voxdon.xplorer.widget.WindowInsetsFrameLayout;
 import java.util.Iterator;
 
 public class x0 {

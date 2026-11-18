@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/alphainventor/filemanager/shizuku/c;
+.field public final synthetic a:Lcom/voxdon/xplorer/shizuku/c;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/alphainventor/filemanager/shizuku/c;)V
+.method public synthetic constructor <init>(Lcom/voxdon/xplorer/shizuku/c;)V
     .registers 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lax/p3/b;->a:Lcom/alphainventor/filemanager/shizuku/c;
+    iput-object p1, p0, Lax/p3/b;->a:Lcom/voxdon/xplorer/shizuku/c;
 
     return-void
 .end method
@@ -28,9 +28,9 @@
     .registers 2
 
     .line 1
-    iget-object v0, p0, Lax/p3/b;->a:Lcom/alphainventor/filemanager/shizuku/c;
+    iget-object v0, p0, Lax/p3/b;->a:Lcom/voxdon/xplorer/shizuku/c;
 
-    invoke-static {v0}, Lcom/alphainventor/filemanager/shizuku/c;->a(Lcom/alphainventor/filemanager/shizuku/c;)V
+    invoke-static {v0}, Lcom/voxdon/xplorer/shizuku/c;->a(Lcom/voxdon/xplorer/shizuku/c;)V
 
     return-void
 .end method

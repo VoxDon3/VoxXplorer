@@ -49,7 +49,7 @@
     <string name="app_backup_storage">"Stockage des sauvegardes d’apps"</string>
     <string name="app_caches">"Fichiers en cache"</string>
     <string name="app_caches_desc">"Les fichiers en cache sont des fichiers temporaires qui sont stockés par les applications"</string>
-    <string name="app_name">"Vox Xplorer"</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="appbar_scrolling_view_behavior">"com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"</string>
     <string name="apps_all">"TOUT"</string>
     <string name="apps_downloaded">"TÉLÉCHARGÉ"</string>
@@ -483,7 +483,7 @@
     <string name="item_view_role_description">"Onglet"</string>
     <string name="label_all_subfolders">"Tous les sous-dossiers"</string>
     <string name="label_analyze">"@string/analyze"</string>
-    <string name="label_clean">"Nettoyer"</string>
+    <string name="label_clean">"Nettoyage"</string>
     <string name="label_current_folder">"Dossier actuel"</string>
     <string name="label_details_view">"Détails"</string>
     <string name="label_dropbox_team_space">"Équipe"</string>

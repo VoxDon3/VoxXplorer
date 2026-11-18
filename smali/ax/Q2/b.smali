@@ -964,7 +964,7 @@
 
     .line 61
     .line 62
-    invoke-static {v0}, Lcom/alphainventor/filemanager/shizuku/c;->z(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/voxdon/xplorer/shizuku/c;->z(Landroid/content/Context;)V
 
     .line 63
     .line 64

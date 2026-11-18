@@ -11538,7 +11538,7 @@
 
     .line 31
     .line 32
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 33
     .line 34
@@ -11546,7 +11546,7 @@
     move-result-object v0
 
     .line 36
-    invoke-virtual {v0}, Lcom/alphainventor/filemanager/shizuku/c;->C()Z
+    invoke-virtual {v0}, Lcom/voxdon/xplorer/shizuku/c;->C()Z
 
     .line 37
     .line 38
@@ -11558,7 +11558,7 @@
 
     .line 41
     .line 42
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 43
     .line 44
@@ -11575,12 +11575,12 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {v0, v1}, Lcom/alphainventor/filemanager/shizuku/c;->m(Lax/Q2/i$a;)Z
+    invoke-virtual {v0, v1}, Lcom/voxdon/xplorer/shizuku/c;->m(Lax/Q2/i$a;)Z
 
     .line 52
     .line 53
     .line 54
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 55
     .line 56
@@ -11588,7 +11588,7 @@
     move-result-object v0
 
     .line 58
-    invoke-virtual {v0}, Lcom/alphainventor/filemanager/shizuku/c;->A()Z
+    invoke-virtual {v0}, Lcom/voxdon/xplorer/shizuku/c;->A()Z
 
     .line 59
     .line 60
@@ -12827,7 +12827,7 @@
 
     .line 138
     .line 139
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 140
     .line 141
@@ -12835,7 +12835,7 @@
     move-result-object p1
 
     .line 143
-    invoke-virtual {p1}, Lcom/alphainventor/filemanager/shizuku/c;->C()Z
+    invoke-virtual {p1}, Lcom/voxdon/xplorer/shizuku/c;->C()Z
 
     .line 144
     .line 145

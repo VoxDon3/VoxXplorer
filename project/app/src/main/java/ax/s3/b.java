@@ -10,8 +10,8 @@ import ax.Z2.j;
 import ax.c3.K;
 import ax.u3.B;
 import ax.u3.z;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.y;
 import java.util.HashMap;
 
 public class b {

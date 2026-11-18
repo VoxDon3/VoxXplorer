@@ -40,8 +40,8 @@ import ax.d3.n;
 import ax.u3.b;
 import ax.u3.h;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.L;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.L;
+import com.voxdon.xplorer.file.o;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -56,11 +56,11 @@ implements AdapterView.OnItemClickListener {
     private j C0;
     private l D0;
     private k E0;
-    private List<com.alphainventor.filemanager.file.n> F0;
+    private List<com.voxdon.xplorer.file.n> F0;
     private i G0;
     private m H0;
     private String I0;
-    private com.alphainventor.filemanager.file.n J0;
+    private com.voxdon.xplorer.file.n J0;
     private o K0;
     private K L0;
     private int M0;
@@ -215,7 +215,7 @@ implements AdapterView.OnItemClickListener {
         }
     }
 
-    private void O3(o object, com.alphainventor.filemanager.file.n n8) {
+    private void O3(o object, com.voxdon.xplorer.file.n n8) {
         if (!n8.isDirectory()) {
             return;
         }
@@ -279,7 +279,7 @@ implements AdapterView.OnItemClickListener {
         this.v0.setVisibility(0);
     }
 
-    private void W3(com.alphainventor.filemanager.file.n n8) {
+    private void W3(com.voxdon.xplorer.file.n n8) {
         Button button;
         if (this.Q2() == null || (button = ((a)this.Q2()).i(-1)) == null) {
             return;
@@ -295,7 +295,7 @@ implements AdapterView.OnItemClickListener {
         button.setEnabled(false);
     }
 
-    static /* synthetic */ com.alphainventor.filemanager.file.n j3(f f8, com.alphainventor.filemanager.file.n n8) {
+    static /* synthetic */ com.voxdon.xplorer.file.n j3(f f8, com.voxdon.xplorer.file.n n8) {
         f8.J0 = n8;
         return n8;
     }
@@ -340,7 +340,7 @@ implements AdapterView.OnItemClickListener {
                     String string = d0.Q(this.a.m(), object);
                     Iterator iterator = this.c.F0.iterator();
                     while (iterator.hasNext()) {
-                        if (!string.equals(((com.alphainventor.filemanager.file.n)iterator.next()).E())) continue;
+                        if (!string.equals(((com.voxdon.xplorer.file.n)iterator.next()).E())) continue;
                         return ax.a3.l.c0;
                     }
                 }
@@ -385,7 +385,7 @@ implements AdapterView.OnItemClickListener {
             this.O0 = this.u0 ? 2131952248 : 0;
             this.y0.setVisibility(8);
         }
-        this.F0 = new ArrayList<com.alphainventor.filemanager.file.n>();
+        this.F0 = new ArrayList<com.voxdon.xplorer.file.n>();
         this.E0 = new k(this, (Context)this.f0(), this.F0);
         this.w0.setOnItemClickListener((AdapterView.OnItemClickListener)this);
         this.v0.setVisibility(8);
@@ -495,14 +495,14 @@ implements AdapterView.OnItemClickListener {
             this.E3(((K)object).e());
             return;
         }
-        object = (com.alphainventor.filemanager.file.n)this.E0.getItem(n8);
+        object = (com.voxdon.xplorer.file.n)this.E0.getItem(n8);
         if (object.isDirectory()) {
-            this.O3(this.K0, (com.alphainventor.filemanager.file.n)object);
+            this.O3(this.K0, (com.voxdon.xplorer.file.n)object);
             return;
         }
         if (this.t0 == 2) {
-            if (L.G0(this.K0, (com.alphainventor.filemanager.file.n)object)) {
-                this.C0.c(this.K0, (com.alphainventor.filemanager.file.n)object);
+            if (L.G0(this.K0, (com.voxdon.xplorer.file.n)object)) {
+                this.C0.c(this.K0, (com.voxdon.xplorer.file.n)object);
                 this.O2();
                 return;
             }
@@ -527,7 +527,7 @@ implements AdapterView.OnItemClickListener {
     }
 
     private class i
-    extends q<Void, Void, com.alphainventor.filemanager.file.n> {
+    extends q<Void, Void, com.voxdon.xplorer.file.n> {
         private String h;
         o i;
         final f j;
@@ -545,9 +545,9 @@ implements AdapterView.OnItemClickListener {
             this.i.n0();
         }
 
-        protected com.alphainventor.filemanager.file.n w(Void ... object) {
+        protected com.voxdon.xplorer.file.n w(Void ... object) {
             block5: {
-                com.alphainventor.filemanager.file.n n8;
+                com.voxdon.xplorer.file.n n8;
                 try {
                     n8 = this.i.z(this.h);
                     object = n8;
@@ -566,11 +566,11 @@ implements AdapterView.OnItemClickListener {
             return object;
         }
 
-        protected void x(com.alphainventor.filemanager.file.n n8) {
+        protected void x(com.voxdon.xplorer.file.n n8) {
             this.i.k0(true);
         }
 
-        protected void y(com.alphainventor.filemanager.file.n n8) {
+        protected void y(com.voxdon.xplorer.file.n n8) {
             if (n8 != null) {
                 f.j3(this.j, n8);
                 this.j.O3(this.i, n8);
@@ -588,22 +588,22 @@ implements AdapterView.OnItemClickListener {
 
         public void b();
 
-        public void c(o var1, com.alphainventor.filemanager.file.n var2);
+        public void c(o var1, com.voxdon.xplorer.file.n var2);
     }
 
     private class k
-    extends ArrayAdapter<com.alphainventor.filemanager.file.n> {
+    extends ArrayAdapter<com.voxdon.xplorer.file.n> {
         private Context a;
         final f b;
 
-        public k(f f8, Context context, List<com.alphainventor.filemanager.file.n> list) {
+        public k(f f8, Context context, List<com.voxdon.xplorer.file.n> list) {
             this.b = f8;
             super(context, 0, list);
             this.a = context;
         }
 
         public View getView(int n8, View view, ViewGroup object) {
-            com.alphainventor.filemanager.file.n n9 = (com.alphainventor.filemanager.file.n)this.getItem(n8);
+            com.voxdon.xplorer.file.n n9 = (com.voxdon.xplorer.file.n)this.getItem(n8);
             if (view == null) {
                 view = LayoutInflater.from((Context)this.a).inflate(2131558463, (ViewGroup)object, false);
                 object = new a(this, view);
@@ -636,7 +636,7 @@ implements AdapterView.OnItemClickListener {
                 imageView.setAlpha(f8);
             }
 
-            void a(com.alphainventor.filemanager.file.n n8) {
+            void a(com.voxdon.xplorer.file.n n8) {
                 String string;
                 if (n8 == null || (string = this.c) != null && string.equals(n8.t())) {
                     return;
@@ -700,14 +700,14 @@ implements AdapterView.OnItemClickListener {
     }
 
     private class m
-    extends q<Void, Void, List<com.alphainventor.filemanager.file.n>> {
-        private com.alphainventor.filemanager.file.n h;
+    extends q<Void, Void, List<com.voxdon.xplorer.file.n>> {
+        private com.voxdon.xplorer.file.n h;
         private ax.b3.j i;
         private o j;
         private Context k;
         final f l;
 
-        public m(f f8, o o8, com.alphainventor.filemanager.file.n n8) {
+        public m(f f8, o o8, com.voxdon.xplorer.file.n n8) {
             this.l = f8;
             super(q.e.d0);
             this.h = n8;
@@ -722,7 +722,7 @@ implements AdapterView.OnItemClickListener {
             this.l.E0.clear();
         }
 
-        protected List<com.alphainventor.filemanager.file.n> w(Void ... object) {
+        protected List<com.voxdon.xplorer.file.n> w(Void ... object) {
             block7: {
                 e e82;
                 block6: {
@@ -731,7 +731,7 @@ implements AdapterView.OnItemClickListener {
                         block4: {
                             if (this.l.L0.d() == ax.Q2.f.n0 || (object = this.h) == null) break block4;
                             try {
-                                object = ax.c3.q.g(B.h(this.j.f0((com.alphainventor.filemanager.file.n)object), null, ax.t3.e.h((Context)this.l.f0(), this.l.L0.d(), this.l.L0.b(), this.h.E(), false), true), ax.c3.q.c("NameUp"));
+                                object = ax.c3.q.g(B.h(this.j.f0((com.voxdon.xplorer.file.n)object), null, ax.t3.e.h((Context)this.l.f0(), this.l.L0.d(), this.l.L0.b(), this.h.E(), false), true), ax.c3.q.c("NameUp"));
                                 return object;
                             }
                             catch (ax.b3.j j82) {
@@ -753,11 +753,11 @@ implements AdapterView.OnItemClickListener {
             return null;
         }
 
-        protected void x(List<com.alphainventor.filemanager.file.n> list) {
+        protected void x(List<com.voxdon.xplorer.file.n> list) {
             this.j.k0(false);
         }
 
-        protected void y(List<com.alphainventor.filemanager.file.n> object) {
+        protected void y(List<com.voxdon.xplorer.file.n> object) {
             this.j.k0(false);
             if (this.l.L0.d() == ax.Q2.f.n0) {
                 f.j3(this.l, null);

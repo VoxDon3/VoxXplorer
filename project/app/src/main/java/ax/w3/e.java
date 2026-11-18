@@ -31,7 +31,7 @@ import ax.m1.j;
 import ax.u3.b;
 import ax.w3.h;
 import ax.y0.a;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 import com.android.ex.photo.c;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

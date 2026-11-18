@@ -16,8 +16,8 @@ import ax.d3.E;
 import ax.d3.n;
 import ax.t3.e;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.c;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.c;
+import com.voxdon.xplorer.file.o;
 import com.example.android.uamp.MusicService;
 import java.util.List;
 import java.util.logging.Logger;
@@ -37,7 +37,7 @@ public class c {
         }
     }
 
-    private static void e(Context object, com.alphainventor.filemanager.activity.b b8, o o8, ax.h3.b b9, k k8) {
+    private static void e(Context object, com.voxdon.xplorer.activity.b b8, o o8, ax.h3.b b9, k k8) {
         if (q.n(b)) {
             return;
         }
@@ -46,7 +46,7 @@ public class c {
         ((q)object).i(new Void[0]);
     }
 
-    private static void f(com.alphainventor.filemanager.activity.b b8, long l8) {
+    private static void f(com.voxdon.xplorer.activity.b b8, long l8) {
         o o8;
         k k8;
         ax.h3.b b9;
@@ -64,7 +64,7 @@ public class c {
             }
             o8.h(new c.a(){
                 final Context a;
-                final com.alphainventor.filemanager.activity.b b;
+                final com.voxdon.xplorer.activity.b b;
                 final o c;
                 final ax.h3.b d;
                 final k e;
@@ -93,15 +93,15 @@ public class c {
     }
 
     private static class b
-    extends q<Void, Integer, List<com.alphainventor.filemanager.file.n>> {
+    extends q<Void, Integer, List<com.voxdon.xplorer.file.n>> {
         private o h;
         private k i;
         private ax.h3.b j;
-        private com.alphainventor.filemanager.file.n k;
+        private com.voxdon.xplorer.file.n k;
         private Context l;
-        private com.alphainventor.filemanager.activity.b m;
+        private com.voxdon.xplorer.activity.b m;
 
-        b(Context context, com.alphainventor.filemanager.activity.b b8, o o8, ax.h3.b b9, k k8) {
+        b(Context context, com.voxdon.xplorer.activity.b b8, o o8, ax.h3.b b9, k k8) {
             super(q.e.d0);
             this.h = o8;
             this.j = b9;
@@ -126,7 +126,7 @@ public class c {
          * Enabled unnecessary exception pruning
          * Enabled aggressive exception aggregation
          */
-        protected List<com.alphainventor.filemanager.file.n> x(Void ... object) {
+        protected List<com.voxdon.xplorer.file.n> x(Void ... object) {
             RuntimeException var1_4;
             block4: {
                 try {
@@ -147,13 +147,13 @@ public class c {
                 if (object == null) return null;
                 Object object2 = this.h.z((object = ax.Z2.k.a(Uri.parse((String)object))).e());
                 if (!object2.n()) return null;
-                List<com.alphainventor.filemanager.file.n> list = this.h.f0((com.alphainventor.filemanager.file.n)object2);
+                List<com.voxdon.xplorer.file.n> list = this.h.f0((com.voxdon.xplorer.file.n)object2);
                 object = list;
                 if (list == null) return object;
                 object = this.h.S();
                 int n8 = this.h.y();
-                list = B.h(list, null, e.h(this.l, (f)((Object)object), n8, ((com.alphainventor.filemanager.file.n)object2).E(), false), B.P((com.alphainventor.filemanager.file.n)object2));
-                object2 = E.F7(this.l, (f)((Object)object), n8, ((com.alphainventor.filemanager.file.n)object2).E(), false);
+                list = B.h(list, null, e.h(this.l, (f)((Object)object), n8, ((com.voxdon.xplorer.file.n)object2).E(), false), B.P((com.voxdon.xplorer.file.n)object2));
+                object2 = E.F7(this.l, (f)((Object)object), n8, ((com.voxdon.xplorer.file.n)object2).E(), false);
                 object = list;
                 if (object2 == null) return object;
                 return ax.c3.q.g(list, ax.c3.q.c((String)object2));
@@ -162,7 +162,7 @@ public class c {
             return null;
         }
 
-        protected void y(List<com.alphainventor.filemanager.file.n> list) {
+        protected void y(List<com.voxdon.xplorer.file.n> list) {
             if (this.k != null) {
                 Object object;
                 Object object2 = a;
@@ -185,7 +185,7 @@ public class c {
                 object3 = this.m;
                 object = this.k;
                 object2 = this.j;
-                ((com.alphainventor.filemanager.activity.b)object3).A0((com.alphainventor.filemanager.file.n)object, ((ax.h3.b)object2).b, list, ((ax.h3.b)object2).d);
+                ((com.voxdon.xplorer.activity.b)object3).A0((com.voxdon.xplorer.file.n)object, ((ax.h3.b)object2).b, list, ((ax.h3.b)object2).d);
             }
             new Handler(Looper.getMainLooper()).postDelayed(new Runnable(this){
                 final b q;

@@ -86,7 +86,7 @@
     <color name="color_surface_container_lowest">#ff0a0f14</color>
     <color name="control_highlight">#333DC0F0</color>
     <color name="created_indicator">#ff5722</color>
-    <color name="cx_ftp_server_content_background">#F20A0F14</color>
+    <color name="vox_ftp_server_content_background">#F20A0F14</color>
     <color name="dark_accent_background">#1565c0</color>
     <color name="dark_accent_color">@color/dark_color_primary</color>
     <color name="dark_actionbar_color">@color/material_grey_900</color>
@@ -485,7 +485,8 @@
     <color name="m3_sys_color_dynamic_dark_on_background">#ffe3e2e6</color>
     <color name="m3_sys_color_dynamic_dark_on_surface">#ffe3e2e6</color>
     <color name="m3_sys_color_dynamic_dark_on_surface_variant">#ffc2c7cf</color>
-    <color name="vox_title">#00E5FF</color>
+    <color name="vox_title">#66E0FF</color>
+    <color name="vox_storage_circle">#FF00E5FF</color>
     <color name="vox_path">#80DEEA</color>
     <color name="vox_clip">#FFD54F</color>
     <color name="vox_error">#E65100</color>

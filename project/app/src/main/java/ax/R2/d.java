@@ -4,7 +4,7 @@
 package ax.R2;
 
 import android.app.ComponentCaller;
-import com.alphainventor.filemanager.activity.LaunchActivity;
+import com.voxdon.xplorer.activity.LaunchActivity;
 
 public final class d {
     public static /* bridge */ /* synthetic */ ComponentCaller a(LaunchActivity launchActivity) {

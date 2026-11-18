@@ -65,7 +65,7 @@
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/table_layout"
-            android:layout_width="155dp"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/graph_layout"
             app:layout_constraintEnd_toEndOf="parent"

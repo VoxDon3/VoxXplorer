@@ -11,7 +11,7 @@ import ax.X2.Q;
 import ax.X2.v;
 import ax.d3.x0;
 import ax.u3.z;
-import com.alphainventor.filemanager.widget.WindowInsetsFrameLayout;
+import com.voxdon.xplorer.widget.WindowInsetsFrameLayout;
 
 public abstract class c
 extends ax.n.c

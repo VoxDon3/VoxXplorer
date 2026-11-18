@@ -819,9 +819,9 @@ b(byte[] int int )
 ax.T2.h
 ----------------------------
 
-m(ax.T2.h$f com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+m(ax.T2.h$f com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 3[TRYBLOCK] [7, 6 : 92->100)] java.lang.Throwable
-p0(com.alphainventor.filemanager.file.o ax.T2.h$f java.io.File ax.u3.c )
+p0(com.voxdon.xplorer.file.o ax.T2.h$f java.io.File ax.u3.c )
   Unable to fully structure code
 A0(ax.T2.h$g )
   Unable to fully structure code
@@ -875,7 +875,7 @@ A()
   Unable to fully structure code
 d0(android.content.pm.PackageInstaller int java.io.File )
   Loose catch block
-s(android.content.Context com.alphainventor.filemanager.file.y )
+s(android.content.Context com.voxdon.xplorer.file.y )
   Loose catch block
 t(android.content.Context java.lang.String )
   Unable to fully structure code
@@ -920,7 +920,7 @@ ax.W2.e
 
 i2()
   Unable to fully structure code
-O(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.n ax.u3.c )
+O(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.n ax.u3.c )
   Unable to fully structure code
 H(java.lang.Void[] )
   Unable to fully structure code
@@ -943,9 +943,9 @@ a(android.content.Context java.util.List<ax.W2.g> android.net.Uri )
 ax.W2.l
 ----------------------------
 
-w(com.alphainventor.filemanager.file.n java.lang.String ax.Bc.r ax.g3.i )
+w(com.voxdon.xplorer.file.n java.lang.String ax.Bc.r ax.g3.i )
   Loose catch block
-x(com.alphainventor.filemanager.file.n java.lang.String ax.Dc.J ax.g3.i )
+x(com.voxdon.xplorer.file.n java.lang.String ax.Dc.J ax.g3.i )
   Unable to fully structure code
 y(java.lang.Void[] )
   Unable to fully structure code
@@ -963,9 +963,9 @@ w(java.lang.Void[] )
 ax.W2.u
 ----------------------------
 
-A(com.alphainventor.filemanager.file.n ax.g3.i )
+A(com.voxdon.xplorer.file.n ax.g3.i )
   Unable to fully structure code
-C(com.alphainventor.filemanager.file.n ax.g3.i )
+C(com.voxdon.xplorer.file.n ax.g3.i )
   Unable to fully structure code
 F()
   Loose catch block
@@ -1158,7 +1158,7 @@ M3(java.lang.String )
   Could not resolve type clashes
 a(ax.Q2.f java.lang.String int java.lang.String java.lang.String )
   Unable to fully structure code
-S3(android.view.View com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+S3(android.view.View com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Unable to fully structure code
 T2(android.os.Bundle )
   Unable to fully structure code
@@ -1203,7 +1203,7 @@ l(ax.c3.k java.io.File ax.B.b<java.lang.String> )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.h
+com.voxdon.xplorer.file.h
 ----------------------------
 
 A(java.lang.String java.lang.String java.lang.String )
@@ -1226,16 +1226,16 @@ j(android.content.Context java.lang.String boolean boolean )
 ax.c3.N
 ----------------------------
 
-d(android.content.Context com.alphainventor.filemanager.file.n java.lang.String boolean )
+d(android.content.Context com.voxdon.xplorer.file.n java.lang.String boolean )
   Unable to fully structure code
 
 
 ax.c3.O
 ----------------------------
 
-f(java.io.File java.util.List<com.alphainventor.filemanager.file.n> long ax.c3.K java.io.Writer )
+f(java.io.File java.util.List<com.voxdon.xplorer.file.n> long ax.c3.K java.io.Writer )
   Unable to fully structure code
-a(java.io.File java.util.HashMap<java.lang.String, com.alphainventor.filemanager.file.v> java.util.List<com.alphainventor.filemanager.file.n> )
+a(java.io.File java.util.HashMap<java.lang.String, com.voxdon.xplorer.file.v> java.util.List<com.voxdon.xplorer.file.n> )
   Unable to fully structure code
 
 
@@ -1246,7 +1246,7 @@ w(java.lang.Void[] )
   Loose catch block
 
 
-com.alphainventor.filemanager.file.y
+com.voxdon.xplorer.file.y
 ----------------------------
 
 Q0()
@@ -1307,13 +1307,13 @@ ax.d3.E
 
 e8(android.widget.AbsListView int int android.view.KeyEvent )
   Unable to fully structure code
-r7(java.util.List<com.alphainventor.filemanager.file.n> )
+r7(java.util.List<com.voxdon.xplorer.file.n> )
   Unable to fully structure code
 w(java.lang.Void[] )
   Loose catch block
 B()
   Loose catch block
-F(java.util.List<com.alphainventor.filemanager.file.n> )
+F(java.util.List<com.voxdon.xplorer.file.n> )
   Unable to fully structure code
 
 
@@ -1807,7 +1807,7 @@ m(java.lang.String java.lang.String java.lang.String )
 ax.w3.f
 ----------------------------
 
-V(com.android.ex.photo.c android.content.Context com.alphainventor.filemanager.file.n )
+V(com.android.ex.photo.c android.content.Context com.voxdon.xplorer.file.n )
   Unable to fully structure code
 L()
   Unable to fully structure code
@@ -1868,7 +1868,7 @@ d(ax.z.b android.app.PendingIntent )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.activity.a
+com.voxdon.xplorer.activity.a
 ----------------------------
 
 O(int android.content.Intent )
@@ -1877,109 +1877,109 @@ U(ax.c3.K java.lang.String )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.activity.ArchiveActivity
+com.voxdon.xplorer.activity.ArchiveActivity
 ----------------------------
 
 w(java.lang.Void[] )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.activity.LaunchActivity
+com.voxdon.xplorer.activity.LaunchActivity
 ----------------------------
 
 onCreate(android.os.Bundle )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.activity.MSURLLauncherActivity
+com.voxdon.xplorer.activity.MSURLLauncherActivity
 ----------------------------
 
 w(java.lang.String[] )
   Loose catch block
 
 
-com.alphainventor.filemanager.activity.ShortcutActivity
+com.voxdon.xplorer.activity.ShortcutActivity
 ----------------------------
 
-F(android.net.Uri com.alphainventor.filemanager.bookmark.Bookmark )
+F(android.net.Uri com.voxdon.xplorer.bookmark.Bookmark )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.activity.SplitApkInstallerActivity
+com.voxdon.xplorer.activity.SplitApkInstallerActivity
 ----------------------------
 
 w(java.lang.String[] )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.x
+com.voxdon.xplorer.file.x
 ----------------------------
 
 S0(android.os.ParcelFileDescriptor int int )
   Loose catch block
-V0(com.alphainventor.filemanager.file.y )
+V0(com.voxdon.xplorer.file.y )
   Unable to fully structure code
 f1(java.lang.String )
   Unable to fully structure code
-C(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.m$f )
+C(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.m$f )
   Unable to fully structure code
-D(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String long java.lang.Long com.alphainventor.filemanager.file.p boolean ax.u3.c ax.g3.i )
+D(com.voxdon.xplorer.file.n ax.c3.G java.lang.String long java.lang.Long com.voxdon.xplorer.file.p boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
-H1(com.alphainventor.filemanager.file.n )
+H1(com.voxdon.xplorer.file.n )
   Unable to fully structure code
-I1(com.alphainventor.filemanager.file.n )
+I1(com.voxdon.xplorer.file.n )
   Loose catch block
-s0(com.alphainventor.filemanager.file.n )
+s0(com.voxdon.xplorer.file.n )
   Loose catch block
 
 
-com.alphainventor.filemanager.file.W
+com.voxdon.xplorer.file.W
 ----------------------------
 
 w(java.lang.Object[] )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.F
+com.voxdon.xplorer.file.F
 ----------------------------
 
 a(ax.L9.a<UploadType> )
   Loose catch block
 
 
-com.alphainventor.filemanager.file.G
+com.voxdon.xplorer.file.G
 ----------------------------
 
 k(ax.P9.o java.lang.Class<Result> Body ax.L9.e<Result> ax.P9.q<Result, DeserializeType> )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 1[TRYBLOCK] [5, 4 : 52->111)] java.lang.Exception
 
 
-com.alphainventor.filemanager.file.I
+com.voxdon.xplorer.file.I
 ----------------------------
 
-y0(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String java.lang.Long boolean ax.u3.c ax.g3.i )
+y0(com.voxdon.xplorer.file.n ax.c3.G java.lang.String java.lang.Long boolean ax.u3.c ax.g3.i )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 11[TRYBLOCK] [44 : 317->326)] java.lang.Throwable
 A(java.lang.String java.lang.String java.lang.String )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.J
+com.voxdon.xplorer.file.J
 ----------------------------
 
 W1(ax.c3.K )
   Unable to fully structure code
-n2(java.util.List<com.alphainventor.filemanager.file.n> ax.c3.K )
+n2(java.util.List<com.voxdon.xplorer.file.n> ax.c3.K )
   Unable to fully structure code
-o2(com.alphainventor.filemanager.file.n ax.c3.K )
+o2(com.voxdon.xplorer.file.n ax.c3.K )
   Unable to fully structure code
-q2(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n long )
+q2(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n long )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.L
+com.voxdon.xplorer.file.L
 ----------------------------
 
-G0(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+G0(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Unable to fully structure code
 z(java.lang.String )
   Loose catch block
@@ -1989,36 +1989,36 @@ w(java.lang.Object[] )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.O
+com.voxdon.xplorer.file.O
 ----------------------------
 
-E(com.alphainventor.filemanager.file.n long )
+E(com.voxdon.xplorer.file.n long )
   Loose catch block
 c(long byte[] int int )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 3[TRYBLOCK] [3 : 105->136)] ax.k9.d
 
 
-com.alphainventor.filemanager.file.OneDriveFileHelper
+com.voxdon.xplorer.file.OneDriveFileHelper
 ----------------------------
 
 c1(ax.N9.Y ax.c3.G long boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
 d1(java.lang.String long ax.g3.i )
   Unable to fully structure code
-e1(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String long java.lang.Long boolean boolean ax.u3.c ax.g3.i )
+e1(com.voxdon.xplorer.file.n ax.c3.G java.lang.String long java.lang.Long boolean boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
-m(com.alphainventor.filemanager.file.n java.lang.String boolean boolean ax.g3.h ax.u3.c )
+m(com.voxdon.xplorer.file.n java.lang.String boolean boolean ax.g3.h ax.u3.c )
   Loose catch block
 
 
-com.alphainventor.filemanager.file.Q
+com.voxdon.xplorer.file.Q
 ----------------------------
 
-J0(com.alphainventor.filemanager.file.n ax.c3.G long java.lang.Long boolean ax.u3.c ax.g3.i )
+J0(com.voxdon.xplorer.file.n ax.c3.G long java.lang.Long boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
 D(java.lang.String boolean )
   Unable to fully structure code
-G(com.alphainventor.filemanager.file.Q$c ax.i9.c boolean ax.jb.b java.lang.String int java.lang.String java.lang.String java.lang.String )
+G(com.voxdon.xplorer.file.Q$c ax.i9.c boolean ax.jb.b java.lang.String int java.lang.String java.lang.String java.lang.String )
   Unable to fully structure code
 x(java.lang.String java.lang.String java.lang.String ax.jb.b boolean )
   Unable to fully structure code
@@ -2026,16 +2026,16 @@ y(java.lang.String[] )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.U
+com.voxdon.xplorer.file.U
 ----------------------------
 
-C(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.m$f )
+C(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.m$f )
   Unable to fully structure code
-D(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String long java.lang.Long com.alphainventor.filemanager.file.p boolean ax.u3.c ax.g3.i )
+D(com.voxdon.xplorer.file.n ax.c3.G java.lang.String long java.lang.Long com.voxdon.xplorer.file.p boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.Y
+com.voxdon.xplorer.file.Y
 ----------------------------
 
 p0(java.lang.String java.lang.Exception )
@@ -2044,12 +2044,12 @@ A(java.lang.String java.lang.String java.lang.String )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.b
+com.voxdon.xplorer.file.b
 ----------------------------
 
 t1(ax.c3.a ax.Dc.J java.lang.Integer[] ax.g3.i )
   Unable to fully structure code
-D(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String long java.lang.Long com.alphainventor.filemanager.file.p boolean ax.u3.c ax.g3.i )
+D(com.voxdon.xplorer.file.n ax.c3.G java.lang.String long java.lang.Long com.voxdon.xplorer.file.p boolean ax.u3.c ax.g3.i )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 4[TRYBLOCK] [19, 18, 17, 16 : 217->227)] java.lang.Throwable
 s1(ax.g3.i )
   Unable to fully structure code
@@ -2057,10 +2057,10 @@ w(java.lang.String[] )
   Loose catch block
 
 
-com.alphainventor.filemanager.file.d
+com.voxdon.xplorer.file.d
 ----------------------------
 
-z0(com.alphainventor.filemanager.file.n ax.c3.G long java.lang.Long boolean ax.u3.c ax.g3.i )
+z0(com.voxdon.xplorer.file.n ax.c3.G long java.lang.Long boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
 A(java.lang.String java.lang.String java.lang.String )
   Unable to fully structure code
@@ -2070,58 +2070,58 @@ a(com.box.androidsdk.content.requests.BoxResponse<com.box.androidsdk.content.mod
   Loose catch block
 
 
-com.alphainventor.filemanager.file.g
+com.voxdon.xplorer.file.g
 ----------------------------
 
-J(com.alphainventor.filemanager.file.e com.alphainventor.filemanager.file.n )
+J(com.voxdon.xplorer.file.e com.voxdon.xplorer.file.n )
   Unable to fully structure code
-Q(com.alphainventor.filemanager.file.e com.alphainventor.filemanager.file.n ax.c3.G long java.lang.Long boolean ax.u3.c ax.g3.i )
+Q(com.voxdon.xplorer.file.e com.voxdon.xplorer.file.n ax.c3.G long java.lang.Long boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
 i(android.content.Context android.net.Uri java.lang.String )
   Unable to fully structure code
-k(android.content.Context com.alphainventor.filemanager.file.m ax.c3.K android.net.Uri )
+k(android.content.Context com.voxdon.xplorer.file.m ax.c3.K android.net.Uri )
   Loose catch block
-u(com.alphainventor.filemanager.file.e com.alphainventor.filemanager.file.n boolean )
+u(com.voxdon.xplorer.file.e com.voxdon.xplorer.file.n boolean )
   Loose catch block
 
 
-com.alphainventor.filemanager.file.k
+com.voxdon.xplorer.file.k
 ----------------------------
 
 D0(ax.x4.a ax.c3.G long java.lang.Long java.lang.String boolean ax.u3.c ax.g3.i )
   Loose catch block
 o0(ax.x4.a ax.c3.G long java.lang.Long java.lang.String boolean ax.u3.c ax.g3.i )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 1[TRYBLOCK] [13, 12, 11, 10, 9, 8, 7 : 241->246)] java.lang.Throwable
-m(com.alphainventor.filemanager.file.n java.lang.String boolean boolean ax.g3.h ax.u3.c )
+m(com.voxdon.xplorer.file.n java.lang.String boolean boolean ax.g3.h ax.u3.c )
   Loose catch block
 w(java.lang.Void[] )
   Unable to fully structure code
   Could not resolve type clashes
 
 
-com.alphainventor.filemanager.file.o
+com.voxdon.xplorer.file.o
 ----------------------------
 
-d(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.n )
+d(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n com.voxdon.xplorer.file.n )
   Loose catch block
-l(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.n )
+l(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n com.voxdon.xplorer.file.n )
   Loose catch block
-h0(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n boolean ax.u3.c ax.g3.i )
+h0(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
-j(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n boolean boolean boolean ax.u3.c ax.g3.i )
+j(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n boolean boolean boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
-t0(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n ax.u3.c ax.g3.i )
+t0(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n ax.u3.c ax.g3.i )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.q
+com.voxdon.xplorer.file.q
 ----------------------------
 
 R0()
   Unable to fully structure code
-C(com.alphainventor.filemanager.file.n com.alphainventor.filemanager.file.m$f )
+C(com.voxdon.xplorer.file.n com.voxdon.xplorer.file.m$f )
   Unable to fully structure code
-D(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String long java.lang.Long com.alphainventor.filemanager.file.p boolean ax.u3.c ax.g3.i )
+D(com.voxdon.xplorer.file.n ax.c3.G java.lang.String long java.lang.Long com.voxdon.xplorer.file.p boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
 z(java.lang.String )
   Unable to fully structure code
@@ -2129,12 +2129,12 @@ w(boolean boolean )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.r
+com.voxdon.xplorer.file.r
 ----------------------------
 
-K0(com.alphainventor.filemanager.file.n ax.c3.G java.lang.String long java.lang.Long boolean boolean ax.u3.c ax.g3.i )
+K0(com.voxdon.xplorer.file.n ax.c3.G java.lang.String long java.lang.Long boolean boolean ax.u3.c ax.g3.i )
   Unable to fully structure code
-m(com.alphainventor.filemanager.file.n java.lang.String boolean boolean ax.g3.h ax.u3.c )
+m(com.voxdon.xplorer.file.n java.lang.String boolean boolean ax.g3.h ax.u3.c )
   Unable to fully structure code
 x0(ax.c3.E )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 2[TRYBLOCK] [24, 23, 22, 21, 20 : 230->258)] java.lang.OutOfMemoryError
@@ -2142,50 +2142,50 @@ z(java.lang.String )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.file.w
+com.voxdon.xplorer.file.w
 ----------------------------
 
-L(com.alphainventor.filemanager.file.w$c java.util.Stack<com.alphainventor.filemanager.file.n> java.io.Writer )
+L(com.voxdon.xplorer.file.w$c java.util.Stack<com.voxdon.xplorer.file.n> java.io.Writer )
   Loose catch block
-P(com.alphainventor.filemanager.file.w$c com.alphainventor.filemanager.file.n )
+P(com.voxdon.xplorer.file.w$c com.voxdon.xplorer.file.n )
   Unable to fully structure code
-b0(com.alphainventor.filemanager.file.w$c com.alphainventor.filemanager.file.n java.util.ArrayList<com.alphainventor.filemanager.file.n> )
+b0(com.voxdon.xplorer.file.w$c com.voxdon.xplorer.file.n java.util.ArrayList<com.voxdon.xplorer.file.n> )
   Unable to fully structure code
 B(java.lang.Void[] )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 3[TRYBLOCK] [11, 10 : 79->83)] java.lang.IllegalArgumentException
 
 
-com.alphainventor.filemanager.file.z
+com.voxdon.xplorer.file.z
 ----------------------------
 
 R(java.lang.String java.lang.String boolean boolean )
   Unable to fully structure code
-y(com.alphainventor.filemanager.file.n long com.alphainventor.filemanager.file.z$a )
+y(com.voxdon.xplorer.file.n long com.voxdon.xplorer.file.z$a )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.provider.MyFileProvider
+com.voxdon.xplorer.provider.MyFileProvider
 ----------------------------
 
 openFile(android.net.Uri java.lang.String )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.service.CommandService
+com.voxdon.xplorer.service.CommandService
 ----------------------------
 
 onTimeout(int int )
   Unable to fully structure code
 
 
-com.alphainventor.filemanager.service.FtpServerService
+com.voxdon.xplorer.service.FtpServerService
 ----------------------------
 
 run()
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 5[TRYBLOCK] [11, 10 : 203->211)] java.lang.Throwable
 
 
-com.alphainventor.filemanager.service.ScanService
+com.voxdon.xplorer.service.ScanService
 ----------------------------
 
 w(java.lang.Void[] )
@@ -2193,42 +2193,42 @@ w(java.lang.Void[] )
   Could not resolve type clashes
 
 
-com.alphainventor.filemanager.service.a
+com.voxdon.xplorer.service.a
 ----------------------------
 
-F(com.alphainventor.filemanager.file.n boolean long )
+F(com.voxdon.xplorer.file.n boolean long )
   Loose catch block
-J(com.alphainventor.filemanager.file.n long )
+J(com.voxdon.xplorer.file.n long )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 5[TRYBLOCK] [23, 22, 20, 21 : 172->179)] java.lang.Throwable
-C(java.lang.String com.alphainventor.filemanager.service.a$a boolean )
+C(java.lang.String com.voxdon.xplorer.service.a$a boolean )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 3[TRYBLOCK] [3 : 155->165)] java.lang.Throwable
 
 
-com.alphainventor.filemanager.sharing.QuickShareProvider
+com.voxdon.xplorer.sharing.QuickShareProvider
 ----------------------------
 
 query(android.net.Uri java.lang.String[] java.lang.String java.lang.String[] java.lang.String )
   Loose catch block
 
 
-com.alphainventor.filemanager.texteditor.TextEditorActivity
+com.voxdon.xplorer.texteditor.TextEditorActivity
 ----------------------------
 
 onCreate(android.os.Bundle )
   Loose catch block
-C(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+C(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Unable to fully structure code
-D(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+D(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Loose catch block
-w(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+w(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Unable to fully structure code
-x(com.alphainventor.filemanager.file.o com.alphainventor.filemanager.file.n )
+x(com.voxdon.xplorer.file.o com.voxdon.xplorer.file.n )
   Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 6[TRYBLOCK] [23, 22, 21 : 148->157)] java.lang.Throwable
 w(java.lang.Void[] )
   Loose catch block
 
 
-com.alphainventor.filemanager.viewer.b
+com.voxdon.xplorer.viewer.b
 ----------------------------
 
 r(android.net.Uri boolean )
@@ -2236,10 +2236,10 @@ r(android.net.Uri boolean )
   Could not resolve type clashes
 
 
-com.alphainventor.filemanager.widget.a
+com.voxdon.xplorer.widget.a
 ----------------------------
 
-z(com.alphainventor.filemanager.file.n int boolean )
+z(com.voxdon.xplorer.file.n int boolean )
   Unable to fully structure code
   Could not resolve type clashes
 

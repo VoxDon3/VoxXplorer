@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:clipChildren="false"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
         android:id="@+id/carousel_container"
         android:background="@color/desktop2_carousel_background_color"
+        android:clipChildren="false"
         android:layout_width="match_parent"
-        android:layout_height="192dp">
+        android:layout_height="248dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/carousel_bg_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-104dp"
+            android:importantForAccessibility="no"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -17,7 +28,8 @@
         <RelativeLayout
             android:id="@+id/carousel_content"
             android:layout_width="match_parent"
-            android:layout_height="180dp">
+            android:layout_height="180dp"
+            android:layout_marginTop="?attr/actionBarSize">
             <com.voxdon.xplorer.widget.NoChildScrollViewPager
                 android:id="@+id/carousel_viewpager"
                 android:layout_width="match_parent"
@@ -53,8 +65,7 @@
     <com.voxdon.xplorer.widget.NoChildScrollViewPager
         android:id="@+id/tab_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content">
         <com.voxdon.xplorer.widget.DesktopGridView
             android:scrollbarStyle="outsideOverlay"
             android:gravity="center"

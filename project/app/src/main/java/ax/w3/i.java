@@ -5,7 +5,7 @@ package ax.w3;
 
 import android.view.View;
 import ax.P0.H;
-import com.alphainventor.filemanager.viewer.g;
+import com.voxdon.xplorer.viewer.g;
 
 public final class i
 implements View.OnClickListener {

@@ -45,7 +45,7 @@
     <string name="app_backup_storage">アプリのバックアップ先</string>
     <string name="app_caches">キャッシュファイル</string>
     <string name="app_caches_desc">キャッシュファイルはアプリが一時的に保存したファイルです。</string>
-    <string name="app_name">CXファイルエクスプローラ</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">全て</string>
     <string name="apps_downloaded">ダウンロード</string>
     <string name="archive_is_damaged">アーカイブが不明な形式かまたは破損しています。</string>

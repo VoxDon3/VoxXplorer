@@ -530,7 +530,7 @@
             android:exported="false"
             android:foregroundServiceType="dataSync">
             <intent-filter>
-                <action android:name="com.alphainventor.service.FILEPROGRESSSERVICE"/>
+                <action android:name="com.voxdon.service.FILEPROGRESSSERVICE"/>
             </intent-filter>
         </service>
         <receiver

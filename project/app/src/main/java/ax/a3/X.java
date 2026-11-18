@@ -16,7 +16,7 @@ import ax.n2.d;
 import ax.t3.l;
 import ax.u3.b;
 import ax.u3.h;
-import com.alphainventor.filemanager.viewer.VideoPlayerActivity;
+import com.voxdon.xplorer.viewer.VideoPlayerActivity;
 
 public class X
 extends I {

@@ -39,8 +39,8 @@ import ax.c3.k0;
 import ax.c3.l;
 import ax.c3.x;
 import ax.u3.b;
-import com.alphainventor.filemanager.ApplicationReporter;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.ApplicationReporter;
+import com.voxdon.xplorer.file.n;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -889,11 +889,11 @@ public class j {
                     }
                     object = ax.c3.x.e(ax.T2.h.b0((K)object));
                     try {
-                        object3 = ((com.alphainventor.filemanager.file.o)object).z(((com.alphainventor.filemanager.file.o)object).V());
+                        object3 = ((com.voxdon.xplorer.file.o)object).z(((com.voxdon.xplorer.file.o)object).V());
                         if (object3.n()) {
                             long l9;
                             long l10;
-                            if ((object = ((com.alphainventor.filemanager.file.o)object).f0((n)object3)) != null) {
+                            if ((object = ((com.voxdon.xplorer.file.o)object).f0((n)object3)) != null) {
                                 object = object.iterator();
                                 long l11 = 0L;
                                 while (true) {
@@ -1316,10 +1316,10 @@ public class j {
         block6: {
             try {
                 object = ax.c3.x.e((K)object);
-                if (!((com.alphainventor.filemanager.file.o)object).a()) {
-                    ((com.alphainventor.filemanager.file.o)object).h(null);
+                if (!((com.voxdon.xplorer.file.o)object).a()) {
+                    ((com.voxdon.xplorer.file.o)object).h(null);
                 }
-                if ((object = ((com.alphainventor.filemanager.file.o)object).W()) == null) break block6;
+                if ((object = ((com.voxdon.xplorer.file.o)object).W()) == null) break block6;
             }
             catch (ax.b3.j j8) {
                 return -1.0f;
@@ -1576,9 +1576,9 @@ public class j {
      */
     boolean u(K k8) {
         e e8 = this.G(k8);
-        com.alphainventor.filemanager.file.o o8 = ax.c3.x.e(ax.T2.h.b0(k8));
+        com.voxdon.xplorer.file.o o8 = ax.c3.x.e(ax.T2.h.b0(k8));
         try {
-            long l8 = k8.e() == null ? 0L : o8.z(com.alphainventor.filemanager.file.J.b2(k8)).q();
+            long l8 = k8.e() == null ? 0L : o8.z(com.voxdon.xplorer.file.J.b2(k8)).q();
             if (l8 != e8.b) {
                 e8.b = l8;
                 return true;

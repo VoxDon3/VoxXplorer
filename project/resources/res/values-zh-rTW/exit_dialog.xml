@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_app_title">"關閉應用程式"</string>
+    <string name="exit_app_message">"要關閉 Vox Xplorer 嗎？"</string>
+    <string name="exit_app_ok">"關閉"</string>
+    <string name="exit_app_cancel">"取消"</string>
+</resources>

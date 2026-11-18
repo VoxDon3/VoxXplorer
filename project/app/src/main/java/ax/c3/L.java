@@ -16,10 +16,10 @@ import ax.c3.k0;
 import ax.g3.i;
 import ax.u3.b;
 import ax.u3.c;
-import com.alphainventor.filemanager.file.g;
-import com.alphainventor.filemanager.file.h;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.p;
+import com.voxdon.xplorer.file.g;
+import com.voxdon.xplorer.file.h;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.p;
 import java.io.IOException;
 import java.io.OutputStream;
 
@@ -119,7 +119,7 @@ extends h {
                 return n8;
             }
         }
-        return new com.alphainventor.filemanager.file.i(this, string);
+        return new com.voxdon.xplorer.file.i(this, string);
     }
 }
 

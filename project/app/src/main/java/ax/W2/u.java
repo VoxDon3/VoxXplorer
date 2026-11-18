@@ -35,10 +35,10 @@ import ax.c3.U;
 import ax.c3.d0;
 import ax.c3.k;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.m;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.m;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.file.y;
 import java.io.BufferedInputStream;
 import java.io.Closeable;
 import java.io.File;
@@ -63,14 +63,14 @@ import java.util.zip.ZipException;
 public class u
 extends j {
     private k A;
-    private com.alphainventor.filemanager.file.n B;
+    private com.voxdon.xplorer.file.n B;
     private String C;
     private q<Void, Void, Boolean> D;
     private q<Void, Void, Integer> E;
     private j.f F;
     private boolean G;
-    private List<Map.Entry<com.alphainventor.filemanager.file.n, Long>> H;
-    private List<com.alphainventor.filemanager.file.n> I;
+    private List<Map.Entry<com.voxdon.xplorer.file.n, Long>> H;
+    private List<com.voxdon.xplorer.file.n> I;
     private x.b J;
     private String K;
     private ax.B.b<String> L;
@@ -80,9 +80,9 @@ extends j {
     private List<e> y = new ArrayList<e>();
     private int z;
 
-    public u(h.a object, t.a a8, String string, ParcelFileDescriptor parcelFileDescriptor, com.alphainventor.filemanager.file.n n8, k k8, o o8, String string2, List<com.alphainventor.filemanager.file.n> list) {
+    public u(h.a object, t.a a8, String string, ParcelFileDescriptor parcelFileDescriptor, com.voxdon.xplorer.file.n n8, k k8, o o8, String string2, List<com.voxdon.xplorer.file.n> list) {
         super((h.a)object);
-        this.H = new ArrayList<Map.Entry<com.alphainventor.filemanager.file.n, Long>>();
+        this.H = new ArrayList<Map.Entry<com.voxdon.xplorer.file.n, Long>>();
         this.L = new ax.B.b();
         this.w = o8;
         this.x = string2;
@@ -103,11 +103,11 @@ extends j {
     /*
      * WARNING - void declaration
      */
-    public u(h.a object, List<com.alphainventor.filemanager.file.n> object2, o object32, x.b b8, String string) {
+    public u(h.a object, List<com.voxdon.xplorer.file.n> object2, o object32, x.b b8, String string) {
         super((h.a)object);
         Object var4_6;
         String var5_7;
-        this.H = new ArrayList<Map.Entry<com.alphainventor.filemanager.file.n, Long>>();
+        this.H = new ArrayList<Map.Entry<com.voxdon.xplorer.file.n, Long>>();
         this.L = new ax.B.b();
         this.w = object32;
         this.x = var5_7;
@@ -115,7 +115,7 @@ extends j {
         this.J = var4_6;
         ((o)object32).n0();
         this.h(this.w.T());
-        for (com.alphainventor.filemanager.file.n n8 : this.I) {
+        for (com.voxdon.xplorer.file.n n8 : this.I) {
             object = new e();
             ((e)object).e = n8;
             ((e)object).d = n8.B();
@@ -174,7 +174,7 @@ extends j {
         return string;
     }
 
-    static /* synthetic */ com.alphainventor.filemanager.file.n R0(u u8, com.alphainventor.filemanager.file.n n8) {
+    static /* synthetic */ com.voxdon.xplorer.file.n R0(u u8, com.voxdon.xplorer.file.n n8) {
         u8.B = n8;
         return n8;
     }
@@ -307,7 +307,7 @@ extends j {
         if (object2 != null) {
             object2 = object2.iterator();
             while (object2.hasNext()) {
-                com.alphainventor.filemanager.file.n n8 = (com.alphainventor.filemanager.file.n)object2.next();
+                com.voxdon.xplorer.file.n n8 = (com.voxdon.xplorer.file.n)object2.next();
                 if (c8 != null && c8.isCancelled()) {
                     throw new ax.b3.a();
                 }
@@ -644,7 +644,7 @@ extends j {
 
     @Override
     public K K() {
-        com.alphainventor.filemanager.file.n n8 = this.B;
+        com.voxdon.xplorer.file.n n8 = this.B;
         if (n8 == null) {
             return null;
         }
@@ -653,7 +653,7 @@ extends j {
 
     @Override
     public String M() {
-        com.alphainventor.filemanager.file.n n8 = this.B;
+        com.voxdon.xplorer.file.n n8 = this.B;
         if (n8 == null) {
             return "";
         }
@@ -773,10 +773,10 @@ extends j {
         boolean b;
         ParcelFileDescriptor c;
         String d;
-        com.alphainventor.filemanager.file.n e;
+        com.voxdon.xplorer.file.n e;
         k f;
         String g;
-        List<com.alphainventor.filemanager.file.n> h;
+        List<com.voxdon.xplorer.file.n> h;
         long i;
         FileInputStream j;
         a k;
@@ -831,7 +831,7 @@ extends j {
          * Enabled unnecessary exception pruning
          * Enabled aggressive exception aggregation
          */
-        private void A(com.alphainventor.filemanager.file.n var1_1, ax.g3.i var2_9) throws ax.b3.j, ax.b3.a {
+        private void A(com.voxdon.xplorer.file.n var1_1, ax.g3.i var2_9) throws ax.b3.j, ax.b3.a {
             block23: {
                 block24: {
                     var16_26 = this.j;
@@ -851,7 +851,7 @@ extends j {
                     var9_33 = this.h.n.u(var16_26);
                     var8_34 = ax.W2.u.A0(this.q);
                     var10_28 = new U((InputStream)var9_33, var3_36);
-                    var8_34.v0((com.alphainventor.filemanager.file.n)var1_1, (G)var10_28, var1_1.s(), var3_36, this.q.l1(var16_26), null, false, this, var2_9);
+                    var8_34.v0((com.voxdon.xplorer.file.n)var1_1, (G)var10_28, var1_1.s(), var3_36, this.q.l1(var16_26), null, false, this, var2_9);
                     if (var9_33 == null) return;
                     try {
                         var9_33.close();
@@ -1009,7 +1009,7 @@ lbl134:
          * Enabled unnecessary exception pruning
          * Enabled aggressive exception aggregation
          */
-        private void B(com.alphainventor.filemanager.file.n object, ax.g3.i object2) throws ax.b3.j, ax.b3.a {
+        private void B(com.voxdon.xplorer.file.n object, ax.g3.i object2) throws ax.b3.j, ax.b3.a {
             Throwable throwable2;
             block8: {
                 IllegalStateException illegalStateException2;
@@ -1025,7 +1025,7 @@ lbl134:
                         P p8 = new P(this.h.v);
                         o o8 = this.q.w;
                         U u8 = new U(p8, l8);
-                        o8.v0((com.alphainventor.filemanager.file.n)object, u8, object.s(), l8, (Long)comparable, null, false, this, (ax.g3.i)object2);
+                        o8.v0((com.voxdon.xplorer.file.n)object, u8, object.s(), l8, (Long)comparable, null, false, this, (ax.g3.i)object2);
                     }
                     catch (Throwable throwable2) {
                         break block8;
@@ -1077,7 +1077,7 @@ lbl134:
          * Enabled unnecessary exception pruning
          * Enabled aggressive exception aggregation
          */
-        private void C(com.alphainventor.filemanager.file.n var1_1, ax.g3.i var2_12) throws ax.b3.j, ax.b3.a {
+        private void C(com.voxdon.xplorer.file.n var1_1, ax.g3.i var2_12) throws ax.b3.j, ax.b3.a {
             block22: {
                 block23: {
                     var14_20 = this.k;
@@ -1130,13 +1130,13 @@ lbl134:
                         }
                     } else {
                         var8_26 = var13_25;
-                        var8_26 = var13_25 = com.alphainventor.filemanager.file.b.Q0(var15_29.q, var14_20, var15_29.s);
+                        var8_26 = var13_25 = com.voxdon.xplorer.file.b.Q0(var15_29.q, var14_20, var15_29.s);
                     }
                     var8_26 = var13_25;
                     var8_26 = var13_25 = var15_29.j(var14_20);
                     var9_23 = ax.W2.u.A0(this.q);
                     var10_21 = new U((InputStream)var8_26, var3_27);
-                    var9_23.v0((com.alphainventor.filemanager.file.n)var1_1, (G)var10_21, var1_1.s(), var3_27, var14_20.getTime(), null, false, this, (ax.g3.i)var2_12);
+                    var9_23.v0((com.voxdon.xplorer.file.n)var1_1, (G)var10_21, var1_1.s(), var3_27, var14_20.getTime(), null, false, this, (ax.g3.i)var2_12);
                     if (var8_26 == null) return;
                     try {
                         var8_26.close();
@@ -1311,7 +1311,7 @@ lbl114:
                             }
                         }
                         object = this.q.w.z(this.q.B.T());
-                        if (object != null && !object.n() && !this.q.w.k((com.alphainventor.filemanager.file.n)object, true)) {
+                        if (object != null && !object.n() && !this.q.w.k((com.voxdon.xplorer.file.n)object, true)) {
                             this.m = v.b.c0;
                             return 0;
                         }
@@ -1322,7 +1322,7 @@ lbl114:
                         }
                         this.m = v.b.q;
                         if (object2 != t.a.q && object2 != t.a.e0 && object2 != t.a.f0 || (object = this.i) == null || (object = this.q.l1((ax.Ac.a)object)) == null) break block44;
-                        this.q.H.add(new AbstractMap.SimpleEntry<com.alphainventor.filemanager.file.n, Object>(this.q.B, object));
+                        this.q.H.add(new AbstractMap.SimpleEntry<com.voxdon.xplorer.file.n, Object>(this.q.B, object));
                     }
                     if (object2 != t.a.e0) return 0;
                     this.q.u1(this.h);
@@ -1335,7 +1335,7 @@ lbl114:
                     }
                     object2 = this.q.l1(this.k);
                     if (object2 != null) {
-                        this.q.H.add(new AbstractMap.SimpleEntry<com.alphainventor.filemanager.file.n, Object>(this.q.B, object2));
+                        this.q.H.add(new AbstractMap.SimpleEntry<com.voxdon.xplorer.file.n, Object>(this.q.B, object2));
                     }
                     this.m = v.b.q;
                     return 0;
@@ -1347,7 +1347,7 @@ lbl114:
                     }
                     object2 = this.q.l1(this.p);
                     if (object2 != null) {
-                        this.q.H.add(new AbstractMap.SimpleEntry<com.alphainventor.filemanager.file.n, Object>(this.q.B, object2));
+                        this.q.H.add(new AbstractMap.SimpleEntry<com.voxdon.xplorer.file.n, Object>(this.q.B, object2));
                     }
                     this.m = v.b.q;
                     this.q.u1(this.h);
@@ -1363,7 +1363,7 @@ lbl114:
                 }
                 object2 = this.q.l1(this.j);
                 if (object2 != null) {
-                    this.q.H.add(new AbstractMap.SimpleEntry<com.alphainventor.filemanager.file.n, Object>(this.q.B, object2));
+                    this.q.H.add(new AbstractMap.SimpleEntry<com.voxdon.xplorer.file.n, Object>(this.q.B, object2));
                 }
                 this.m = v.b.q;
                 return 0;
@@ -1494,7 +1494,7 @@ lbl114:
             }
         }
 
-        private void y(t.a a8, com.alphainventor.filemanager.file.n n8, ax.g3.i i8) throws ax.b3.j, ax.b3.a {
+        private void y(t.a a8, com.voxdon.xplorer.file.n n8, ax.g3.i i8) throws ax.b3.j, ax.b3.a {
             int n9 = d.a[a8.ordinal()];
             if (n9 != 1) {
                 if (n9 != 2 && n9 != 3) {
@@ -1522,7 +1522,7 @@ lbl114:
          * Enabled unnecessary exception pruning
          * Enabled aggressive exception aggregation
          */
-        private void z(com.alphainventor.filemanager.file.n object, ax.g3.i i8) throws ax.b3.j, ax.b3.a {
+        private void z(com.voxdon.xplorer.file.n object, ax.g3.i i8) throws ax.b3.j, ax.b3.a {
             RuntimeException var1_4;
             Object object2;
             block11: {
@@ -1548,7 +1548,7 @@ lbl114:
                         object2 = object3;
                         U u8 = new U((InputStream)object3, -1L);
                         object2 = object3;
-                        o8.v0((com.alphainventor.filemanager.file.n)object, u8, object.s(), -1L, l8, null, false, this, i8);
+                        o8.v0((com.voxdon.xplorer.file.n)object, u8, object.s(), -1L, l8, null, false, this, i8);
                         if (object3 == null) return;
                     }
                     catch (Throwable throwable) {
@@ -1654,9 +1654,9 @@ lbl114:
         protected Integer w(Void ... object) {
             for (Object object2 : this.h.H) {
                 m m8;
-                object = (com.alphainventor.filemanager.file.n)object2.getKey();
+                object = (com.voxdon.xplorer.file.n)object2.getKey();
                 object2 = (Long)object2.getValue();
-                if (!ax.c3.B.P((com.alphainventor.filemanager.file.n)object) || !((m8 = this.h.w.u()) instanceof x)) continue;
+                if (!ax.c3.B.P((com.voxdon.xplorer.file.n)object) || !((m8 = this.h.w.u()) instanceof x)) continue;
                 ((x)m8).d((y)object, (Long)object2);
             }
             return null;
@@ -1871,7 +1871,7 @@ lbl114:
         private boolean F(e e8) {
             ax.b3.j j82;
             block11: {
-                com.alphainventor.filemanager.file.n n8;
+                com.voxdon.xplorer.file.n n8;
                 try {
                     n8 = this.h.w.z(e8.g);
                     if (!n8.n()) {
@@ -1991,7 +1991,7 @@ lbl114:
                                         this.D(e8);
                                         break block28;
                                     } else {
-                                        Comparable<com.alphainventor.filemanager.file.n> comparable = e8.f;
+                                        Comparable<com.voxdon.xplorer.file.n> comparable = e8.f;
                                         if (comparable != null && (bl = ((k)comparable).k0())) {
                                             try {
                                                 comparable = e8.f.e0(true);
@@ -2224,7 +2224,7 @@ lbl114:
                 return false;
             }
             try {
-                e8.r = com.alphainventor.filemanager.file.b.d1((S)object, this);
+                e8.r = com.voxdon.xplorer.file.b.d1((S)object, this);
                 this.h.k1(e8, this);
                 return true;
             }
@@ -2267,12 +2267,12 @@ lbl114:
                             block8: {
                                 e8 = this.h.n1();
                                 object = e8.e;
-                                if (!ax.c3.B.H((com.alphainventor.filemanager.file.n)object)) break block8;
+                                if (!ax.c3.B.H((com.voxdon.xplorer.file.n)object)) break block8;
                                 object = (k)object;
                                 break block9;
                             }
-                            if (!((com.alphainventor.filemanager.file.n)object).N().exists()) break block10;
-                            File file = ((com.alphainventor.filemanager.file.n)object).N();
+                            if (!((com.voxdon.xplorer.file.n)object).N().exists()) break block10;
+                            File file = ((com.voxdon.xplorer.file.n)object).N();
                             object = ax.c3.x.f(file);
                             try {
                                 object = (y)((o)object).z(file.getAbsolutePath());

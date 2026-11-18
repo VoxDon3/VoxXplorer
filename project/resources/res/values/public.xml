@@ -1790,7 +1790,7 @@
     <public type="color" name="color_surface_container_lowest" id="0x7f06006c" />
     <public type="color" name="control_highlight" id="0x7f060078" />
     <public type="color" name="created_indicator" id="0x7f060079" />
-    <public type="color" name="cx_ftp_server_content_background" id="0x7f06007a" />
+    <public type="color" name="vox_ftp_server_content_background" id="0x7f06007a" />
     <public type="color" name="dark_accent_background" id="0x7f06007b" />
     <public type="color" name="dark_accent_color" id="0x7f06007c" />
     <public type="color" name="dark_actionbar_color" id="0x7f06007d" />

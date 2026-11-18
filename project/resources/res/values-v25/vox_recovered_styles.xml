@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- qualified base themes: empty in the original, chain to the next base -->
+<resources>
+    <style name="Platform.V25.AppCompat" parent="@style/Base.V23.Theme.AppCompat"></style>
+</resources>

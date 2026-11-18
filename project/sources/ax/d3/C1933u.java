@@ -313,7 +313,7 @@ public class C1933u extends Fragment implements C1358n.c, Y {
     @Override // ax.a3.C1358n.c
     public void P(C1358n c1358n) {
         try {
-            C1832u.p0(this, new Intent("android.intent.action.VIEW", Uri.parse("market://details?id=com.alphainventor.plugin.fileuri")));
+            C1832u.p0(this, new Intent("android.intent.action.VIEW", Uri.parse("market://details?id=com.voxdon.plugin.fileuri")));
         } catch (ActivityNotFoundException unused) {
             Toast.makeText(b(), R.string.no_application, 1).show();
         }

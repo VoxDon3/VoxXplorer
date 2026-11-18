@@ -45,7 +45,7 @@
     <string name="app_backup_storage">Armazenamento de backups de apps</string>
     <string name="app_caches">Arquivos de cache</string>
     <string name="app_caches_desc">Arquivos de cache são arquivos temporários armazenados pelos apps</string>
-    <string name="app_name">Cx Explorador de Arquivos</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">TODOS</string>
     <string name="apps_downloaded">BAIXADO</string>
     <string name="archive_is_damaged">O arquivo está em um formato desconhecido ou foi danificado</string>

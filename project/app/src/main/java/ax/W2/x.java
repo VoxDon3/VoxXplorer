@@ -12,9 +12,9 @@ import ax.W2.y;
 import ax.b3.c;
 import ax.d3.s;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.J;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.J;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.util.ArrayList;
 import java.util.List;
 

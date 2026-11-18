@@ -10,11 +10,11 @@ import ax.W2.j;
 import ax.W2.v;
 import ax.c3.K;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.J;
-import com.alphainventor.filemanager.file.f;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.J;
+import com.voxdon.xplorer.file.f;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.y;
 import java.util.List;
 import java.util.Map;
 

@@ -3968,7 +3968,7 @@
     .line 598
     .line 599
     :try_start_256
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 600
     .line 601
@@ -3980,7 +3980,7 @@
 
     .line 604
     .line 605
-    invoke-virtual {p1, v0}, Lcom/alphainventor/filemanager/shizuku/c;->y(Ljava/lang/String;)Lax/X2/L;
+    invoke-virtual {p1, v0}, Lcom/voxdon/xplorer/shizuku/c;->y(Ljava/lang/String;)Lax/X2/L;
 
     .line 606
     .line 607
@@ -5922,7 +5922,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 8
     .line 9
@@ -5938,7 +5938,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v0, v1}, Lcom/alphainventor/filemanager/shizuku/c;->y(Ljava/lang/String;)Lax/X2/L;
+    invoke-virtual {v0, v1}, Lcom/voxdon/xplorer/shizuku/c;->y(Ljava/lang/String;)Lax/X2/L;
 
     .line 16
     .line 17
@@ -9951,7 +9951,7 @@
 
     .line 34
     .line 35
-    const-string v2, "/Android/data/com.cxinventor.file.explorer"
+    const-string v2, "/Android/data/com.voxdon.xplorer"
 
     .line 36
     .line 37
@@ -9999,7 +9999,7 @@
 
     .line 57
     .line 58
-    const-string v2, "/Android/obb/com.cxinventor.file.explorer"
+    const-string v2, "/Android/obb/com.voxdon.xplorer"
 
     .line 59
     .line 60
@@ -10924,7 +10924,7 @@
 
     .line 14
     .line 15
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 16
     .line 17
@@ -10940,7 +10940,7 @@
     move-result-object v2
 
     .line 23
-    invoke-virtual {v1, v2, p1}, Lcom/alphainventor/filemanager/shizuku/c;->u(Ljava/lang/String;Z)I
+    invoke-virtual {v1, v2, p1}, Lcom/voxdon/xplorer/shizuku/c;->u(Ljava/lang/String;Z)I
 
     .line 24
     .line 25

@@ -6,8 +6,8 @@ package ax.c3;
 import android.os.ParcelFileDescriptor;
 import ax.b3.j;
 import ax.c3.o;
-import com.alphainventor.filemanager.file.m;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.m;
+import com.voxdon.xplorer.file.n;
 
 public abstract class k
 extends n {

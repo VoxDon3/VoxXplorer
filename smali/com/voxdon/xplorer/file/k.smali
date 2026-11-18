@@ -3636,7 +3636,7 @@
     .registers 2
 
     .line 1
-    const-string v0, "FileManager/2.7.8"
+    const-string v0, "FileManager/2.8.2"
 
     .line 2
     .line 3

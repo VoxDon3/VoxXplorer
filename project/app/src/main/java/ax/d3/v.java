@@ -43,11 +43,11 @@ import ax.x3.h;
 import ax.x3.i;
 import ax.x3.k;
 import ax.x3.l;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.activity.PaymentActivity;
-import com.alphainventor.filemanager.bookmark.Bookmark;
-import com.alphainventor.filemanager.file.w;
-import com.alphainventor.filemanager.service.CommandService;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.activity.PaymentActivity;
+import com.voxdon.xplorer.bookmark.Bookmark;
+import com.voxdon.xplorer.file.w;
+import com.voxdon.xplorer.service.CommandService;
 import com.google.android.material.tabs.TabLayout;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -461,12 +461,12 @@ k.b {
     }
 
     private void g6(boolean bl) {
-        com.alphainventor.filemanager.activity.b b8 = (com.alphainventor.filemanager.activity.b)this.f0();
+        com.voxdon.xplorer.activity.b b8 = (com.voxdon.xplorer.activity.b)this.f0();
         if (b8 != null) {
             b8.runOnUiThread(new Runnable(){
                 final boolean c0;
                 final v d0;
-                final com.alphainventor.filemanager.activity.b q;
+                final com.voxdon.xplorer.activity.b q;
                 {
                     this.d0 = v8;
                     this.q = b8;

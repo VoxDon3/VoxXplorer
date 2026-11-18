@@ -10,7 +10,7 @@ import ax.L9.d;
 import ax.M9.g;
 import ax.P9.n;
 import ax.T9.e;
-import com.alphainventor.filemanager.file.G;
+import com.voxdon.xplorer.file.G;
 
 public class S
 implements g {

@@ -4,7 +4,7 @@
 package ax.o3;
 
 import ax.c3.K;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 
 public class e {
     private static e d;

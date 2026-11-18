@@ -3,7 +3,7 @@
  */
 package ax.d3;
 
-import com.alphainventor.filemanager.activity.b;
+import com.voxdon.xplorer.activity.b;
 
 public final class F {
     public static /* bridge */ /* synthetic */ boolean a(b b8) {

@@ -73,7 +73,7 @@ public class m0 extends androidx.preference.d implements SharedPreferences.OnSha
                 return false;
             }
             try {
-                C1832u.p0(m0.this, C3180B.C("https://www.alphainventor.com/cx-file-explorer-privacy-policy"));
+                C1832u.p0(m0.this, C3180B.C("https://www.voxdon.com/vox-xplorer-privacy-policy"));
             } catch (ActivityNotFoundException | SecurityException unused) {
                 Toast.makeText(m0.this.f0(), R.string.error, 1).show();
             }
@@ -94,7 +94,7 @@ public class m0 extends androidx.preference.d implements SharedPreferences.OnSha
         stringBuffer.append("MODEL : " + Build.MODEL + "\n");
         stringBuffer.append("DEVICE : " + Build.DEVICE + "\n");
         stringBuffer.append("VERSION : " + Build.VERSION.SDK_INT + "\n");
-        stringBuffer.append("APP VERSION : 2.7.8\n");
+        stringBuffer.append("APP VERSION : 2.8.2\n");
         stringBuffer.append("\n----MainStorage----\n");
         File externalStorageDirectory = Environment.getExternalStorageDirectory();
         k3(stringBuffer, externalStorageDirectory);
@@ -202,7 +202,7 @@ public class m0 extends androidx.preference.d implements SharedPreferences.OnSha
         }
         String j3 = j3();
         Intent intent = new Intent("android.intent.action.SENDTO", Uri.parse("mailto:"));
-        intent.putExtra("android.intent.extra.EMAIL", new String[]{"cx.fileexplorer@gmail.com"});
+        intent.putExtra("android.intent.extra.EMAIL", new String[]{"vox.xplorer@gmail.com"});
         intent.putExtra("android.intent.extra.SUBJECT", "STORAGE INFORMATION");
         try {
             intent.putExtra("android.intent.extra.TEXT", j3);

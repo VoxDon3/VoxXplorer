@@ -45,7 +45,7 @@
     <string name="app_backup_storage">應用程式備份位置</string>
     <string name="app_caches">暫存檔</string>
     <string name="app_caches_desc">暫存檔是您的應用程式臨時建立的檔案</string>
-    <string name="app_name">CX檔案總管</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">全部</string>
     <string name="apps_downloaded">已下載</string>
     <string name="archive_is_damaged">未知格式的壓縮檔、或是壓縮檔已損毀</string>

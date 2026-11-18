@@ -30,11 +30,11 @@ import ax.u3.l;
 import ax.u3.o;
 import ax.u3.q;
 import ax.u3.z;
-import com.alphainventor.filemanager.data.ApkPlusInfo;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.file.y;
-import com.alphainventor.filemanager.receiver.PackageCommitReceiver;
+import com.voxdon.xplorer.data.ApkPlusInfo;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.file.y;
+import com.voxdon.xplorer.receiver.PackageCommitReceiver;
 import com.google.gson.Gson;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -509,7 +509,7 @@ lbl20:
 
     public static void e(String object, String object2) throws IOException {
         try {
-            com.alphainventor.filemanager.file.o o8 = ax.c3.x.g((String)object);
+            com.voxdon.xplorer.file.o o8 = ax.c3.x.g((String)object);
             object = o8.z((String)object);
             object2 = o8.z((String)object2);
             if (object.isDirectory()) {

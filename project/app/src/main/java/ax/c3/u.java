@@ -29,21 +29,21 @@ import ax.c3.x;
 import ax.t3.h;
 import ax.u3.b;
 import ax.u3.j;
-import com.alphainventor.filemanager.activity.FileProgressActivity;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.activity.ResultActivity;
-import com.alphainventor.filemanager.activity.SaveToActivity;
-import com.alphainventor.filemanager.activity.ShortcutActivity;
-import com.alphainventor.filemanager.file.i;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.y;
-import com.alphainventor.filemanager.musicplayer.FullScreenPlayerActivity;
-import com.alphainventor.filemanager.provider.MyFileProvider;
-import com.alphainventor.filemanager.service.HttpServerService;
-import com.alphainventor.filemanager.viewer.ImageViewer;
-import com.alphainventor.filemanager.viewer.MusicPlayer;
-import com.alphainventor.filemanager.viewer.VideoPlayerActivity;
+import com.voxdon.xplorer.activity.FileProgressActivity;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.activity.ResultActivity;
+import com.voxdon.xplorer.activity.SaveToActivity;
+import com.voxdon.xplorer.activity.ShortcutActivity;
+import com.voxdon.xplorer.file.i;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.y;
+import com.voxdon.xplorer.musicplayer.FullScreenPlayerActivity;
+import com.voxdon.xplorer.provider.MyFileProvider;
+import com.voxdon.xplorer.service.HttpServerService;
+import com.voxdon.xplorer.viewer.ImageViewer;
+import com.voxdon.xplorer.viewer.MusicPlayer;
+import com.voxdon.xplorer.viewer.VideoPlayerActivity;
 import java.io.File;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -69,7 +69,7 @@ public class u {
     }
 
     public static Uri C(Context object, File file) {
-        int n8 = com.alphainventor.filemanager.service.b.f((Context)object).h();
+        int n8 = com.voxdon.xplorer.service.b.f((Context)object).h();
         object = x.f(file);
         try {
             object = HttpServerService.l(n8, ((o)object).z(file.getPath()));
@@ -131,7 +131,7 @@ public class u {
     }
 
     public static Intent K(Context context, K k8) {
-        return u.E(context, "com.alphainventor.filemanager.OPEN_ANALYSIS", B.V(k8, "/", null));
+        return u.E(context, "com.voxdon.xplorer.OPEN_ANALYSIS", B.V(k8, "/", null));
     }
 
     public static Uri L(n n8, boolean bl) {
@@ -192,7 +192,7 @@ public class u {
 
     public static boolean Q(Context context) {
         if (c == null) {
-            c = ax.u3.B.L(context, "com.alphainventor.plugin.fileuri");
+            c = ax.u3.B.L(context, "com.voxdon.plugin.fileuri");
         }
         return c;
     }
@@ -265,7 +265,7 @@ public class u {
 
     public static Intent b(Intent intent) {
         Intent intent2 = new Intent("com.filemanager.plugin.action.LAUNCH_FILE_URI");
-        intent2.setPackage("com.alphainventor.plugin.fileuri");
+        intent2.setPackage("com.voxdon.plugin.fileuri");
         if (intent.getData() != null) {
             intent2.putExtra("com.filemanager.plugin.extra.DATA", intent.getDataString());
         }
@@ -379,7 +379,7 @@ public class u {
     }
 
     public static void c0(Context context) {
-        context.startActivity(u.E(context, "com.alphainventor.filemanager.SAVE_FILE", null));
+        context.startActivity(u.E(context, "com.voxdon.xplorer.SAVE_FILE", null));
     }
 
     public static Intent d(String string) {
@@ -389,7 +389,7 @@ public class u {
     }
 
     public static void d0(Context context, Uri uri) {
-        context.startActivity(u.E(context, "com.alphainventor.filemanager.OPEN_FILE", uri));
+        context.startActivity(u.E(context, "com.voxdon.xplorer.OPEN_FILE", uri));
     }
 
     public static Intent e(Context context, k k8, boolean bl) {
@@ -582,7 +582,7 @@ public class u {
 
     public static Intent k(Context context, K k8, String string) {
         context = new Intent(context, ShortcutActivity.class);
-        context.setAction("com.alphainventor.filemanager.OPEN_SHORTCUT");
+        context.setAction("com.voxdon.xplorer.OPEN_SHORTCUT");
         if (TextUtils.isEmpty((CharSequence)string)) {
             string = k8.e();
         }
@@ -598,7 +598,7 @@ public class u {
 
     public static Intent l(Context context, n n8) {
         context = new Intent(context, ShortcutActivity.class);
-        context.setAction("com.alphainventor.filemanager.OPEN_SHORTCUT");
+        context.setAction("com.voxdon.xplorer.OPEN_SHORTCUT");
         context.setData(Uri.parse((String)n8.Q()));
         context.putExtra("IS_DIRECTORY", n8.isDirectory());
         context.addFlags(0x10000000);

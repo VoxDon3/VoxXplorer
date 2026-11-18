@@ -10370,7 +10370,7 @@
     .line 66
     .line 67
     .line 68
-    const-string p1, "/Android/media/com.cxinventor.file.explorer/.localcache"
+    const-string p1, "/Android/media/com.voxdon.xplorer/.localcache"
 
     .line 69
     .line 70

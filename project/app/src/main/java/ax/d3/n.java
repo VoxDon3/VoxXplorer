@@ -58,11 +58,11 @@ import ax.t3.c;
 import ax.u3.q;
 import ax.x3.A;
 import ax.x3.h;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.activity.ResultActivity;
-import com.alphainventor.filemanager.bookmark.Bookmark;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.service.CommandService;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.activity.ResultActivity;
+import com.voxdon.xplorer.bookmark.Bookmark;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.service.CommandService;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import java.io.File;
@@ -189,7 +189,7 @@ Z {
         view.setVisibility(8);
     }
 
-    private ax.R.r c3(com.alphainventor.filemanager.file.n n8, d object) {
+    private ax.R.r c3(com.voxdon.xplorer.file.n n8, d object) {
         Object object2;
         Drawable drawable;
         Context context = this.o3();
@@ -325,7 +325,7 @@ Z {
         return ax.t3.a.a();
     }
 
-    private void u4(com.alphainventor.filemanager.file.o o8, com.alphainventor.filemanager.file.n n8) {
+    private void u4(com.voxdon.xplorer.file.o o8, com.voxdon.xplorer.file.n n8) {
         if (n8 == null) {
             return;
         }
@@ -333,10 +333,10 @@ Z {
             u.j0((Context)this.f0(), (k)n8);
             return;
         }
-        ArrayList<com.alphainventor.filemanager.file.n> arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
+        ArrayList<com.voxdon.xplorer.file.n> arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
         arrayList.add(n8);
         this.f3(o8, arrayList, new p(){
-            final com.alphainventor.filemanager.file.n a;
+            final com.voxdon.xplorer.file.n a;
             final n b;
             {
                 this.b = n8;
@@ -353,7 +353,7 @@ Z {
         });
     }
 
-    private void v4(com.alphainventor.filemanager.file.o o8, List<com.alphainventor.filemanager.file.n> list) {
+    private void v4(com.voxdon.xplorer.file.o o8, List<com.voxdon.xplorer.file.n> list) {
         if (B.a(list)) {
             u.n0((Context)this.f0(), list);
             return;
@@ -371,11 +371,11 @@ Z {
                 if (this.b.f0() == null) {
                     return;
                 }
-                ArrayList<com.alphainventor.filemanager.file.n> arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
+                ArrayList<com.voxdon.xplorer.file.n> arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
                 Iterator iterator = this.a.iterator();
                 while (iterator.hasNext()) {
-                    File file = ((com.alphainventor.filemanager.file.n)iterator.next()).N();
-                    com.alphainventor.filemanager.file.o o8 = ax.c3.x.f(file);
+                    File file = ((com.voxdon.xplorer.file.n)iterator.next()).N();
+                    com.voxdon.xplorer.file.o o8 = ax.c3.x.f(file);
                     try {
                         arrayList.add(o8.z(file.getAbsolutePath()));
                     }
@@ -432,7 +432,7 @@ Z {
         return B0;
     }
 
-    protected void B4(com.alphainventor.filemanager.file.o o8, List<com.alphainventor.filemanager.file.n> list) {
+    protected void B4(com.voxdon.xplorer.file.o o8, List<com.voxdon.xplorer.file.n> list) {
         Object object = a.e.a(list);
         ax.Q2.a.i().m("menu_folder", "properties").c("loc", this.z3().I()).c("type", (String)object).e();
         object = new z();
@@ -843,7 +843,7 @@ Z {
         return this.o0;
     }
 
-    protected void T2(com.alphainventor.filemanager.file.n n8, d d8) {
+    protected void T2(com.voxdon.xplorer.file.n n8, d d8) {
         y.c(this.o3(), this.c3(n8, d8), null);
     }
 
@@ -999,7 +999,7 @@ Z {
         block12: {
             block11: {
                 if (this.f0() == null) break block11;
-                com.alphainventor.filemanager.activity.b b8 = this.v3();
+                com.voxdon.xplorer.activity.b b8 = this.v3();
                 a8 = b8.h0();
                 if (b8.d0() == this) break block12;
             }
@@ -1027,7 +1027,7 @@ Z {
         this.d4(false);
     }
 
-    protected void f3(com.alphainventor.filemanager.file.o o8, List<com.alphainventor.filemanager.file.n> list, p p8) {
+    protected void f3(com.voxdon.xplorer.file.o o8, List<com.voxdon.xplorer.file.n> list, p p8) {
         ax.W2.r r8 = ax.W2.r.l();
         r8.k(o8, list, false, new h.a(){
             final p a;
@@ -1169,13 +1169,13 @@ Z {
         return this.f0;
     }
 
-    protected void k4(com.alphainventor.filemanager.file.o o8, List<com.alphainventor.filemanager.file.n> list) {
+    protected void k4(com.voxdon.xplorer.file.o o8, List<com.voxdon.xplorer.file.n> list) {
         String string;
         boolean bl;
         j j8;
         block7: {
             block6: {
-                com.alphainventor.filemanager.activity.b b8;
+                com.voxdon.xplorer.activity.b b8;
                 if (list.size() == 0 || (b8 = this.v3()) == null || (j8 = b8.g0()) == null) break block6;
                 if (j8.d()) {
                     b8.setResult(-1, y.a((Context)b8, this.c3(list.get(0), this.F3())));
@@ -1344,7 +1344,7 @@ Z {
         this.d4(false);
     }
 
-    protected void t4(com.alphainventor.filemanager.file.o o8, List<com.alphainventor.filemanager.file.n> list) {
+    protected void t4(com.voxdon.xplorer.file.o o8, List<com.voxdon.xplorer.file.n> list) {
         String string = a.e.a(list);
         ax.Q2.a.i().m("menu_folder", "share").c("loc", this.z3().I()).c("type", string).e();
         if (list.size() > 1) {
@@ -1360,8 +1360,8 @@ Z {
         return this.p0;
     }
 
-    public com.alphainventor.filemanager.activity.b v3() {
-        return (com.alphainventor.filemanager.activity.b)this.f0();
+    public com.voxdon.xplorer.activity.b v3() {
+        return (com.voxdon.xplorer.activity.b)this.f0();
     }
 
     protected View w3() {
@@ -1375,7 +1375,7 @@ Z {
         return this.w0;
     }
 
-    protected void w4(com.alphainventor.filemanager.file.o o8, k k8, a.c c8) {
+    protected void w4(com.voxdon.xplorer.file.o o8, k k8, a.c c8) {
         ax.a3.a a8 = new ax.a3.a();
         a8.v3(this.o3(), o8, k8);
         a8.u3(c8);

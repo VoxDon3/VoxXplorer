@@ -228,7 +228,7 @@ public class k {
 
     public static boolean w(Context context) {
         String packageName;
-        if (b < 30 || (packageName = context.getPackageName()) == null || packageName.startsWith("com.cx")) {
+        if (b < 30 || (packageName = context.getPackageName()) == null || packageName.startsWith("com.voxdon")) {
             return false;
         }
         ax.Ha.c.h().b("piracy detected").h();

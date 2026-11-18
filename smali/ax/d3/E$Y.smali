@@ -73,7 +73,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 10
     .line 11
@@ -85,7 +85,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Lcom/alphainventor/filemanager/shizuku/c;->F(Landroidx/fragment/app/Fragment;)V
+    invoke-virtual {p1, v0}, Lcom/voxdon/xplorer/shizuku/c;->F(Landroidx/fragment/app/Fragment;)V
 
     .line 16
     .line 17

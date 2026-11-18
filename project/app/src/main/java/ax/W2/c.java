@@ -13,8 +13,8 @@ import ax.c3.B;
 import ax.c3.d0;
 import ax.c3.z;
 import ax.u3.b;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.util.Iterator;
 import java.util.List;
 

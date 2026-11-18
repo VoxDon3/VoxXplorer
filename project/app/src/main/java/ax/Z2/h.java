@@ -16,8 +16,8 @@ import android.net.Uri;
 import ax.Ha.c;
 import ax.X2.Q;
 import ax.c3.u;
-import com.alphainventor.filemanager.viewer.ImageViewer;
-import com.alphainventor.filemanager.viewer.MusicPlayer;
+import com.voxdon.xplorer.viewer.ImageViewer;
+import com.voxdon.xplorer.viewer.MusicPlayer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -107,7 +107,7 @@ public class h {
         j.add("com.foxdebug.acode");
         hashSet = new HashSet();
         k = hashSet;
-        hashSet.add((String)new ComponentName(context.getPackageName(), "com.alphainventor.filemanager.activity.LaunchActivity"));
+        hashSet.add((String)new ComponentName(context.getPackageName(), "com.voxdon.xplorer.activity.LaunchActivity"));
     }
 
     public static boolean i(Context context, ComponentName componentName) {

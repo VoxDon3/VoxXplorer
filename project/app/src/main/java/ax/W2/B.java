@@ -6,8 +6,8 @@ package ax.W2;
 import ax.W2.C;
 import ax.W2.h;
 import ax.W2.j;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.io.File;
 
 public class B

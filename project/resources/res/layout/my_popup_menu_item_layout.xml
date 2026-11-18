@@ -9,7 +9,8 @@
         android:id="@+id/content"
         android:duplicateParentState="true"
         android:layout_width="match_parent"
-        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/dropdownListPreferredItemHeight"
         style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem">
         <ImageView
             android:layout_gravity="center_vertical"
@@ -33,13 +34,10 @@
             style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
             <TextView
                 android:textAppearance="?attr/textAppearanceLargePopupMenu"
-                android:ellipsize="marquee"
                 android:id="@+id/title"
-                android:fadingEdge="horizontal"
                 android:duplicateParentState="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:singleLine="true"
                 android:layout_alignParentTop="true"
                 style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text"/>
         </RelativeLayout>

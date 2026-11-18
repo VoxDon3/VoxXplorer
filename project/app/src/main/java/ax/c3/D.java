@@ -7,8 +7,8 @@ import ax.Sc.e;
 import ax.Sc.i;
 import ax.c3.d0;
 import ax.c3.v;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.q;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.q;
 import java.io.IOException;
 
 public class D

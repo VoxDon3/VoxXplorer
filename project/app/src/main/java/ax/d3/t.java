@@ -12,8 +12,8 @@ import ax.Q2.f;
 import ax.Z2.j;
 import ax.d3.E;
 import ax.u3.g;
-import com.alphainventor.filemanager.activity.a;
-import com.alphainventor.filemanager.activity.b;
+import com.voxdon.xplorer.activity.a;
+import com.voxdon.xplorer.activity.b;
 
 @TargetApi(value=23)
 public abstract class t
@@ -103,11 +103,11 @@ extends E {
             ++this.s2;
             if (this.v3().d0() == this) {
                 if (f.c0(this.z3())) {
-                    if (j.F().Z(this.A3()) != null && !com.alphainventor.filemanager.file.g.C(this.o3(), this.A3(), null)) {
+                    if (j.F().Z(this.A3()) != null && !com.voxdon.xplorer.file.g.C(this.o3(), this.A3(), null)) {
                         this.n9(this.A3(), false);
                         return;
                     }
-                } else if (f.h1 == this.z3() && !com.alphainventor.filemanager.file.g.C(this.o3(), this.A3(), null)) {
+                } else if (f.h1 == this.z3() && !com.voxdon.xplorer.file.g.C(this.o3(), this.A3(), null)) {
                     this.n9(this.A3(), false);
                 }
             }

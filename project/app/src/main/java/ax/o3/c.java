@@ -12,8 +12,8 @@ import ax.Ya.a;
 import ax.Z2.k;
 import ax.b3.j;
 import ax.c3.d0;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.io.InputStream;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -22,9 +22,9 @@ public class c
 extends ax.Ya.a {
     private static final Logger n = g.a(c.class);
     private final boolean l;
-    private com.alphainventor.filemanager.service.b m;
+    private com.voxdon.xplorer.service.b m;
 
-    public c(com.alphainventor.filemanager.service.b b8, int n8) {
+    public c(com.voxdon.xplorer.service.b b8, int n8) {
         super(n8);
         this.l = true;
         this.s(new a(this));

@@ -45,7 +45,7 @@
     <string name="app_backup_storage">Хранилище резервных копий приложений</string>
     <string name="app_caches">Кэш-файлы</string>
     <string name="app_caches_desc">Кэш-файлы - это временные файлы, которые хранятся программами</string>
-    <string name="app_name">Cx Проводник</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">ВСЕ</string>
     <string name="apps_downloaded">ЗАГРУЖЕННЫЕ</string>
     <string name="archive_is_damaged">Архив создан в неизвестном формате или поврежден</string>

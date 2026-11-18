@@ -4985,7 +4985,7 @@
 
     .line 7
     .line 8
-    const-string v1, "/storage/emulated/0/Android/media/com.cxinventor.file.explorer"
+    const-string v1, "/storage/emulated/0/Android/media/com.voxdon.xplorer"
 
     .line 9
     .line 10
@@ -5333,7 +5333,7 @@
 
     .line 11
     .line 12
-    const-string v1, "/storage/emulated/0/Android/media/com.cxinventor.file.explorer"
+    const-string v1, "/storage/emulated/0/Android/media/com.voxdon.xplorer"
 
     .line 13
     .line 14

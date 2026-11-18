@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="analysis_card_padding">8dp</dimen>
-    <dimen name="desktop2_grid_column_width">108dp</dimen>
+    <dimen name="desktop2_grid_column_width">92dp</dimen>
     <dimen name="desktop2_grid_icon_size">74dp</dimen>
     <dimen name="desktop_grid_column_width">112dp</dimen>
     <dimen name="desktop_grid_icon_size">80dp</dimen>

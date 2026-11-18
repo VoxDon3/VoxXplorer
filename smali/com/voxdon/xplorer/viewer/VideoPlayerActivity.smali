@@ -25163,7 +25163,7 @@
 
     .line 4
     .line 5
-    const-string v0, "CxFileExplorer"
+    const-string v0, "VoxXplorer"
 
     .line 6
     .line 7

@@ -23,11 +23,11 @@ import ax.c3.d0;
 import ax.c3.k;
 import ax.g3.i;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.e;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.e;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.file.y;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -642,7 +642,7 @@ lbl27:
                         }
                         try {
                             var10_19.setTime(var1_1.q());
-                            com.alphainventor.filemanager.file.b.o1(var10_19, var1_1.q());
+                            com.voxdon.xplorer.file.b.o1(var10_19, var1_1.q());
                         }
                         catch (Throwable var2_8) {
                             var1_1 = var8_22;
@@ -656,7 +656,7 @@ lbl-1000:
                         // 2 sources
 
                         {
-                            if (!(var7_25 = com.alphainventor.filemanager.file.b.p1((n)var1_1, var5_24 = var1_1.p()))) ** GOTO lbl-1000
+                            if (!(var7_25 = com.voxdon.xplorer.file.b.p1((n)var1_1, var5_24 = var1_1.p()))) ** GOTO lbl-1000
                         }
                         {
                             var10_19.setMethod(0);
@@ -743,7 +743,7 @@ lbl-1000:
                             var4_18 = var10_19;
                             var8_22.setTime(var1_1.q());
                             var4_18 = var10_19;
-                            com.alphainventor.filemanager.file.b.o1((I)var8_22, var1_1.q());
+                            com.voxdon.xplorer.file.b.o1((I)var8_22, var1_1.q());
                         }
                     }
                     catch (Throwable var2_14) {

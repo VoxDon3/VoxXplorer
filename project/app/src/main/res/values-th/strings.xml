@@ -45,7 +45,7 @@
     <string name="app_backup_storage">ที่เก็บไฟล์สำรองแอป</string>
     <string name="app_caches">ไฟล์แคช</string>
     <string name="app_caches_desc">ไฟล์แคชคือไฟล์ชั่วคราวที่ถูกบันทึกโดยแอปของคุณ</string>
-    <string name="app_name">Vox ไฟล์ เอกซ์พลอเรอร์</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">ทั้งหมด</string>
     <string name="apps_downloaded">ดาวน์โหลดแล้ว</string>
     <string name="archive_is_damaged">ไม่รู้จักไฟล์บีบอัดหรือไฟล์เสียหาย</string>

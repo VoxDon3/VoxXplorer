@@ -33,11 +33,11 @@ import ax.r3.d;
 import ax.u3.b;
 import ax.u3.h;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.f;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.p;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.f;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.p;
+import com.voxdon.xplorer.file.y;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -84,7 +84,7 @@ extends I {
         this.t0.findViewById(2131362367).setVisibility(8);
         this.t0.findViewById(2131362679).setVisibility(8);
         this.t0.findViewById(2131362060).setVisibility(0);
-        new com.alphainventor.filemanager.file.f(f.c.c0, this.x0, this.y0, false, new f.b(this){
+        new com.voxdon.xplorer.file.f(f.c.c0, this.x0, this.y0, false, new f.b(this){
             final z a;
             {
                 this.a = z8;
@@ -231,7 +231,7 @@ extends I {
             this.t0.findViewById(2131362060).setVisibility(0);
             arrayList = new ArrayList<n>();
             arrayList.add(this.z0);
-            new com.alphainventor.filemanager.file.f(f.c.c0, this.x0, arrayList, false, new f.b(this){
+            new com.voxdon.xplorer.file.f(f.c.c0, this.x0, arrayList, false, new f.b(this){
                 final z a;
                 {
                     this.a = z8;
@@ -271,7 +271,7 @@ extends I {
         String string;
         p p8;
         StringBuilder stringBuilder = new StringBuilder();
-        if (this.z0.R() == K.h && (p8 = j.F().q() ? com.alphainventor.filemanager.file.z.Y().o(this.z0.E()) : com.alphainventor.filemanager.file.z.X().o(this.z0.E())) != null && p8.a != null && p8.b != null && (string = p8.c) != null) {
+        if (this.z0.R() == K.h && (p8 = j.F().q() ? com.voxdon.xplorer.file.z.Y().o(this.z0.E()) : com.voxdon.xplorer.file.z.X().o(this.z0.E())) != null && p8.a != null && p8.b != null && (string = p8.c) != null) {
             stringBuilder.append(string);
             stringBuilder.append("\n");
             stringBuilder.append(p8.a);

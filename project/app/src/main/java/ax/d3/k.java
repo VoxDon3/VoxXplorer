@@ -5,7 +5,7 @@ package ax.d3;
 
 import ax.b0.a;
 import ax.d3.l;
-import com.alphainventor.filemanager.file.b;
+import com.voxdon.xplorer.file.b;
 
 public final class k
 implements a {

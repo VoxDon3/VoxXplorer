@@ -15,8 +15,8 @@ import ax.c3.W;
 import ax.c3.x;
 import ax.c3.z;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.io.File;
 import java.io.FileDescriptor;
 import java.io.IOException;
@@ -142,7 +142,7 @@ extends q<Void, Void, Boolean> {
                     this.j.D(n8, u8, n8.s(), this.l, null, null, true, this, null);
                     u8.e();
                     if (object2 != null) {
-                        ((com.alphainventor.filemanager.file.x)this.j.u()).d(n8, (Long)object2);
+                        ((com.voxdon.xplorer.file.x)this.j.u()).d(n8, (Long)object2);
                     }
                     object = Boolean.TRUE;
                 }

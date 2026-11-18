@@ -14,7 +14,8 @@
     <color name="main_secondary_text">#E6F4FBFF</color>
     <color name="control_highlight">#333DC0F0</color>
     <color name="background_material_dark">#05070f</color>
-    <color name="vox_title">#00E5FF</color>
+    <color name="vox_title">#66E0FF</color>
+    <color name="vox_storage_circle">#FF00E5FF</color>
     <color name="vox_path">#80DEEA</color>
     <color name="vox_clip">#FFD54F</color>
     <color name="vox_error">#E65100</color>

@@ -48,9 +48,9 @@ import ax.d3.J;
 import ax.g3.c;
 import ax.u3.b;
 import ax.u3.q;
-import com.alphainventor.filemanager.activity.DefaultsSettingsActivity;
-import com.alphainventor.filemanager.file.y;
-import com.alphainventor.filemanager.service.HttpServerService;
+import com.voxdon.xplorer.activity.DefaultsSettingsActivity;
+import com.voxdon.xplorer.file.y;
+import com.voxdon.xplorer.service.HttpServerService;
 import java.io.File;
 import java.io.Serializable;
 import java.lang.reflect.UndeclaredThrowableException;
@@ -84,7 +84,7 @@ implements n.c {
     String y0;
     Uri z0;
 
-    public static Intent A3(Context context, com.alphainventor.filemanager.file.n n8) {
+    public static Intent A3(Context context, com.voxdon.xplorer.file.n n8) {
         String string = v.e(n8, "application/octet-stream");
         if (B.H(n8)) {
             n8 = Q.E3(n8);
@@ -97,12 +97,12 @@ implements n.c {
         return Q.z3(context, c.a.c0, (Uri)n8, string, true, false);
     }
 
-    private static Intent B3(Context context, com.alphainventor.filemanager.file.n n8, boolean bl) {
+    private static Intent B3(Context context, com.voxdon.xplorer.file.n n8, boolean bl) {
         Uri uri = bl ? HttpServerService.l(0, n8) : u.H(n8, true);
         return Q.z3(context, c.a.c0, uri, n8.s(), true, true);
     }
 
-    private static Intent C3(Context context, c.a a8, com.alphainventor.filemanager.file.n n8, boolean bl) {
+    private static Intent C3(Context context, c.a a8, com.voxdon.xplorer.file.n n8, boolean bl) {
         Uri uri = bl ? HttpServerService.l(0, n8) : u.L(n8, true);
         return Q.z3(context, a8, uri, n8.s(), true, true);
     }
@@ -111,12 +111,12 @@ implements n.c {
         return u.u(context, new File(uri.getPath()));
     }
 
-    public static Uri E3(com.alphainventor.filemanager.file.n n8) {
+    public static Uri E3(com.voxdon.xplorer.file.n n8) {
         if (n8 instanceof y) {
             return u.w(((y)n8).F0());
         }
-        if (n8 instanceof com.alphainventor.filemanager.file.i) {
-            return u.p((com.alphainventor.filemanager.file.i)n8);
+        if (n8 instanceof com.voxdon.xplorer.file.i) {
+            return u.p((com.voxdon.xplorer.file.i)n8);
         }
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Not allowed fileinfo : ");
@@ -304,14 +304,14 @@ implements n.c {
         return u.U(intent2);
     }
 
-    public static boolean J3(Context context, com.alphainventor.filemanager.file.n n8, boolean bl) {
+    public static boolean J3(Context context, com.voxdon.xplorer.file.n n8, boolean bl) {
         if ((context = Q.B3(context, n8, bl)) == null) {
             return false;
         }
         return !u.T((Intent)context);
     }
 
-    public static boolean K3(Context context, c.a a8, com.alphainventor.filemanager.file.n n8, boolean bl) {
+    public static boolean K3(Context context, c.a a8, com.voxdon.xplorer.file.n n8, boolean bl) {
         if ((context = Q.C3(context, a8, n8, bl)) == null) {
             return false;
         }
@@ -334,7 +334,7 @@ implements n.c {
         return V.j(string);
     }
 
-    public static boolean N3(Context context, c.a a8, com.alphainventor.filemanager.file.n n8, boolean bl) {
+    public static boolean N3(Context context, c.a a8, com.voxdon.xplorer.file.n n8, boolean bl) {
         if ((context = Q.C3(context, a8, n8, bl)) == null) {
             return false;
         }
@@ -704,7 +704,7 @@ implements n.c {
 
     @Override
     public void P(n n8) {
-        n8 = new Intent("android.intent.action.VIEW", Uri.parse((String)"market://details?id=com.alphainventor.plugin.fileuri"));
+        n8 = new Intent("android.intent.action.VIEW", Uri.parse((String)"market://details?id=com.voxdon.plugin.fileuri"));
         try {
             u.p0(this, (Intent)n8);
             return;

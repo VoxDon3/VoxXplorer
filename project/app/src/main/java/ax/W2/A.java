@@ -16,8 +16,8 @@ import ax.c3.B;
 import ax.c3.K;
 import ax.c3.d0;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.util.List;
 
 public class A

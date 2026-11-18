@@ -3,7 +3,7 @@
  */
 package ax.R2;
 
-import com.alphainventor.filemanager.activity.RestartActivity;
+import com.voxdon.xplorer.activity.RestartActivity;
 
 public final class f
 implements Runnable {

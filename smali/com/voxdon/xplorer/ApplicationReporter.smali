@@ -326,7 +326,7 @@
     move-result v0
 
     .line 5
-    const-string v1, "2.7.8"
+    const-string v1, "2.8.2"
 
     .line 6
     .line 7
@@ -354,7 +354,7 @@
 
     .line 18
     .line 19
-    const-string v1, "2.7.8-mod"
+    const-string v1, "2.8.2-mod"
 
     .line 20
     .line 21
@@ -362,14 +362,14 @@
     move-object v4, v1
 
     .line 22
-    const-string v5, "cxfileApi21-release"
+    const-string v5, "voxfileApi21-release"
 
     .line 23
     .line 24
     const/4 v7, 0x0
 
     .line 25
-    const-string v2, "cxfileexplorer"
+    const-string v2, "voxxplorer"
 
     .line 26
     .line 27

@@ -41,9 +41,9 @@ import ax.d3.p;
 import ax.u3.c;
 import ax.u3.m;
 import ax.u3.o;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.bookmark.Bookmark;
-import com.alphainventor.filemanager.receiver.StorageCheckReceiver;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.bookmark.Bookmark;
+import com.voxdon.xplorer.receiver.StorageCheckReceiver;
 import com.google.android.material.tabs.TabLayout;
 import java.io.File;
 import java.util.ArrayList;
@@ -151,9 +151,9 @@ extends p {
         this.j5();
     }
 
-    private List<com.alphainventor.filemanager.file.n> C5(com.alphainventor.filemanager.file.o o8, String string, List<h.h> list, boolean bl) {
+    private List<com.voxdon.xplorer.file.n> C5(com.voxdon.xplorer.file.o o8, String string, List<h.h> list, boolean bl) {
         list = new ArrayList<h.h>(list);
-        ArrayList<com.alphainventor.filemanager.file.n> arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
+        ArrayList<com.voxdon.xplorer.file.n> arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
         int n8 = ((ArrayList)list).size();
         int n9 = 0;
         while (n9 < n8) {
@@ -183,7 +183,7 @@ extends p {
     private void P5(ax.T2.h h8) {
         ax.Q2.a.i().m("menu_analysis", "delete_all_cache").c("loc", this.z3().I()).e();
         Object object = h8.X();
-        com.alphainventor.filemanager.file.o o8 = ax.c3.x.e((K)object);
+        com.voxdon.xplorer.file.o o8 = ax.c3.x.e((K)object);
         object = this.C5(o8, ((K)object).e(), h8.N(), false);
         if (Q.L() && h8.X() == K.e) {
             File file;
@@ -202,7 +202,7 @@ extends p {
             }
             catch (Exception exception) {}
         }
-        ax.W2.o.l(this, o8, (List<com.alphainventor.filemanager.file.n>)object, 1, true, false, 2131951761, 2131951760, new h.a(){
+        ax.W2.o.l(this, o8, (List<com.voxdon.xplorer.file.n>)object, 1, true, false, 2131951761, 2131951760, new h.a(){
             final ax.T2.h a;
             final b b;
             {
@@ -234,7 +234,7 @@ extends p {
             return;
         }
         K k8 = h8.X();
-        com.alphainventor.filemanager.file.o o8 = ax.c3.x.e(k8);
+        com.voxdon.xplorer.file.o o8 = ax.c3.x.e(k8);
         ax.W2.o.l(this, o8, this.C5(o8, k8.e(), h8.H(), true), 1, true, false, 2131952248, 2131952334, new h.a(){
             final ax.T2.h a;
             final b b;
@@ -265,8 +265,8 @@ extends p {
      * Enabled aggressive exception aggregation
      */
     private void R5() {
-        ArrayList<com.alphainventor.filemanager.file.n> arrayList = new ArrayList<com.alphainventor.filemanager.file.n>();
-        com.alphainventor.filemanager.file.o o8 = ax.c3.x.e(K.e);
+        ArrayList<com.voxdon.xplorer.file.n> arrayList = new ArrayList<com.voxdon.xplorer.file.n>();
+        com.voxdon.xplorer.file.o o8 = ax.c3.x.e(K.e);
         if (Q.L()) {
             File file;
             try {

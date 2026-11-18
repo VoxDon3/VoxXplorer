@@ -2156,7 +2156,7 @@
     move-result v3
 
     .line 170
-    add-int/lit16 v7, p2, 0xb4
+    add-int/lit16 v7, p2, 0xfc
 
     .line 171
     .line 172

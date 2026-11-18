@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteFullException;
 import ax.Ha.c;
 import ax.V2.b;
 import ax.u3.q;
-import com.alphainventor.filemanager.bookmark.Bookmark;
+import com.voxdon.xplorer.bookmark.Bookmark;
 
 public class a {
     private static a b;

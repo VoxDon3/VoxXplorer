@@ -100,7 +100,7 @@
 
     .line 19
     :try_start_12
-    const-string v0, "https://www.alphainventor.com/cx-file-explorer-privacy-policy"
+    const-string v0, "https://www.voxdon.com/vox-xplorer-privacy-policy"
 
     .line 20
     .line 21

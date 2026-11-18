@@ -21,8 +21,8 @@ import ax.Q2.f;
 import ax.a3.I;
 import ax.u3.h;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.D;
-import com.alphainventor.filemanager.file.H;
+import com.voxdon.xplorer.file.D;
+import com.voxdon.xplorer.file.H;
 import java.io.Serializable;
 
 public class U

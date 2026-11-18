@@ -22,7 +22,7 @@ import ax.u3.B;
 import ax.u3.b;
 import ax.u3.q;
 import ax.w3.h;
-import com.alphainventor.filemanager.viewer.VideoPlayerActivity;
+import com.voxdon.xplorer.viewer.VideoPlayerActivity;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

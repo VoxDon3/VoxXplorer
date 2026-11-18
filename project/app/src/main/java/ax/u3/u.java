@@ -8,7 +8,7 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import ax.Q2.f;
 import ax.c3.k;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;

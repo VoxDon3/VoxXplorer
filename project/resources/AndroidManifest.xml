@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="278"
-    android:versionName="2.7.8"
+    android:versionCode="282"
+    android:versionName="2.8.2"
     android:compileSdkVersion="36"
     android:compileSdkVersionCodename="16"
     android:requiredSplitTypes=""
@@ -532,7 +532,7 @@
             android:exported="false"
             android:foregroundServiceType="dataSync">
             <intent-filter>
-                <action android:name="com.alphainventor.service.FILEPROGRESSSERVICE"/>
+                <action android:name="com.voxdon.service.FILEPROGRESSSERVICE"/>
             </intent-filter>
         </service>
         <receiver

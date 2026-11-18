@@ -171,7 +171,7 @@ public class C1832u {
 
     public static boolean Q(Context context) {
         if (c == null) {
-            c = Boolean.valueOf(C3180B.L(context, "com.alphainventor.plugin.fileuri"));
+            c = Boolean.valueOf(C3180B.L(context, "com.voxdon.plugin.fileuri"));
         }
         return c.booleanValue();
     }
@@ -234,7 +234,7 @@ public class C1832u {
 
     public static Intent b(Intent intent) {
         Intent intent2 = new Intent("com.filemanager.plugin.action.LAUNCH_FILE_URI");
-        intent2.setPackage("com.alphainventor.plugin.fileuri");
+        intent2.setPackage("com.voxdon.plugin.fileuri");
         if (intent.getData() != null) {
             intent2.putExtra("com.filemanager.plugin.extra.DATA", intent.getDataString());
         }

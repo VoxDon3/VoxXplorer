@@ -15,10 +15,17 @@
             android:defaultValue="1"
             android:entryValues="@array/night_mode_values"
             app:iconSpaceReserved="false"/>
-    </PreferenceCategory>
+        </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/general_settings"
         app:iconSpaceReserved="false">
+        <ListPreference
+            android:entries="@array/app_language_entries"
+            android:title="@string/setting_app_language"
+            android:key="app_language"
+            android:defaultValue="system"
+            android:entryValues="@array/app_language_values"
+            app:iconSpaceReserved="false"/>
         <PreferenceScreen
             android:title="@string/settings_default_apps"
             android:key="defaults_screen"

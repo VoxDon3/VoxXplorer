@@ -4,9 +4,9 @@
 package ax.c3;
 
 import ax.c3.K;
-import com.alphainventor.filemanager.file.l;
-import com.alphainventor.filemanager.file.x;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.l;
+import com.voxdon.xplorer.file.x;
+import com.voxdon.xplorer.file.y;
 import java.io.File;
 
 public class n

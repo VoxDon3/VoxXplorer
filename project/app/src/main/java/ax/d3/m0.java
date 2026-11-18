@@ -28,7 +28,7 @@ import ax.d3.Y;
 import ax.t3.c;
 import ax.t3.j;
 import ax.u3.B;
-import com.alphainventor.filemanager.oss.OssLicenseActivity;
+import com.voxdon.xplorer.oss.OssLicenseActivity;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -91,7 +91,7 @@ Y {
                 ((StringBuilder)object32).append(Build.VERSION.SDK_INT);
                 ((StringBuilder)object32).append("\n");
                 stringBuffer.append(((StringBuilder)object32).toString());
-                stringBuffer.append("APP VERSION : 2.7.8\n");
+                stringBuffer.append("APP VERSION : 2.8.2\n");
                 stringBuffer.append("\n----MainStorage----\n");
                 object2 = Environment.getExternalStorageDirectory();
                 this.k3(stringBuffer, (File)object2);
@@ -350,7 +350,7 @@ Y {
         }
         String string = this.j3();
         Intent intent = new Intent("android.intent.action.SENDTO", Uri.parse((String)"mailto:"));
-        intent.putExtra("android.intent.extra.EMAIL", new String[]{"cx.fileexplorer@gmail.com"});
+        intent.putExtra("android.intent.extra.EMAIL", new String[]{"vox.xplorer@gmail.com"});
         intent.putExtra("android.intent.extra.SUBJECT", "STORAGE INFORMATION");
         try {
             intent.putExtra("android.intent.extra.TEXT", string);
@@ -462,7 +462,7 @@ Y {
             public boolean a(Preference preference) {
                 if (this.a.f0() != null && this.a.s0() != null) {
                     try {
-                        preference = B.C("https://www.alphainventor.com/cx-file-explorer-privacy-policy");
+                        preference = B.C("https://www.voxdon.com/vox-xplorer-privacy-policy");
                         u.p0(this.a, (Intent)preference);
                     }
                     catch (ActivityNotFoundException | SecurityException throwable) {

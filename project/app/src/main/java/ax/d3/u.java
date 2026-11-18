@@ -131,7 +131,7 @@ Y {
 
     @Override
     public void P(n n8) {
-        n8 = new Intent("android.intent.action.VIEW", Uri.parse((String)"market://details?id=com.alphainventor.plugin.fileuri"));
+        n8 = new Intent("android.intent.action.VIEW", Uri.parse((String)"market://details?id=com.voxdon.plugin.fileuri"));
         try {
             ax.c3.u.p0(this, (Intent)n8);
             return;

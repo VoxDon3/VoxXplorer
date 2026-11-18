@@ -11,9 +11,9 @@ import ax.Q2.f;
 import ax.Z2.j;
 import ax.c3.K;
 import ax.c3.d0;
-import com.alphainventor.filemanager.file.m;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.m;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.y;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
@@ -24,13 +24,13 @@ public class x {
 
     public static o a(K object, Uri uri, y y8, int n8) {
         object = x.e((K)object);
-        ((com.alphainventor.filemanager.file.b)((o)object).u()).l1(uri, y8, n8);
+        ((com.voxdon.xplorer.file.b)((o)object).u()).l1(uri, y8, n8);
         return object;
     }
 
     public static o b(K object, Uri uri, String string, int n8, int n9) {
         object = x.e((K)object);
-        ((com.alphainventor.filemanager.file.b)((o)object).u()).m1(uri, string, n8, n9);
+        ((com.voxdon.xplorer.file.b)((o)object).u()).m1(uri, string, n8, n9);
         return object;
     }
 

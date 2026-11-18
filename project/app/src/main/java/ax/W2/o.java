@@ -18,10 +18,10 @@ import ax.b3.c;
 import ax.c3.x;
 import ax.d3.s;
 import ax.u3.b;
-import com.alphainventor.filemanager.file.J;
-import com.alphainventor.filemanager.file.K;
-import com.alphainventor.filemanager.file.f;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.J;
+import com.voxdon.xplorer.file.K;
+import com.voxdon.xplorer.file.f;
+import com.voxdon.xplorer.file.n;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -29,7 +29,7 @@ import java.util.Map;
 
 public class o
 extends h {
-    private com.alphainventor.filemanager.file.o d;
+    private com.voxdon.xplorer.file.o d;
     private List<n> e;
     private List<n> f;
     private int g;
@@ -38,10 +38,10 @@ extends h {
     private Map<String, f.a> j;
     private boolean k;
 
-    public static void l(s s8, com.alphainventor.filemanager.file.o object, List<n> list, int n8, boolean bl, boolean bl2, int n9, int n10, h.a a8, DialogInterface.OnCancelListener onCancelListener) {
+    public static void l(s s8, com.voxdon.xplorer.file.o object, List<n> list, int n8, boolean bl, boolean bl2, int n9, int n10, h.a a8, DialogInterface.OnCancelListener onCancelListener) {
         o o8 = o.v();
         boolean bl3 = n8 == 4;
-        o8.o((com.alphainventor.filemanager.file.o)object, list, bl3, a8);
+        o8.o((com.voxdon.xplorer.file.o)object, list, bl3, a8);
         bl3 = n8 == 2;
         boolean bl4 = n8 == 2 || n8 == 3;
         o8.y(bl3);
@@ -55,7 +55,7 @@ extends h {
             }
         } else {
             ax.W2.i.d(o8);
-            object = r.A3(o8, ((com.alphainventor.filemanager.file.o)object).T(), n9, n10, bl3, bl4);
+            object = r.A3(o8, ((com.voxdon.xplorer.file.o)object).T(), n9, n10, bl3, bl4);
             ((r)object).G3(onCancelListener);
             ((r)object).F3(new r.f(){
                 final s a;
@@ -89,7 +89,7 @@ extends h {
     /*
      * Enabled aggressive block sorting
      */
-    public static void m(com.alphainventor.filemanager.file.o o8, List<n> list, int n8, boolean bl, s s8, boolean bl2, h.a a8, DialogInterface.OnCancelListener onCancelListener) {
+    public static void m(com.voxdon.xplorer.file.o o8, List<n> list, int n8, boolean bl, s s8, boolean bl2, h.a a8, DialogInterface.OnCancelListener onCancelListener) {
         block3: {
             block2: {
                 block0: {
@@ -162,9 +162,9 @@ extends h {
      * Enabled unnecessary exception pruning
      * Enabled aggressive exception aggregation
      */
-    private static boolean t(com.alphainventor.filemanager.file.o o8) {
+    private static boolean t(com.voxdon.xplorer.file.o o8) {
         if (!ax.Q2.f.j0(o8.S())) return false;
-        com.alphainventor.filemanager.file.o o9 = o8;
+        com.voxdon.xplorer.file.o o9 = o8;
         try {
             long l8;
             if (o8.S() == ax.Q2.f.q0) {
@@ -225,7 +225,7 @@ extends h {
         }
     }
 
-    public void o(com.alphainventor.filemanager.file.o o8, List<n> list, boolean bl, h.a a8) {
+    public void o(com.voxdon.xplorer.file.o o8, List<n> list, boolean bl, h.a a8) {
         this.i(a8);
         this.d = o8;
         this.i = false;
@@ -251,7 +251,7 @@ extends h {
     }
 
     public boolean u() {
-        com.alphainventor.filemanager.file.o o8 = this.d;
+        com.voxdon.xplorer.file.o o8 = this.d;
         if (o8 == null) {
             return false;
         }

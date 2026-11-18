@@ -201,7 +201,7 @@ public class e0 extends Fragment implements Y {
         @Override // ax.g3.c
         public void a(View view) {
             try {
-                C1832u.p0(e0.this, C3180B.C("https://www.alphainventor.com/cx-file-explorer-privacy-policy"));
+                C1832u.p0(e0.this, C3180B.C("https://www.voxdon.com/vox-xplorer-privacy-policy"));
             } catch (ActivityNotFoundException | SecurityException unused) {
                 Toast.makeText(e0.this.f0(), R.string.error, 1).show();
             }

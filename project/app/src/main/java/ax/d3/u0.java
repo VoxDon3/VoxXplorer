@@ -14,8 +14,8 @@ import ax.Q2.o;
 import ax.Z2.j;
 import ax.d3.E;
 import ax.u3.g;
-import com.alphainventor.filemanager.activity.b;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.activity.b;
+import com.voxdon.xplorer.file.n;
 
 public class u0
 extends E {

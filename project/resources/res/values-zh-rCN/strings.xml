@@ -45,7 +45,7 @@
     <string name="app_backup_storage">应用备份存储位置</string>
     <string name="app_caches">缓存文件</string>
     <string name="app_caches_desc">缓存文件是您的应用程序里存放的临时文件.</string>
-    <string name="app_name">CX文件管理器</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">全部</string>
     <string name="apps_downloaded">已下载</string>
     <string name="archive_is_damaged">压缩的文件格式未知或损坏</string>

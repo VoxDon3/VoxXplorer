@@ -8,7 +8,7 @@ import android.webkit.MimeTypeMap;
 import ax.Ha.b;
 import ax.Ha.c;
 import ax.c3.d0;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;

@@ -10,7 +10,7 @@ import ax.Dc.W;
 import ax.c3.d0;
 import ax.c3.v;
 import ax.u3.b;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -27,7 +27,7 @@ extends n {
     private String q0;
     private boolean r0;
 
-    public a(com.alphainventor.filemanager.file.b b8, I i8, a a8) {
+    public a(com.voxdon.xplorer.file.b b8, I i8, a a8) {
         super(b8);
         if (a8 == null) {
             b.c("/".equals(i8.getName()));
@@ -42,7 +42,7 @@ extends n {
         this.r0 = b8.D0();
     }
 
-    public a(com.alphainventor.filemanager.file.b b8, a a8, I i8, List<a> list, String string) {
+    public a(com.voxdon.xplorer.file.b b8, a a8, I i8, List<a> list, String string) {
         super(b8);
         if (a8 == null) {
             b.c("/".equals(i8.getName()));
@@ -55,7 +55,7 @@ extends n {
         this.r0 = b8.D0();
     }
 
-    public a(com.alphainventor.filemanager.file.b b8, String string) {
+    public a(com.voxdon.xplorer.file.b b8, String string) {
         super(b8);
         this.q0 = string;
         this.g0();
@@ -303,7 +303,7 @@ extends n {
 
     @Override
     public String t() {
-        return com.alphainventor.filemanager.file.b.g1(this.F(), this.isDirectory());
+        return com.voxdon.xplorer.file.b.g1(this.F(), this.isDirectory());
     }
 }
 

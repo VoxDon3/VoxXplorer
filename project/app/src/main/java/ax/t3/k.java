@@ -233,7 +233,7 @@ public class k {
     }
 
     public static boolean w(Context object) {
-        if (b >= 30L && (object = object.getPackageName()) != null && !((String)object).startsWith("com.cx")) {
+        if (b >= 30L && (object = object.getPackageName()) != null && !((String)object).startsWith("com.voxdon")) {
             ax.Ha.c.h().b("piracy detected").h();
             return true;
         }

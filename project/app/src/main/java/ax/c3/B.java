@@ -32,10 +32,10 @@ import ax.c3.y;
 import ax.t3.j;
 import ax.u3.b;
 import ax.u3.c;
-import com.alphainventor.filemanager.file.J;
-import com.alphainventor.filemanager.file.i;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.J;
+import com.voxdon.xplorer.file.i;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileDescriptor;
@@ -196,7 +196,7 @@ public class B {
     }
 
     public static boolean P(n n8) {
-        return n8 instanceof com.alphainventor.filemanager.file.y;
+        return n8 instanceof com.voxdon.xplorer.file.y;
     }
 
     public static boolean Q(Uri uri) {
@@ -286,7 +286,7 @@ public class B {
     }
 
     public static String X(n n8) {
-        com.alphainventor.filemanager.file.K k8 = (com.alphainventor.filemanager.file.K)n8;
+        com.voxdon.xplorer.file.K k8 = (com.voxdon.xplorer.file.K)n8;
         return B.Z(k8.z1(), k8.P().K(), k8.L(), n8.q(), null);
     }
 
@@ -309,7 +309,7 @@ public class B {
     public static boolean a(List<n> object) {
         object = object.iterator();
         while (object.hasNext()) {
-            if ((n)object.next() instanceof com.alphainventor.filemanager.file.y) continue;
+            if ((n)object.next() instanceof com.voxdon.xplorer.file.y) continue;
             return false;
         }
         return true;
@@ -785,7 +785,7 @@ lbl57:
         boolean bl;
         String string;
         block7: {
-            com.alphainventor.filemanager.file.x x8;
+            com.voxdon.xplorer.file.x x8;
             block9: {
                 block8: {
                     string = ((K)object).e();
@@ -796,7 +796,7 @@ lbl57:
                     if (d.containsKey(string)) {
                         return d.get(string);
                     }
-                    x8 = (com.alphainventor.filemanager.file.x)x.g(string).u();
+                    x8 = (com.voxdon.xplorer.file.x)x.g(string).u();
                     if (!x8.z(string).d()) {
                         return false;
                     }
@@ -808,13 +808,13 @@ lbl57:
                     }
                     String string2 = d0.Q(string, ".temp_write_test");
                     try {
-                        x8.N((com.alphainventor.filemanager.file.y)x8.z(string2));
-                        com.alphainventor.filemanager.file.y y8 = (com.alphainventor.filemanager.file.y)x8.z(string2);
+                        x8.N((com.voxdon.xplorer.file.y)x8.z(string2));
+                        com.voxdon.xplorer.file.y y8 = (com.voxdon.xplorer.file.y)x8.z(string2);
                         bl = bl2;
                         if (!y8.n()) break block7;
                         object = y8;
                         if (!x8.d(y8, 12345000L)) break block8;
-                        y8 = (com.alphainventor.filemanager.file.y)x8.z(string2);
+                        y8 = (com.voxdon.xplorer.file.y)x8.z(string2);
                         object = y8;
                         if (y8.q() != 12345000L) break block8;
                         object = y8;

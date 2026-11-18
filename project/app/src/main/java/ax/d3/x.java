@@ -37,10 +37,10 @@ import ax.u3.g;
 import ax.u3.l;
 import ax.u3.q;
 import ax.x3.v;
-import com.alphainventor.filemanager.activity.MainActivity;
-import com.alphainventor.filemanager.file.T;
-import com.alphainventor.filemanager.file.w;
-import com.alphainventor.filemanager.service.CommandService;
+import com.voxdon.xplorer.activity.MainActivity;
+import com.voxdon.xplorer.file.T;
+import com.voxdon.xplorer.file.w;
+import com.voxdon.xplorer.service.CommandService;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import java.io.File;
@@ -251,7 +251,7 @@ extends ax.d3.n {
                             this.c.S2(this.a, null, false);
                         }
                     } else {
-                        ((com.alphainventor.filemanager.activity.a)this.c.f0()).N(this.a);
+                        ((com.voxdon.xplorer.activity.a)this.c.f0()).N(this.a);
                     }
                 } else if (CommandService.x(this.b)) {
                     this.c.E4(2131951932, 1);
@@ -737,31 +737,31 @@ extends ax.d3.n {
                 block7: {
                     block6: {
                         object = ax.c3.x.e((K)object);
-                        ((com.alphainventor.filemanager.file.o)object).n0();
+                        ((com.voxdon.xplorer.file.o)object).n0();
                         if (bl) {
                             try {
-                                if (((com.alphainventor.filemanager.file.o)object).a()) break block6;
-                                ((com.alphainventor.filemanager.file.o)object).h(null);
+                                if (((com.voxdon.xplorer.file.o)object).a()) break block6;
+                                ((com.voxdon.xplorer.file.o)object).h(null);
                             }
                             catch (Throwable throwable2) {
                                 break block7;
                             }
                         }
                     }
-                    if (bl = ((com.alphainventor.filemanager.file.o)object).a()) {
+                    if (bl = ((com.voxdon.xplorer.file.o)object).a()) {
                         try {
-                            k0 k02 = ((com.alphainventor.filemanager.file.o)object).W();
-                            ((com.alphainventor.filemanager.file.o)object).k0(false);
+                            k0 k02 = ((com.voxdon.xplorer.file.o)object).W();
+                            ((com.voxdon.xplorer.file.o)object).k0(false);
                             return k02;
                         }
                         catch (ax.b3.j j8) {}
                     }
                     break block8;
                 }
-                ((com.alphainventor.filemanager.file.o)object).k0(false);
+                ((com.voxdon.xplorer.file.o)object).k0(false);
                 throw throwable2;
             }
-            ((com.alphainventor.filemanager.file.o)object).k0(false);
+            ((com.voxdon.xplorer.file.o)object).k0(false);
             return null;
         }
 
@@ -863,7 +863,7 @@ extends ax.d3.n {
                 case 13: {
                     Object object2 = ax.c3.x.e(this.s);
                     try {
-                        object2 = ((com.alphainventor.filemanager.file.o)object2).W();
+                        object2 = ((com.voxdon.xplorer.file.o)object2).W();
                         if (object2 == null) return null;
                         this.M((Context)object, (k0)object2);
                         return null;

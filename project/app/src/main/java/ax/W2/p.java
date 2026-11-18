@@ -14,11 +14,11 @@ import ax.b3.e;
 import ax.c3.B;
 import ax.c3.K;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.J;
-import com.alphainventor.filemanager.file.f;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.y;
+import com.voxdon.xplorer.file.J;
+import com.voxdon.xplorer.file.f;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.y;
 import java.util.AbstractCollection;
 import java.util.List;
 import java.util.Map;
@@ -311,7 +311,7 @@ extends j {
             if (!ax.c3.B.P(n8)) {
                 return false;
             }
-            return f.k0(n8.P()) && com.alphainventor.filemanager.file.y.Y0(((y)n8).C0());
+            return f.k0(n8.P()) && com.voxdon.xplorer.file.y.Y0(((y)n8).C0());
         }
 
         protected void A(Integer n8) {

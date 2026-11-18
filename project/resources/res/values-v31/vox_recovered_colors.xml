@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material 3 dynamic error colors, v31 only, as in the original table -->
+<resources>
+    <color name="m3_sys_color_dynamic_dark_error">@color/m3_ref_palette_dynamic_error40</color>
+    <color name="m3_sys_color_dynamic_dark_error_container">@color/m3_ref_palette_dynamic_error10</color>
+    <color name="m3_sys_color_dynamic_dark_on_error">@color/m3_ref_palette_dynamic_error20</color>
+    <color name="m3_sys_color_dynamic_dark_on_error_container">@color/m3_ref_palette_dynamic_error90</color>
+    <color name="m3_sys_color_dynamic_light_error">@color/m3_ref_palette_dynamic_error40</color>
+    <color name="m3_sys_color_dynamic_light_error_container">@color/m3_ref_palette_dynamic_error10</color>
+    <color name="m3_sys_color_dynamic_light_on_error">@color/m3_ref_palette_dynamic_error20</color>
+    <color name="m3_sys_color_dynamic_light_on_error_container">@color/m3_ref_palette_dynamic_error90</color>
+    <color name="material_dynamic_color_dark_error">@color/m3_ref_palette_dynamic_error40</color>
+    <color name="material_dynamic_color_dark_error_container">@color/m3_ref_palette_dynamic_error10</color>
+    <color name="material_dynamic_color_dark_on_error">@color/m3_ref_palette_dynamic_error20</color>
+    <color name="material_dynamic_color_dark_on_error_container">@color/m3_ref_palette_dynamic_error90</color>
+    <color name="material_dynamic_color_light_error">@color/m3_ref_palette_dynamic_error40</color>
+    <color name="material_dynamic_color_light_error_container">@color/m3_ref_palette_dynamic_error10</color>
+    <color name="material_dynamic_color_light_on_error">@color/m3_ref_palette_dynamic_error20</color>
+    <color name="material_dynamic_color_light_on_error_container">@color/m3_ref_palette_dynamic_error90</color>
+</resources>

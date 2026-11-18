@@ -365,7 +365,7 @@ public class DialogC2310b extends DialogC1343B {
             if (this.s == c.NEXT_CLOUD) {
                 String str = this.f;
                 if (str == null || !str.contains("arubadrive.com")) {
-                    this.i.getSettings().setUserAgentString("Cx file explorer (" + Build.MODEL + ")");
+                    this.i.getSettings().setUserAgentString("Vox Xplorer (" + Build.MODEL + ")");
                 }
                 HashMap hashMap = new HashMap();
                 hashMap.put("OCS-APIREQUEST", "true");

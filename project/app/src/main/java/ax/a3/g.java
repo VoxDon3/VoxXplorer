@@ -20,7 +20,7 @@ import androidx.viewpager.widget.a;
 import ax.u3.B;
 import ax.u3.h;
 import ax.x3.f;
-import com.alphainventor.filemanager.activity.MainActivity;
+import com.voxdon.xplorer.activity.MainActivity;
 import com.google.android.material.tabs.TabLayout;
 
 public class g

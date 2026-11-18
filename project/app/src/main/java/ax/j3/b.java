@@ -121,7 +121,7 @@ extends B {
                 if (object == null || !((String)object).contains("arubadrive.com")) {
                     object = this.i.getSettings();
                     StringBuilder stringBuilder = new StringBuilder();
-                    stringBuilder.append("Cx file explorer (");
+                    stringBuilder.append("Vox Xplorer (");
                     stringBuilder.append(Build.MODEL);
                     stringBuilder.append(")");
                     object.setUserAgentString(stringBuilder.toString());

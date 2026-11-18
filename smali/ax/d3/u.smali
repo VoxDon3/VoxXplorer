@@ -1047,7 +1047,7 @@
 
     .line 2
     .line 3
-    const-string v0, "market://details?id=com.alphainventor.plugin.fileuri"
+    const-string v0, "market://details?id=com.voxdon.plugin.fileuri"
 
     .line 4
     .line 5

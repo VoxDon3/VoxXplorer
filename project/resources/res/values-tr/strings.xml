@@ -45,7 +45,7 @@
     <string name="app_backup_storage">Uygulama yedekleri için depolama</string>
     <string name="app_caches">Ön bellek dosyaları</string>
     <string name="app_caches_desc">Ön bellek dosyaları, uygulamalar tarafından depolanan geçici dosyalardır</string>
-    <string name="app_name">Cx Dosya Gezgini</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="apps_all">TÜMÜ</string>
     <string name="apps_downloaded">İNDİRİLENLER</string>
     <string name="archive_is_damaged">Arşiv ya bilinmeyen bir formatta ya da hasarlı durumda</string>

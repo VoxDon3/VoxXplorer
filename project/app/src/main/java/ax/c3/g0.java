@@ -6,7 +6,7 @@ package ax.c3;
 import ax.Q2.f;
 import ax.Z2.o;
 import ax.g3.k;
-import com.alphainventor.filemanager.file.T;
+import com.voxdon.xplorer.file.T;
 import java.util.Map;
 
 public abstract class g0

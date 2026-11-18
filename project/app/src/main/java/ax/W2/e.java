@@ -29,13 +29,13 @@ import ax.r7.q;
 import ax.u3.b;
 import ax.u3.c;
 import ax.u3.q;
-import com.alphainventor.filemanager.file.m;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.o;
-import com.alphainventor.filemanager.file.p;
-import com.alphainventor.filemanager.file.v;
-import com.alphainventor.filemanager.file.y;
-import com.alphainventor.filemanager.file.z;
+import com.voxdon.xplorer.file.m;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.o;
+import com.voxdon.xplorer.file.p;
+import com.voxdon.xplorer.file.v;
+import com.voxdon.xplorer.file.y;
+import com.voxdon.xplorer.file.z;
 import java.io.File;
 import java.io.IOException;
 import java.util.AbstractCollection;
@@ -2173,7 +2173,7 @@ lbl102:
                         var6_13 = (g)var6_13.getValue();
                         ((i0)e.F0(this.k).u()).d((n)var5_6, var6_13.a);
                         if (var6_13.b == null || var5_6.R() != ax.c3.K.h || !ax.Z2.j.F().q()) continue;
-                        com.alphainventor.filemanager.file.z.Y().V(var5_6.E(), var6_13.b);
+                        com.voxdon.xplorer.file.z.Y().V(var5_6.E(), var6_13.b);
                     }
                 }
                 catch (l var1_2) {

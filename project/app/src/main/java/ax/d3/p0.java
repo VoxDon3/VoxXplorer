@@ -12,7 +12,7 @@ import ax.Z2.s;
 import ax.a3.o;
 import ax.d3.E;
 import ax.i3.a;
-import com.alphainventor.filemanager.file.L;
+import com.voxdon.xplorer.file.L;
 
 public class p0
 extends E {

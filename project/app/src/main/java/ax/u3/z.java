@@ -37,7 +37,7 @@ import ax.u3.b;
 import ax.u3.w;
 import ax.u3.x;
 import ax.u3.y;
-import com.alphainventor.filemanager.viewer.VideoPlayerActivity;
+import com.voxdon.xplorer.viewer.VideoPlayerActivity;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -212,7 +212,7 @@ public class z {
         if (c8 == null) {
             return;
         }
-        if (c8 instanceof com.alphainventor.filemanager.activity.b) {
+        if (c8 instanceof com.voxdon.xplorer.activity.b) {
             c8.getDelegate().f();
             c8.getTheme().applyStyle(2132018521, true);
             return;

@@ -49,7 +49,7 @@
     <string name="app_backup_storage">"Almacenamiento para backups de apps"</string>
     <string name="app_caches">"Archivos caché"</string>
     <string name="app_caches_desc">"Los archivos caché son archivos temporales que son almacenados por las aplicaciones"</string>
-    <string name="app_name">"Vox Xplorer"</string>
+    <string name="app_name">Vox Xplorer</string>
     <string name="appbar_scrolling_view_behavior">"com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"</string>
     <string name="apps_all">"TODOS"</string>
     <string name="apps_downloaded">"DESCARGAS"</string>

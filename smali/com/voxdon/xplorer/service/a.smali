@@ -4862,7 +4862,7 @@
     .line 36
     .line 37
     .line 38
-    const-string v1, "Cx File Explorer"
+    const-string v1, "Vox Xplorer"
 
     .line 39
     .line 40

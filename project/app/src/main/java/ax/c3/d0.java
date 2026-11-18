@@ -13,7 +13,7 @@ import ax.Z2.j;
 import ax.c3.B;
 import ax.c3.K;
 import ax.u3.b;
-import com.alphainventor.filemanager.file.n;
+import com.voxdon.xplorer.file.n;
 import java.io.File;
 import java.nio.charset.Charset;
 import java.util.Iterator;

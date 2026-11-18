@@ -2727,7 +2727,7 @@
 
     .line 30
     .line 31
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 32
     .line 33
@@ -2735,7 +2735,7 @@
     move-result-object p1
 
     .line 35
-    invoke-virtual {p1}, Lcom/alphainventor/filemanager/shizuku/c;->j()V
+    invoke-virtual {p1}, Lcom/voxdon/xplorer/shizuku/c;->j()V
 
     .line 36
     .line 37
@@ -2790,7 +2790,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 8
     .line 9
@@ -2798,7 +2798,7 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0}, Lcom/alphainventor/filemanager/shizuku/c;->G()V
+    invoke-virtual {v0}, Lcom/voxdon/xplorer/shizuku/c;->G()V
 
     .line 12
     .line 13

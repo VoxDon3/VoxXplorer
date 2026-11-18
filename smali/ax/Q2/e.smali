@@ -7225,7 +7225,7 @@
 
     .line 8
     .line 9
-    const-string v1, "/Android/media/com.cxinventor.file.explorer/.localcache"
+    const-string v1, "/Android/media/com.voxdon.xplorer/.localcache"
 
     .line 10
     .line 11

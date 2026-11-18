@@ -17,7 +17,7 @@
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 app:title="@string/vox_build_tag"
-                app:titleTextColor="@color/main_primary_text"
+                app:titleTextColor="@color/vox_title"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:minHeight="?attr/actionBarSize"
@@ -34,6 +34,7 @@
                 android:layout_weight="1"/>
             <TextView
                 android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/vox_path"
                 android:gravity="center"
                 android:id="@+id/file_progress_tv_empty"
                 android:layout_width="match_parent"

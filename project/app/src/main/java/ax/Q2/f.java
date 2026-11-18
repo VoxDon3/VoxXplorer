@@ -49,21 +49,21 @@ import ax.d3.w;
 import ax.d3.y;
 import ax.d3.z;
 import ax.s3.b;
-import com.alphainventor.filemanager.file.B;
-import com.alphainventor.filemanager.file.D;
-import com.alphainventor.filemanager.file.H;
-import com.alphainventor.filemanager.file.I;
-import com.alphainventor.filemanager.file.OneDriveFileHelper;
-import com.alphainventor.filemanager.file.T;
-import com.alphainventor.filemanager.file.Y;
-import com.alphainventor.filemanager.file.a;
-import com.alphainventor.filemanager.file.k;
-import com.alphainventor.filemanager.file.m;
-import com.alphainventor.filemanager.file.s;
-import com.alphainventor.filemanager.file.t;
-import com.alphainventor.filemanager.file.u;
-import com.alphainventor.filemanager.file.v;
-import com.alphainventor.filemanager.file.x;
+import com.voxdon.xplorer.file.B;
+import com.voxdon.xplorer.file.D;
+import com.voxdon.xplorer.file.H;
+import com.voxdon.xplorer.file.I;
+import com.voxdon.xplorer.file.OneDriveFileHelper;
+import com.voxdon.xplorer.file.T;
+import com.voxdon.xplorer.file.Y;
+import com.voxdon.xplorer.file.a;
+import com.voxdon.xplorer.file.k;
+import com.voxdon.xplorer.file.m;
+import com.voxdon.xplorer.file.s;
+import com.voxdon.xplorer.file.t;
+import com.voxdon.xplorer.file.u;
+import com.voxdon.xplorer.file.v;
+import com.voxdon.xplorer.file.x;
 import java.io.File;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -224,27 +224,27 @@ extends Enum<f> {
         E0 = new f("favorite", null, null, null, null, null, false, false, false, "NameUp");
         F0 = f35 = new f("new_files", V.class, B.class, "/", "new_files", null, true, false, false, "TypeUp");
         G0 = f40 = new f("remote", h0.class, null, null, null, null, false, false, false, null);
-        H0 = f34 = new f("FTP", ax.d3.K.class, com.alphainventor.filemanager.file.q.class, "/", "ftp", f40, true, true, false, "NameUp");
-        I0 = f33 = new f("SFTP", p0.class, com.alphainventor.filemanager.file.L.class, "/", "sftp", f40, true, true, false, "NameUp");
-        J0 = f32 = new f("SMB", q0.class, com.alphainventor.filemanager.file.Q.class, "/", "smb", f40, true, true, false, "NameUp");
-        K0 = f31 = new f("webdav", v0.class, com.alphainventor.filemanager.file.W.class, "/", "webdav", f40, true, true, false, "NameUp");
+        H0 = f34 = new f("FTP", ax.d3.K.class, com.voxdon.xplorer.file.q.class, "/", "ftp", f40, true, true, false, "NameUp");
+        I0 = f33 = new f("SFTP", p0.class, com.voxdon.xplorer.file.L.class, "/", "sftp", f40, true, true, false, "NameUp");
+        J0 = f32 = new f("SMB", q0.class, com.voxdon.xplorer.file.Q.class, "/", "smb", f40, true, true, false, "NameUp");
+        K0 = f31 = new f("webdav", v0.class, com.voxdon.xplorer.file.W.class, "/", "webdav", f40, true, true, false, "NameUp");
         L0 = new f("local_network", null, null, null, null, null, false, false, false, "NameUp");
         M0 = f30 = new f("cloud", r.class, null, null, null, null, false, false, false, null);
         N0 = f29 = new f("dropbox", y.class, k.class, "/", "dropbox", f30, true, true, false, "NameUp");
-        O0 = f28 = new f("googledrive", ax.d3.L.class, com.alphainventor.filemanager.file.r.class, "/", "googledrive", f30, true, true, false, "NameUp");
+        O0 = f28 = new f("googledrive", ax.d3.L.class, com.voxdon.xplorer.file.r.class, "/", "googledrive", f30, true, true, false, "NameUp");
         P0 = f27 = new f("onedrive", a0.class, OneDriveFileHelper.class, "/", "onedrive", f30, true, true, false, "NameUp");
         Q0 = f26 = new f("yandexdisk", D0.class, Y.class, "/", "yandex", f30, true, true, false, "NameUp");
         R0 = f25 = new f("pcloud", c0.class, I.class, "/", "pcloud", f30, true, true, false, "NameUp");
-        S0 = f24 = new f("box", o.class, com.alphainventor.filemanager.file.d.class, "/", "box", f30, true, true, false, "NameUp");
+        S0 = f24 = new f("box", o.class, com.voxdon.xplorer.file.d.class, "/", "box", f30, true, true, false, "NameUp");
         T0 = f23 = new f("nextcloud", W.class, D.class, "/", "nextcloud", f30, true, true, false, "NameUp");
         U0 = f22 = new f("owncloud", b0.class, H.class, "/", "owncloud", f30, true, true, false, "NameUp");
         V0 = new f("app", ax.d3.j.class, null, "/", "apps", null, false, true, false, "NameUp");
         W0 = new f("server", ax.d3.l0.class, null, null, null, null, false, false, false, null);
-        X0 = new f("archiveviewer", l.class, com.alphainventor.filemanager.file.b.class, "/", "archiveviewer", null, false, true, false, "NameUp");
+        X0 = new f("archiveviewer", l.class, com.voxdon.xplorer.file.b.class, "/", "archiveviewer", null, false, true, false, "NameUp");
         Y0 = new f("add_network", null, null, null, null, null, false, false, false, null);
         Z0 = new f("premium", null, null, null, null, null, false, false, false, null);
         a1 = new f("debug", null, null, null, null, null, false, false, false, null);
-        b1 = new f("usb", u0.class, com.alphainventor.filemanager.file.U.class, "/", "usb", null, false, true, false, "NameUp");
+        b1 = new f("usb", u0.class, com.voxdon.xplorer.file.U.class, "/", "usb", null, false, true, false, "NameUp");
         c1 = f21 = new f("usbdocument", t0.class, m0.class, "/", "usbdoc", null, false, true, false, "NameUp");
         d1 = f20 = new f("sdcard_document", i0.class, ax.c3.h0.class, "/", "sdcarddoc", null, false, true, false, "NameUp");
         e1 = f19 = new f("odd_document", X.class, ax.c3.Q.class, "/", "odddoc", null, false, true, false, "NameUp");
@@ -255,9 +255,9 @@ extends Enum<f> {
         j1 = f14 = new f("large_files", N.class, s.class, "/", "local", f15, false, false, false, "SizeDown");
         k1 = f13 = new f("large_folders", O.class, t.class, "/", "local", f15, false, false, false, "SizeDown");
         l1 = f12 = new f("app_cache", c.class, a.class, "/", "local", f15, false, false, false, "SizeDown");
-        m1 = f11 = new f("dup_files", z.class, com.alphainventor.filemanager.file.l.class, "/", "local", f15, false, false, false, "SizeDown");
-        n1 = f10 = new f("dup_downloads", z.class, com.alphainventor.filemanager.file.l.class, "/", "local", f15, false, false, false, "SizeDown");
-        o1 = f9 = new f("recycle_bin", g0.class, com.alphainventor.filemanager.file.J.class, "/", "recyclebin", null, false, false, false, "DateDown");
+        m1 = f11 = new f("dup_files", z.class, com.voxdon.xplorer.file.l.class, "/", "local", f15, false, false, false, "SizeDown");
+        n1 = f10 = new f("dup_downloads", z.class, com.voxdon.xplorer.file.l.class, "/", "local", f15, false, false, false, "SizeDown");
+        o1 = f9 = new f("recycle_bin", g0.class, com.voxdon.xplorer.file.J.class, "/", "recyclebin", null, false, false, false, "DateDown");
         p1 = f8 = new f("recycle_bin_card", f0.class, null, "/", null, null, false, false, false, null);
         q1 = new f("appstats", d.class, null, "/", null, f15, false, false, false, "SizeDown");
         r1 = new f("unused_apps", s0.class, null, "/", null, f15, false, false, false, "SizeDown");
@@ -378,7 +378,7 @@ extends Enum<f> {
         }
     }
 
-    public static boolean E0(f f8, com.alphainventor.filemanager.file.n n8) {
+    public static boolean E0(f f8, com.voxdon.xplorer.file.n n8) {
         return f8.O() || ax.c3.d0.E(n8) && f.g0(f8);
         {
         }
@@ -493,7 +493,7 @@ extends Enum<f> {
     }
 
     public static boolean Y(f f8) {
-        return com.alphainventor.filemanager.file.e.class.isAssignableFrom(f8.x());
+        return com.voxdon.xplorer.file.e.class.isAssignableFrom(f8.x());
     }
 
     public static boolean Z(f f8) {
@@ -549,7 +549,7 @@ extends Enum<f> {
         return x1.contains((Object)f8);
     }
 
-    public static boolean h0(com.alphainventor.filemanager.file.n n8) {
+    public static boolean h0(com.voxdon.xplorer.file.n n8) {
         if (!(n8 instanceof v)) {
             return false;
         }
@@ -665,7 +665,7 @@ extends Enum<f> {
                             }
                         }
                     } else {
-                        if (com.alphainventor.filemanager.file.q.D0(k8.b())) {
+                        if (com.voxdon.xplorer.file.q.D0(k8.b())) {
                             return ax.c3.x.e(k8).a();
                         }
                         return true;

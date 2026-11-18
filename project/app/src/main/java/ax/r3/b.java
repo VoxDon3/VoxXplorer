@@ -11,7 +11,7 @@ import ax.Q2.f;
 import ax.U2.d;
 import ax.c3.x;
 import ax.ga.a;
-import com.alphainventor.filemanager.file.o;
+import com.voxdon.xplorer.file.o;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

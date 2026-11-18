@@ -1896,7 +1896,7 @@
 
     .line 17
     :cond_10
-    invoke-static {}, Lcom/alphainventor/filemanager/shizuku/c;->t()Lcom/alphainventor/filemanager/shizuku/c;
+    invoke-static {}, Lcom/voxdon/xplorer/shizuku/c;->t()Lcom/voxdon/xplorer/shizuku/c;
 
     .line 18
     .line 19
@@ -1904,7 +1904,7 @@
     move-result-object v1
 
     .line 21
-    invoke-virtual {v1}, Lcom/alphainventor/filemanager/shizuku/c;->l()Z
+    invoke-virtual {v1}, Lcom/voxdon/xplorer/shizuku/c;->l()Z
 
     .line 22
     .line 23

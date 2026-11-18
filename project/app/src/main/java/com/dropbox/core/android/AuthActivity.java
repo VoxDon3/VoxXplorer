@@ -121,7 +121,7 @@ extends Activity {
         l.c(object2);
         object = new Intent("android.intent.action.VIEW", Uri.parse((String)n.g((String)object3, ((k)object2).k(), "1/connect", ((Collection)object).toArray(new String[0]))));
         if (this.h((Context)this)) {
-            object.setComponent(new ComponentName(this.getPackageName(), "com.alphainventor.filemanager.activity.WebViewActivity"));
+            object.setComponent(new ComponentName(this.getPackageName(), "com.voxdon.xplorer.activity.WebViewActivity"));
         }
         this.startActivity((Intent)object);
     }

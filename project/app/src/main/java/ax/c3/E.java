@@ -11,8 +11,8 @@ import ax.c3.A;
 import ax.c3.d0;
 import ax.c3.v;
 import ax.m7.i;
-import com.alphainventor.filemanager.file.n;
-import com.alphainventor.filemanager.file.r;
+import com.voxdon.xplorer.file.n;
+import com.voxdon.xplorer.file.r;
 
 public class E
 extends n {

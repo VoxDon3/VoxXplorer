@@ -9,7 +9,7 @@ public final class c
 implements i.c {
     @Override
     public final void a() {
-        com.alphainventor.filemanager.shizuku.c.b();
+        com.voxdon.xplorer.shizuku.c.b();
     }
 }
 
